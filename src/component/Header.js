@@ -1,7 +1,5 @@
 import React from 'react';
 import Container from 'react-bootstrap/Container';
-import Nav from 'react-bootstrap/Nav';
-import Navbar from 'react-bootstrap/Navbar';
 import { Hamburger } from './Hamburger';
 import { NavLink } from 'react-router-dom';
 import logo from '../images/logo.png';
@@ -14,8 +12,8 @@ export const Header=()=>{
     return(
         <>
     <nav className="navbar bg-light py-2">
-      <div className="container">
-        <div className="logo">
+      <Container>
+      <div className="logo">
           <img src={logo}  className='w-100' />
         </div>
         <div className="menu-icon" onClick={handleShowNavbar}>
@@ -33,14 +31,16 @@ export const Header=()=>{
               <NavLink className=" fs-5" to="/projects">Industries</NavLink>
             </li>
             <li>
-              <NavLink className=" fs-5" to="/about">Customers</NavLink>
-            </li> 
+              <NavLink className=" fs-5" to="/projects">Cutomers</NavLink>
+            </li>
             {/* <li>
               <NavLink className=" fs-5" to="/contact">Contact</NavLink>
             </li> */}
           </ul>
         </div>
-      </div>
+      </Container>
+        
+     
     </nav>
 
         </>

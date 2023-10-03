@@ -131,3 +131,35 @@ font-weight: 500;
   color: #6f309e;
 }
 
+.slider-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+/* Style individual cards */
+.react-card-slider .slider-card {
+  background-color: #fff;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  text-align: center;
+  transition: transform 0.3s;
+}
+
+/* Style the active card */
+.react-card-slider .slider-card.active {
+  transform: scale(1.1);
+}
+
+/* Style the card images */
+.react-card-slider .slider-card img {
+  width: 100%;
+  height: auto;
+}
+
+.owncrousal{
+  display: block;
+}
+

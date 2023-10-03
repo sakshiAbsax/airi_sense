@@ -36,7 +36,7 @@ export const Customer = () => {
 
   return (
     <div>
-      <section id="our_pride">
+      <section id="customer">
         <div className="bnrImg">
           <img src={customer} width="100%" height="700px" />
         </div>
@@ -45,7 +45,7 @@ export const Customer = () => {
             <Row className="d-flex">
               <Col lg={7} xs={12} md={7}>
                 <div className="mt-5 pt-5 whatWeDo">
-                  <h2> Our Pride </h2>
+                  <h2 className='text-start'> Our Pride </h2>
                   <p className="mt-4">
                     We have been industrial solution business since 2003, and
                     had seen many up's and down, we at every juncture of

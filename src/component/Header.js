@@ -14,26 +14,24 @@ export const Header=()=>{
     <nav className="navbar bg-light py-2">
       <Container>
       <div className="logo">
-        <NavLink to="/">
           <img src={logo}  className='w-100' />
-          </NavLink>
         </div>
         <div className="menu-icon" onClick={handleShowNavbar}>
           <Hamburger />
         </div>
         <div className={`nav-elements  ${showNavbar && "active"}`}>
           <ul>
-            <li>
+          <li>
               <NavLink className=" fs-5" to="/">Products</NavLink>
             </li>
             <li>
               <NavLink className=" fs-5" to="/blogs">Solutions</NavLink>
             </li>
             <li>
-              <NavLink className=" fs-5" to="/industries">Industries</NavLink>
+              <NavLink className=" fs-5" to="/projects">Industries</NavLink>
             </li>
             <li>
-              <NavLink className=" fs-5" to="/customer">Cutomers</NavLink>
+              <NavLink className=" fs-5" to="/projects">Customers</NavLink>
             </li>
             {/* <li>
               <NavLink className=" fs-5" to="/contact">Contact</NavLink>

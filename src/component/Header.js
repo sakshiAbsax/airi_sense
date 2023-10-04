@@ -33,6 +33,9 @@ export const Header=()=>{
             <li>
               <NavLink className=" fs-5" to="/projects">Customers</NavLink>
             </li>
+            <li>
+              <NavLink className=" fs-5" to="/about">About</NavLink>
+            </li>
             {/* <li>
               <NavLink className=" fs-5" to="/contact">Contact</NavLink>
             </li> */}

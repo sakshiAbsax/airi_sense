@@ -1,17 +1,14 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import home_bnr from "../images/home_bnr.jpg";
 import homeTech1 from "../images/homeTech1.jpg";
 import { HomeAbout } from "./HomeAbout";
 
 export const Home = () => {
-  // $(window).load(function() {
-  //   $('.post-module').hover(function() {
-  //     $(this).find('.description').stop().animate({
-  //       height: "toggle",
-  //       opacity: "toggle"
-  //     }, 300);
-  //   });
-  // });
+  const [isHovered, setIsHovered] = useState(false);
+
+  const handleMouseEnter = () => {
+    setIsHovered(true);
+  };
 
   return (
     <>
@@ -33,7 +30,11 @@ export const Home = () => {
         </div>
         <div className="container">
           <div className="column col-md-4 px-3">
-            <div className="post-module">
+            <div
+              className={`post-module ${isHovered ? "hovered" : ""}`}
+              onMouseEnter={handleMouseEnter}
+              onMouseLeave={handleMouseLeave}
+            >
               <div className="thumbnail">
                 <div className="date">
                   <div className="day">27</div>

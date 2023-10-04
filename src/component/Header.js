@@ -1,7 +1,7 @@
 import React from 'react';
 import Container from 'react-bootstrap/Container';
 import { Hamburger } from './Hamburger';
-import { NavLink } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 import logo from '../images/logo.png';
 export const Header=()=>{
     const [showNavbar, setShowNavbar] = React.useState(false);
@@ -13,9 +13,11 @@ export const Header=()=>{
         <>
     <nav className="navbar bg-light py-2">
       <Container>
+        <Link to="/">
       <div className="logo">
           <img src={logo}  className='w-100' />
         </div>
+        </Link>
         <div className="menu-icon" onClick={handleShowNavbar}>
           <Hamburger />
         </div>
@@ -28,10 +30,10 @@ export const Header=()=>{
               <NavLink className=" fs-5" to="/blogs">Solutions</NavLink>
             </li>
             <li>
-              <NavLink className=" fs-5" to="/projects">Industries</NavLink>
+              <NavLink className=" fs-5" to="/industries">Industries</NavLink>
             </li>
             <li>
-              <NavLink className=" fs-5" to="/projects">Customers</NavLink>
+              <NavLink className=" fs-5" to="/customer">Customers</NavLink>
             </li>
             <li>
               <NavLink className=" fs-5" to="/about">About</NavLink>

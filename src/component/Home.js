@@ -1,28 +1,18 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import home_bnr from "../images/home_bnr.jpg";
 import homeTech1 from "../images/homeTech1.jpg";
 import { HomeAbout } from "./HomeAbout";
 
 export const Home = () => {
-  // $(window).load(function() {
-  //   $('.post-module').hover(function() {
-  //     $(this).find('.description').stop().animate({
-  //       height: "toggle",
-  //       opacity: "toggle"
-  //     }, 300);
-  //   });
-  // });
+  const [isHovered, setIsHovered] = useState(false);
 
-  // window.addEventListener('load', function () {
-  //   var postModules = document.querySelectorAll('.post-module');
-  //   postModules.forEach(function (postModule) {
-  //     var description = postModule.querySelector('.description');
-  //     description.style.display = 'none';
-  //     postModule.addEventListener('mouseover', function () {
-  //       description.style.display = description.style.display === 'none' ? 'block' : 'none';
-  //     });
-  //   });
-  // });
+  const handleMouseEnter = () => {
+    setIsHovered(true);
+  };
+
+  const handleMouseLeave = () => {
+    setIsHovered(false);
+  };
 
   return (
     <>
@@ -44,7 +34,11 @@ export const Home = () => {
         </div>
         <div className="container">
           <div className="column col-md-4 px-3">
-            <div className="post-module">
+            <div
+              className={`post-module ${isHovered ? "hovered" : ""}`}
+              onMouseEnter={handleMouseEnter}
+              onMouseLeave={handleMouseLeave}
+            >
               <div className="thumbnail">
                 <div className="date">
                   <div className="day">27</div>
@@ -325,30 +319,31 @@ export const Home = () => {
         </div>
       </div>
 
-    <div className="aboutRoot bg-dark text-white">
-    <div className=" container pb-4">
-        <div className="row justify-content-center">
-          <div className="col-md-8">
-            <div className="py-4">
-            <h2 className="text-center">Our Root's</h2>
-            <h3 className="text-center">Shri Vasant Engineer's</h3>
+      <div className="aboutRoot bg-dark text-white">
+        <div className=" container pb-4">
+          <div className="row justify-content-center">
+            <div className="col-md-8">
+              <div className="py-4">
+                <h2 className="text-center">Our Root's</h2>
+                <h3 className="text-center">Shri Vasant Engineer's</h3>
+              </div>
+
+              <p>
+                Our Root's Shri Vasant Engineer's Shri Vasant Engineer’s – 2
+                Decade Old parent company with established footprint from 2003
+                in Indore, has been a rapid growing company, targeting change
+                with New Focus into Conveying & Intralogistics domain.
+              </p>
+              <p>
+                Serving more than 233 clients true mix of Global, MNC & Giant
+                Indian conglomerate spread across various industrial sector,
+                with 103+ clients trusting us for repeat business for year over
+                year.
+              </p>
             </div>
-           
-            <p>
-              Our Root's Shri Vasant Engineer's Shri Vasant Engineer’s – 2
-              Decade Old parent company with established footprint from 2003 in
-              Indore, has been a rapid growing company, targeting change with
-              New Focus into Conveying & Intralogistics domain.
-            </p>
-            <p>
-              Serving more than 233 clients true mix of Global, MNC & Giant
-              Indian conglomerate spread across various industrial sector, with
-              103+ clients trusting us for repeat business for year over year.
-            </p>
           </div>
         </div>
       </div>
-    </div>
     </>
   );
 };

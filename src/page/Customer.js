@@ -2,10 +2,22 @@ import React, { useState, useEffect, useRef } from "react";
 import customer from "../images/customer.jpg";
 import { Col, Container, Row } from "react-bootstrap";
 import ourpride from "../images/ourpride.png";
+import ImageSlider from "../component/ImageSlider";
 
 
 
 export const Customer = () => {
+
+  const images = [
+    '../Assests/img/Adani.png',
+    '../Assests/img/cipla.png',
+    '../Assests/img/ITC.png',
+    '../Assests/img/luping.png',
+    '../Assests/img/Parle.png',
+    '../Assests/img/sunpharma.png',
+    '../Assests/img/Adani.png',
+    // Add more image URLs here
+  ];
   return (
     <div>
       <section id="customer">
@@ -46,7 +58,13 @@ export const Customer = () => {
             </Row>
 
           </Container>
-        
+         <div className="container d-flex justify-content-center">
+         <div className="row">
+          <div className="col-lg-12">
+            <ImageSlider   images={images}/>
+          </div>
+         </div>
+         </div>
         </div>
       </section>
     </div>

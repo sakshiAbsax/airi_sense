@@ -21,6 +21,109 @@ export const Home = () => {
       <div className=" py-5 mt-5">
         <HomeAbout />
       </div>
+      <div className="row pb-4 pt-2">
+          <div className="col-md-12">
+            <center>
+              <h1>Technologies</h1>
+            </center>
+          </div>
+        </div>
+        
+   <div className="row ">
+   <div className="container justify-content-center">
+    <div className="col-lg-8">
+       <div className="featuredPropBox">
+        <ul>
+           <li> <a href="#">
+             <div className="fplogo"><img src="https://i.ibb.co/3MZXqZC/logo.png" alt="fp1"/></div>
+             <div className="fptext">
+              <p>Dummy text is also used to demonstrate the appearance of different typefaces and layouts, and in general the content of dummy text is nonsensical.</p>
+            </div>
+             </a> </li>
+           <li> <a href="#">
+             <div className="fplogo"><img src="https://i.ibb.co/3MZXqZC/logo.png" alt="fp2"/></div>
+             <div className="fptext">
+              <p>Dummy text is also used to demonstrate the appearance of different typefaces and layouts, and in general the content of dummy text is nonsensical.</p>
+            </div>
+             </a> </li>
+           <li> <a href="#">
+             <div className="fplogo"><img src="https://i.ibb.co/3MZXqZC/logo.png" alt="fp3"/></div>
+             <div className="fptext">
+              <p>Dummy text is also used to demonstrate the appearance of different typefaces and layouts, and in general the content of dummy text is nonsensical.</p>
+            </div>
+             </a> </li>
+          
+          
+             <li> <a href="#">
+             <div className="fplogo"><img src="https://i.ibb.co/3MZXqZC/logo.png" alt="fp1"/></div>
+             <div className="fptext">
+              <p>Dummy text is also used to demonstrate the appearance of different typefaces and layouts, and in general the content of dummy text is nonsensical.</p>
+            </div>
+             </a> </li>
+           <li> <a href="#">
+             <div className="fplogo"><img src="https://i.ibb.co/3MZXqZC/logo.png" alt="fp2"/></div>
+             <div className="fptext">
+              <p>Dummy text is also used to demonstrate the appearance of different typefaces and layouts, and in general the content of dummy text is nonsensical.</p>
+            </div>
+             </a> </li>
+           <li> <a href="#">
+             <div className="fplogo"><img src="https://i.ibb.co/3MZXqZC/logo.png" alt="fp3"/></div>
+             <div className="fptext">
+              <p>Dummy text is also used to demonstrate the appearance of different typefaces and layouts, and in general the content of dummy text is nonsensical.</p>
+            </div>
+             </a> </li>
+          
+          
+             <li> <a href="#">
+             <div className="fplogo"><img src="https://i.ibb.co/3MZXqZC/logo.png" alt="fp1"/></div>
+             <div className="fptext">
+              <p>Dummy text is also used to demonstrate the appearance of different typefaces and layouts, and in general the content of dummy text is nonsensical.</p>
+            </div>
+             </a> </li>
+           <li> <a href="#">
+             <div className="fplogo"><img src="https://i.ibb.co/3MZXqZC/logo.png" alt="fp2"/></div>
+             <div className="fptext">
+              <p>Dummy text is also used to demonstrate the appearance of different typefaces and layouts, and in general the content of dummy text is nonsensical.</p>
+            </div>
+             </a> </li>
+           <li> <a href="#">
+             <div className="fplogo"><img src="https://i.ibb.co/3MZXqZC/logo.png" alt="fp3"/></div>
+             <div className="fptext">
+              <p>Dummy text is also used to demonstrate the appearance of different typefaces and layouts, and in general the content of dummy text is nonsensical.</p>
+            </div>
+             </a> </li>
+             
+         </ul>
+      </div>
+     </div>
+  </div>
+ </div>
+
+      <div className="aboutRoot text-white my-5">
+        <div className=" container py-4  ">
+          <div className="row justify-content-center pb-3">
+            <div className="col-md-8">
+              <div className="py-4">
+                <h2 className="text-center">Our Root's</h2>
+                <h3 className="text-center">Shri Vasant Engineer's</h3>
+              </div>
+
+              <p>
+                Our Root's Shri Vasant Engineer's Shri Vasant Engineer’s – 2
+                Decade Old parent company with established footprint from 2003
+                in Indore, has been a rapid growing company, targeting change
+                with New Focus into Conveying & Intralogistics domain.
+              </p>
+              <p>
+                Serving more than 233 clients true mix of Global, MNC & Giant
+                Indian conglomerate spread across various industrial sector,
+                with 103+ clients trusting us for repeat business for year over
+                year.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
 
       <div className="news">
         <div className="row py-4">
@@ -130,218 +233,9 @@ export const Home = () => {
         </div>
       </div>
 
-      <div className="py-4">
-        <div className="row pb-2 pt-5">
-          <div className="col-md-12">
-            <center>
-              <h1>Technologies</h1>
-            </center>
-          </div>
-        </div>
+     
 
-        <div className="container my-3">
-          <div className="row text-center justify-content-center">
-            <div className="col-md-3 col-sm-6">
-              <div
-                className="box-tech my-3"
-                style={{
-                  backgroundImage:
-                    'url("https://media.geeksforgeeks.org/' +
-                    'wp-content/uploads/20201221222410/download3.png")',
-                  backgroundRepeat: "no-repeat",
-                  backgroundSize: "cover",
-                }}
-              >
-                <div className="content">
-                  <p>TECHNO-1</p>
-                  <div className="desc">
-                    <center>
-                      <div className="line"></div>
-                    </center>
-                    <p className="text-black">
-                      Out-of-the box CMS, E-commerce, PIM and Marketing
-                      platform.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div className="col-md-3 col-sm-6">
-              <div className="box-tech my-3">
-                <div className="content">
-                  <center>
-                    <img
-                      src="https://www.e-bureauet.dk/media/1357/icon-sitecore.png"
-                      alt=""
-                    />
-                  </center>
-                  <p>TECHNO-2</p>
-                  <div className="desc">
-                    <center>
-                      <div className="line"></div>
-                    </center>
-                    <p>
-                      Out-of-the box CMS, E-commerce, PIM and Marketing
-                      platform.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div className="col-md-3 col-sm-6">
-              <div
-                className="box-tech my-3"
-                style={{
-                  backgroundImage:
-                    'url("https://media.geeksforgeeks.org/' +
-                    'wp-content/uploads/20201221222410/download3.png")',
-                  backgroundRepeat: "no-repeat",
-                  backgroundSize: "cover",
-                }}
-              >
-                <div className="content">
-                  <center>
-                    <img
-                      src="https://www.e-bureauet.dk/media/1358/icon-umbraco.png"
-                      alt=""
-                    />
-                  </center>
-                  <p>TECHNO-3</p>
-                  <div className="desc">
-                    <center>
-                      <div className="line"></div>
-                    </center>
-                    <p>
-                      Out-of-the box CMS, E-commerce, PIM and Marketing
-                      platform.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div className="col-md-3 col-sm-6">
-              <div className="box-tech my-3">
-                <div className="content">
-                  <center>
-                    <img
-                      src="https://www.e-bureauet.dk/media/1300/icon-abobe-captivate.png"
-                      alt=""
-                    />
-                  </center>
-                  <p>TECHNO-4</p>
-                  <div className="desc">
-                    <center>
-                      <div className="line"></div>
-                    </center>
-                    <p>
-                      Adobe Captivate is one of the leading eLearning authoring
-                      tools.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div className="col-md-3 col-sm-6">
-              <div className="box-tech my-3">
-                <div className="content">
-                  <center>
-                    <img
-                      src="https://www.e-bureauet.dk/media/1357/icon-sitecore.png"
-                      alt=""
-                    />
-                  </center>
-                  <p>TECHNO-5</p>
-                  <div className="desc">
-                    <center>
-                      <div className="line"></div>
-                    </center>
-                    <p>
-                      Out-of-the box CMS, E-commerce, PIM and Marketing
-                      platform.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div className="col-md-3 col-sm-6">
-              <div className="box-tech my-3">
-                <div className="content">
-                  <center>
-                    <img
-                      src="https://www.e-bureauet.dk/media/1358/icon-umbraco.png"
-                      alt=""
-                    />
-                  </center>
-                  <p>TECHNO-6</p>
-                  <div className="desc">
-                    <center>
-                      <div className="line"></div>
-                    </center>
-                    <p>
-                      Out-of-the box CMS, E-commerce, PIM and Marketing
-                      platform.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div className="col-md-3 col-sm-6">
-              <div className="box-tech my-3">
-                <div className="content">
-                  <center>
-                    <img
-                      src="https://www.e-bureauet.dk/media/1300/icon-abobe-captivate.png"
-                      alt=""
-                    />
-                  </center>
-                  <p>TECHNO-7</p>
-                  <div className="desc">
-                    <center>
-                      <div className="line"></div>
-                    </center>
-                    <p>
-                      Adobe Captivate is one of the leading eLearning authoring
-                      tools.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div className="aboutRoot bg-dark text-white">
-        <div className=" container pb-4">
-          <div className="row justify-content-center">
-            <div className="col-md-8">
-              <div className="py-4">
-                <h2 className="text-center">Our Root's</h2>
-                <h3 className="text-center">Shri Vasant Engineer's</h3>
-              </div>
-
-              <p>
-                Our Root's Shri Vasant Engineer's Shri Vasant Engineer’s – 2
-                Decade Old parent company with established footprint from 2003
-                in Indore, has been a rapid growing company, targeting change
-                with New Focus into Conveying & Intralogistics domain.
-              </p>
-              <p>
-                Serving more than 233 clients true mix of Global, MNC & Giant
-                Indian conglomerate spread across various industrial sector,
-                with 103+ clients trusting us for repeat business for year over
-                year.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
+     
     </>
   );
 };

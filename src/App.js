@@ -9,6 +9,7 @@ import { Customer } from './page/Customer';
 import { PageNotFound } from './page/PageNotFound';
 import { Industries } from './page/Industries';
 import { Contact } from './page/Contact';
+import { Product } from './page/Product';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
         <Route path="/customer" element={<Customer />}> </Route>
         <Route path="/industries" element={<Industries />}> </Route>
         <Route path="/contact" element={<Contact />} />
+        <Route path="/product" element={<Product />} />                             
         <Route path="/*" element={<PageNotFound />}> </Route>
       </Routes>
       

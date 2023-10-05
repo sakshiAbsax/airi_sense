@@ -443,3 +443,16 @@ a:hover {
 .aboutRoot {
   background: linear-gradient(to top right, #1325e8 -5%, #8f10b7 100%);
 }
+
+.img-hover-effect:hover {
+  /* Add your desired styles here */
+  opacity: 0.9; /* Decrease opacity on hover */
+  transform: scale(1.05); /* Scale up the image on hover */
+  transition: 0.3s ease-in-out; /* Add a smooth transition effect */
+}
+.img-zoom-out:hover {
+  /* Scale down the image on hover */
+  transform: scale(0.95); /* You can adjust the scale factor as needed for the desired zoom out level */
+  opacity: 0.8; /* Decrease opacity on hover */
+  transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out; /* Add a smooth transition effect for both scale and opacity */
+}

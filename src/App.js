@@ -10,7 +10,7 @@ import { PageNotFound } from './page/PageNotFound';
 import { Industries } from './page/Industries';
 import { Contact } from './page/Contact';
 import { Solutions } from './page/Solutions';
-import { Blogs } from './page/Blogs';
+import  Blogs  from './page/Blogs';
 import { Product } from './page/Product';
 
 function App() {

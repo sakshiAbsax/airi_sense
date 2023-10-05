@@ -9,15 +9,7 @@ import fmeg from '../images/fmeg.webp';
 import food from '../images/food.webp';
 
 export const Industries = () => {
-  const [isHovered, setIsHovered] = useState(false);
 
-  const handleMouseEnter = () => {
-    setIsHovered(true);
-  };
-
-  const handleMouseLeave = () => {
-    setIsHovered(false);
-  };
 
   return (
     <div>
@@ -26,7 +18,7 @@ export const Industries = () => {
           <img src={industries} width="100%" height="700px" />
         </div>
       </section>
-      <section className="section_padding partnerSec1">
+      <section className="section_padding partnerSec1 mt-5">
         <div className="container py-5">
           <div className="row justify-content-between align-items-center">
             <div className="col-md-8 col-lg-7 col-lg-6 mb-5">
@@ -48,7 +40,7 @@ export const Industries = () => {
 
             <div className="col-md-4 col-lg-4 mb-5">
               <div className="about_us_img">
-                <img src={Pharma} width="100%" height="400px" className="rounded-circle" alt="" />
+                <img src={Pharma} width="100%" height="400px" className="rounded-circle img-hover-effect" alt="" />
               </div>
             </div>
           </div>
@@ -59,7 +51,7 @@ export const Industries = () => {
           <div className="row justify-content-between align-items-center">
           <div className="col-md-4 col-lg-4 mb-5">
               <div className="about_us_img">
-                <img src={Beverage} width="100%" alt="" height="400px" className="rounded-circle" />
+                <img src={Beverage} width="100%" alt="" height="400px" className="rounded-circle img-zoom-out" />
               </div>
             </div>
             <div className="col-md-8 col-lg-7 col-lg-6 mb-5">
@@ -105,7 +97,7 @@ export const Industries = () => {
 
             <div className="col-md-4 col-lg-4 mb-5">
               <div className="about_us_img">
-                <img src={chemical} width="100%" alt="" height="400px" className="rounded-circle" />
+                <img src={chemical} width="100%" alt="" height="400px" className="rounded-circle img-hover-effect" />
               </div>
             </div>
           </div>
@@ -116,7 +108,7 @@ export const Industries = () => {
           <div className="row justify-content-between align-items-center">
           <div className="col-md-4 col-lg-4 mb-5">
               <div className="about_us_img">
-                <img src={fmcg} width="100%" alt="" height="400px" className="rounded-circle" />
+                <img src={fmcg} width="100%" alt="" height="400px" className="rounded-circle img-zoom-out" />
               </div>
             </div>
             <div className="col-md-8 col-lg-7 col-lg-6 mb-5">
@@ -162,7 +154,7 @@ export const Industries = () => {
 
             <div className="col-md-4 col-lg-4 mb-5">
               <div className="about_us_img">
-                <img src={fmeg} width="100%" alt="" height="400px" className="rounded-circle" />
+                <img src={fmeg} width="100%" alt="" height="400px" className="rounded-circle img-hover-effect " />
               </div>
             </div>
           </div>
@@ -173,7 +165,7 @@ export const Industries = () => {
           <div className="row justify-content-between align-items-center">
           <div className="col-md-4 col-lg-4 mb-5">
               <div className="about_us_img">
-                <img src={food} width="100%" alt="" height="400px" className="rounded-circle" />
+                <img src={food} width="100%" alt="" height="400px" className="rounded-circle img-zoom-out" />
               </div>
             </div>
             <div className="col-md-8 col-lg-7 col-lg-6 mb-5">

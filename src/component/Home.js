@@ -22,82 +22,160 @@ export const Home = () => {
         <HomeAbout />
       </div>
       <div className="row pb-4 pt-2">
-          <div className="col-md-12">
-            <center>
-              <h1>Technologies</h1>
-            </center>
+        <div className="col-md-12">
+          <center>
+            <h1>Technologies</h1>
+          </center>
+        </div>
+      </div>
+
+      <div className="row ">
+        <div className="container justify-content-center">
+          <div className="col-lg-8">
+            <div className="featuredPropBox">
+              <ul>
+                <li>
+                  {" "}
+                  <a href="#">
+                    <div className="fplogo">
+                      <img src="https://i.ibb.co/3MZXqZC/logo.png" alt="fp1" />
+                    </div>
+                    <div className="fptext">
+                      <p>
+                        Dummy text is also used to demonstrate the appearance of
+                        different typefaces and layouts, and in general the
+                        content of dummy text is nonsensical.
+                      </p>
+                    </div>
+                  </a>{" "}
+                </li>
+                <li>
+                  {" "}
+                  <a href="#">
+                    <div className="fplogo">
+                      <img src="https://i.ibb.co/3MZXqZC/logo.png" alt="fp2" />
+                    </div>
+                    <div className="fptext">
+                      <p>
+                        Dummy text is also used to demonstrate the appearance of
+                        different typefaces and layouts, and in general the
+                        content of dummy text is nonsensical.
+                      </p>
+                    </div>
+                  </a>{" "}
+                </li>
+                <li>
+                  {" "}
+                  <a href="#">
+                    <div className="fplogo">
+                      <img src="https://i.ibb.co/3MZXqZC/logo.png" alt="fp3" />
+                    </div>
+                    <div className="fptext">
+                      <p>
+                        Dummy text is also used to demonstrate the appearance of
+                        different typefaces and layouts, and in general the
+                        content of dummy text is nonsensical.
+                      </p>
+                    </div>
+                  </a>{" "}
+                </li>
+
+                <li>
+                  {" "}
+                  <a href="#">
+                    <div className="fplogo">
+                      <img src="https://i.ibb.co/3MZXqZC/logo.png" alt="fp1" />
+                    </div>
+                    <div className="fptext">
+                      <p>
+                        Dummy text is also used to demonstrate the appearance of
+                        different typefaces and layouts, and in general the
+                        content of dummy text is nonsensical.
+                      </p>
+                    </div>
+                  </a>{" "}
+                </li>
+                <li>
+                  {" "}
+                  <a href="#">
+                    <div className="fplogo">
+                      <img src="https://i.ibb.co/3MZXqZC/logo.png" alt="fp2" />
+                    </div>
+                    <div className="fptext">
+                      <p>
+                        Dummy text is also used to demonstrate the appearance of
+                        different typefaces and layouts, and in general the
+                        content of dummy text is nonsensical.
+                      </p>
+                    </div>
+                  </a>{" "}
+                </li>
+                <li>
+                  {" "}
+                  <a href="#">
+                    <div className="fplogo">
+                      <img src="https://i.ibb.co/3MZXqZC/logo.png" alt="fp3" />
+                    </div>
+                    <div className="fptext">
+                      <p>
+                        Dummy text is also used to demonstrate the appearance of
+                        different typefaces and layouts, and in general the
+                        content of dummy text is nonsensical.
+                      </p>
+                    </div>
+                  </a>{" "}
+                </li>
+
+                <li>
+                  {" "}
+                  <a href="#">
+                    <div className="fplogo">
+                      <img src="https://i.ibb.co/3MZXqZC/logo.png" alt="fp1" />
+                    </div>
+                    <div className="fptext">
+                      <p>
+                        Dummy text is also used to demonstrate the appearance of
+                        different typefaces and layouts, and in general the
+                        content of dummy text is nonsensical.
+                      </p>
+                    </div>
+                  </a>{" "}
+                </li>
+                <li>
+                  {" "}
+                  <a href="#">
+                    <div className="fplogo">
+                      <img src="https://i.ibb.co/3MZXqZC/logo.png" alt="fp2" />
+                    </div>
+                    <div className="fptext">
+                      <p>
+                        Dummy text is also used to demonstrate the appearance of
+                        different typefaces and layouts, and in general the
+                        content of dummy text is nonsensical.
+                      </p>
+                    </div>
+                  </a>{" "}
+                </li>
+                <li>
+                  {" "}
+                  <a href="#">
+                    <div className="fplogo">
+                      <img src="https://i.ibb.co/3MZXqZC/logo.png" alt="fp3" />
+                    </div>
+                    <div className="fptext">
+                      <p>
+                        Dummy text is also used to demonstrate the appearance of
+                        different typefaces and layouts, and in general the
+                        content of dummy text is nonsensical.
+                      </p>
+                    </div>
+                  </a>{" "}
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
-        
-   <div className="row ">
-   <div className="container justify-content-center">
-    <div className="col-lg-8">
-       <div className="featuredPropBox">
-        <ul>
-           <li> <a href="#">
-             <div className="fplogo"><img src="https://i.ibb.co/3MZXqZC/logo.png" alt="fp1"/></div>
-             <div className="fptext">
-              <p>Dummy text is also used to demonstrate the appearance of different typefaces and layouts, and in general the content of dummy text is nonsensical.</p>
-            </div>
-             </a> </li>
-           <li> <a href="#">
-             <div className="fplogo"><img src="https://i.ibb.co/3MZXqZC/logo.png" alt="fp2"/></div>
-             <div className="fptext">
-              <p>Dummy text is also used to demonstrate the appearance of different typefaces and layouts, and in general the content of dummy text is nonsensical.</p>
-            </div>
-             </a> </li>
-           <li> <a href="#">
-             <div className="fplogo"><img src="https://i.ibb.co/3MZXqZC/logo.png" alt="fp3"/></div>
-             <div className="fptext">
-              <p>Dummy text is also used to demonstrate the appearance of different typefaces and layouts, and in general the content of dummy text is nonsensical.</p>
-            </div>
-             </a> </li>
-          
-          
-             <li> <a href="#">
-             <div className="fplogo"><img src="https://i.ibb.co/3MZXqZC/logo.png" alt="fp1"/></div>
-             <div className="fptext">
-              <p>Dummy text is also used to demonstrate the appearance of different typefaces and layouts, and in general the content of dummy text is nonsensical.</p>
-            </div>
-             </a> </li>
-           <li> <a href="#">
-             <div className="fplogo"><img src="https://i.ibb.co/3MZXqZC/logo.png" alt="fp2"/></div>
-             <div className="fptext">
-              <p>Dummy text is also used to demonstrate the appearance of different typefaces and layouts, and in general the content of dummy text is nonsensical.</p>
-            </div>
-             </a> </li>
-           <li> <a href="#">
-             <div className="fplogo"><img src="https://i.ibb.co/3MZXqZC/logo.png" alt="fp3"/></div>
-             <div className="fptext">
-              <p>Dummy text is also used to demonstrate the appearance of different typefaces and layouts, and in general the content of dummy text is nonsensical.</p>
-            </div>
-             </a> </li>
-          
-          
-             <li> <a href="#">
-             <div className="fplogo"><img src="https://i.ibb.co/3MZXqZC/logo.png" alt="fp1"/></div>
-             <div className="fptext">
-              <p>Dummy text is also used to demonstrate the appearance of different typefaces and layouts, and in general the content of dummy text is nonsensical.</p>
-            </div>
-             </a> </li>
-           <li> <a href="#">
-             <div className="fplogo"><img src="https://i.ibb.co/3MZXqZC/logo.png" alt="fp2"/></div>
-             <div className="fptext">
-              <p>Dummy text is also used to demonstrate the appearance of different typefaces and layouts, and in general the content of dummy text is nonsensical.</p>
-            </div>
-             </a> </li>
-           <li> <a href="#">
-             <div className="fplogo"><img src="https://i.ibb.co/3MZXqZC/logo.png" alt="fp3"/></div>
-             <div className="fptext">
-              <p>Dummy text is also used to demonstrate the appearance of different typefaces and layouts, and in general the content of dummy text is nonsensical.</p>
-            </div>
-             </a> </li>
-             
-         </ul>
       </div>
-     </div>
-  </div>
- </div>
 
       <div className="aboutRoot text-white my-5">
         <div className=" container py-4  ">
@@ -134,108 +212,106 @@ export const Home = () => {
           </div>
         </div>
         <div className="container">
-          <div className="column col-md-4 px-3">
-            <div
-              className={`post-module ${isHovered ? "hovered" : ""}`}
-              onMouseEnter={handleMouseEnter}
-              onMouseLeave={handleMouseLeave}
-            >
-              <div className="thumbnail">
-                <div className="date">
-                  <div className="day">27</div>
-                  <div className="month">Mar</div>
+          <div className="row justify-content-center">
+            <div className="column  col-lg-4 col-md-4 px-3">
+              <div
+                className={`post-module ${isHovered ? "hovered" : ""}`}
+                onMouseEnter={handleMouseEnter}
+                onMouseLeave={handleMouseLeave}
+              >
+                <div className="thumbnail">
+                  <div className="date">
+                    <div className="day">27</div>
+                    <div className="month">Mar</div>
+                  </div>
+                  <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/169963/photo-1429043794791-eb8f26f44081.jpeg" />
                 </div>
-                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/169963/photo-1429043794791-eb8f26f44081.jpeg" />
-              </div>
-              <div className="post-content">
-                <div className="category">Photos</div>
-                <h1 className="title">City Lights in New York</h1>
-                <h2 className="sub_title">The city that never sleeps.</h2>
-                <p className="description">
-                  New York, the largest city in the U.S., is an architectural
-                  marvel with plenty of historic monuments, magnificent
-                  buildings and countless dazzling skyscrapers.
-                </p>
-                <div className="post-meta">
-                  <span className="timestamp">
-                    <i className="fa fa-clock-">o</i>6 mins ago
-                  </span>
-                  <span className="comments">
-                    <i className="fa fa-comments"></i>
-                    <a href="#">39 comments</a>
-                  </span>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div className="column col-md-4 px-3">
-            <div className="post-module">
-              <div className="thumbnail">
-                <div className="date">
-                  <div className="day">27</div>
-                  <div className="month">April</div>
-                </div>
-                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/169963/photo-1429043794791-eb8f26f44081.jpeg" />
-              </div>
-              <div className="post-content">
-                <div className="category">Photos</div>
-                <h1 className="title">City Lights in New York</h1>
-                <h2 className="sub_title">The city that never sleeps.</h2>
-                <p className="description">
-                  New York, the largest city in the U.S., is an architectural
-                  marvel with plenty of historic monuments, magnificent
-                  buildings and countless dazzling skyscrapers.
-                </p>
-                <div className="post-meta">
-                  <span className="timestamp">
-                    <i className="fa fa-clock-">o</i>6 mins ago
-                  </span>
-                  <span className="comments">
-                    <i className="fa fa-comments"></i>
-                    <a href="#">39 comments</a>
-                  </span>
+                <div className="post-content">
+                  <div className="category">Photos</div>
+                  <h1 className="title">City Lights in New York</h1>
+                  <h2 className="sub_title">The city that never sleeps.</h2>
+                  <p className="description">
+                    New York, the largest city in the U.S., is an architectural
+                    marvel with plenty of historic monuments, magnificent
+                    buildings and countless dazzling skyscrapers.
+                  </p>
+                  <div className="post-meta">
+                    <span className="timestamp">
+                      <i className="fa fa-clock-">o</i>6 mins ago
+                    </span>
+                    <span className="comments">
+                      <i className="fa fa-comments"></i>
+                      <a href="#">39 comments</a>
+                    </span>
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
 
-          <div className="column col-md-4 px-3">
-            <div className="post-module">
-              <div className="thumbnail">
-                <div className="date">
-                  <div className="day">27</div>
-                  <div className="month">May</div>
+            <div className="column col-lg-4 col-md-4 px-3">
+              <div className="post-module">
+                <div className="thumbnail">
+                  <div className="date">
+                    <div className="day">27</div>
+                    <div className="month">April</div>
+                  </div>
+                  <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/169963/photo-1429043794791-eb8f26f44081.jpeg" />
                 </div>
-                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/169963/photo-1429043794791-eb8f26f44081.jpeg" />
+                <div className="post-content">
+                  <div className="category">Photos</div>
+                  <h1 className="title">City Lights in New York</h1>
+                  <h2 className="sub_title">The city that never sleeps.</h2>
+                  <p className="description">
+                    New York, the largest city in the U.S., is an architectural
+                    marvel with plenty of historic monuments, magnificent
+                    buildings and countless dazzling skyscrapers.
+                  </p>
+                  <div className="post-meta">
+                    <span className="timestamp">
+                      <i className="fa fa-clock-">o</i>6 mins ago
+                    </span>
+                    <span className="comments">
+                      <i className="fa fa-comments"></i>
+                      <a href="#">39 comments</a>
+                    </span>
+                  </div>
+                </div>
               </div>
-              <div className="post-content">
-                <div className="category">Photos</div>
-                <h1 className="title">City Lights in New York</h1>
-                <h2 className="sub_title">The city that never sleeps.</h2>
-                <p className="description">
-                  New York, the largest city in the U.S., is an architectural
-                  marvel with plenty of historic monuments, magnificent
-                  buildings and countless dazzling skyscrapers.
-                </p>
-                <div className="post-meta">
-                  <span className="timestamp">
-                    <i className="fa fa-clock-">o</i>6 mins ago
-                  </span>
-                  <span className="comments">
-                    <i className="fa fa-comments"></i>
-                    <a href="#">39 comments</a>
-                  </span>
+            </div>
+
+            <div className="column col-lg-4 col-md-4 px-3">
+              <div className="post-module">
+                <div className="thumbnail">
+                  <div className="date">
+                    <div className="day">27</div>
+                    <div className="month">May</div>
+                  </div>
+                  <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/169963/photo-1429043794791-eb8f26f44081.jpeg" />
+                </div>
+                <div className="post-content">
+                  <div className="category">Photos</div>
+                  <h1 className="title">City Lights in New York</h1>
+                  <h2 className="sub_title">The city that never sleeps.</h2>
+                  <p className="description">
+                    New York, the largest city in the U.S., is an architectural
+                    marvel with plenty of historic monuments, magnificent
+                    buildings and countless dazzling skyscrapers.
+                  </p>
+                  <div className="post-meta">
+                    <span className="timestamp">
+                      <i className="fa fa-clock-">o</i>6 mins ago
+                    </span>
+                    <span className="comments">
+                      <i className="fa fa-comments"></i>
+                      <a href="#">39 comments</a>
+                    </span>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-
-     
-
-     
     </>
   );
 };

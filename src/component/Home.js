@@ -12,7 +12,6 @@ export const Home = () => {
   const handleMouseLeave = () => {
     setIsHovered(false);
   };
-
   return (
     <>
       <div className="bnrImg">

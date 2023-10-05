@@ -11,6 +11,7 @@ import { Industries } from './page/Industries';
 import { Contact } from './page/Contact';
 import { Solutions } from './page/Solutions';
 import { Blogs } from './page/Blogs';
+import { Product } from './page/Product';
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/solutions" element={<Solutions />} />
         <Route path="/blogs" element={<Blogs />} />
+        <Route path="/product" element={<Product />} />                             
         <Route path="/*" element={<PageNotFound />}> </Route>
       </Routes>
       

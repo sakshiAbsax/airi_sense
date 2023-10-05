@@ -15,6 +15,7 @@ export const About = () => {
       <div className="mb-2 pt-5 mt-3 container aboutOverview">
         <div className="row  justify-content-center ">
           <div className="col-lg-10">
+            <h1 className="text-center py-3" style={{fontWeight:"600", color:"#6f309e"}}>What We do</h1>
             <p className="text-center">
               Airi-Sense is a global company with Swiss roots and one of the
               world's leading logistics automation companies. We are
@@ -26,7 +27,7 @@ export const About = () => {
         </div>
       </div>
 
-      <div className="values  py-5 ">
+      <div className="values  py-5 mt-5 ">
         <div className="row pb-3 ">
           <div className="col-md-12">
             <center>
@@ -116,7 +117,7 @@ export const About = () => {
             </div>
           </div>
           <div className="col-md-8 mt-lg-3 pt-lg-5 ">
-            <h2 className="py-3 text-center">Mission</h2>
+            <h1 className="py-3 text-center">Mission</h1>
             <p className="py-2 px-3">
               To deliver reliable, secure, & scalable solutions enabling our
               clients to innovate, collaborate, and scale their operations
@@ -130,7 +131,7 @@ export const About = () => {
        <div className="row clearfix pb-lg-5 justify-content-end ">
         
           <div className="col-md-8 mt-lg-3 pt-lg-5 ">
-            <h2 className="pb-3 text-center ">Vision</h2>
+            <h1 className="pb-3 text-center ">Vision</h1>
             <p className=" py-2 px-3">
               To deliver reliable, secure, & scalable solutions enabling our
               clients to innovate, collaborate, and scale their operations
@@ -145,6 +146,10 @@ export const About = () => {
           </div>
         </div>
       </div>
+
+  
+
+     
     </>
   );
 };

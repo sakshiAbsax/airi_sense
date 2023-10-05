@@ -24,7 +24,7 @@ export const Header=()=>{
         <div className={`nav-elements  ${showNavbar && "active"}`}>
           <ul>
           <li>
-              <NavLink className=" fs-5" to="/products">Products</NavLink>
+              <NavLink className=" fs-5" to="/product">Products</NavLink>
             </li>
             <li>
               <NavLink className=" fs-5" to="/solutions">Solutions</NavLink>

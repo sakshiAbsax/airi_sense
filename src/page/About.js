@@ -1,5 +1,5 @@
 import React from "react";
-import About_bnr from "../images/about_bnr.jpg";
+import about_bnr from "../images/about_bnr.jpg";
 import "./About.css";
 import val1 from "../images/values/val-3.png";
 import mission from "../images/mission.png";
@@ -9,7 +9,7 @@ export const About = () => {
   return (
     <>
       <div className="bnrImg">
-        <img src={About_bnr} width="100%" height="700px" />
+        <img src={about_bnr} width="100%" height="700px" />
       </div>
 
       <div className="mb-2 pt-5 mt-3 container aboutOverview">

@@ -1,33 +1,30 @@
 import React, { useState, useEffect, useRef } from "react";
-import customer from "../images/customer.jpg";
+import coustomer from "../images/coustomer.png";
 import { Col, Container, Row } from "react-bootstrap";
 import ourpride from "../images/ourpride.png";
 import ImageSlider from "../component/ImageSlider";
 
-
-
 export const Customer = () => {
-
   const images = [
-    '../Assests/img/Adani.png',
-    '../Assests/img/cipla.png',
-    '../Assests/img/ITC.png',
-    '../Assests/img/luping.png',
-    '../Assests/img/Parle.png',
-    '../Assests/img/sunpharma.png',
-    '../Assests/img/Adani.png',
+    "../Assests/img/Adani.png",
+    "../Assests/img/cipla.png",
+    "../Assests/img/ITC.png",
+    "../Assests/img/luping.png",
+    "../Assests/img/Parle.png",
+    "../Assests/img/sunpharma.png",
+    "../Assests/img/Adani.png",
     // Add more image URLs here
   ];
   return (
     <div>
       <section id="customer">
         <div className="bnrImg">
-          <img src={customer} width="100%" height="700px" />
+          <img src={coustomer} width="100%" height="700px" />
         </div>
         <div className="">
           <Container>
-            <Row className="d-flex">
-              <Col lg={7} xs={12} md={7}>
+            <Row>
+              <Col lg={7} xs={12} md={12}>
                 <div className="mt-5 pt-5 whatWeDo">
                   <h2 className="text-start"> Our Pride </h2>
                   <p className="mt-4">
@@ -50,21 +47,16 @@ export const Customer = () => {
                 </div>
               </Col>
 
-              <Col lg={5} xs={12} md={5}>
+              <Col lg={5} xs={12} md={12}>
                 <div className="ps-5 pt-5">
                   <img src={ourpride} width="auto" height="500px" />
                 </div>
               </Col>
             </Row>
-
           </Container>
-         <div className="container d-flex justify-content-center">
-         <div className="row">
-          <div className="col-lg-12">
-            <ImageSlider   images={images}/>
+          <div className="container d-flex justify-content-center my-5">
+            <ImageSlider images={images} />
           </div>
-         </div>
-         </div>
         </div>
       </section>
     </div>

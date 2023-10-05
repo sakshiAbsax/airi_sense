@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import industries from "../images/industries.jpg";
+import industries from "../images/industries.png";
 import { Col, Container, Row } from "react-bootstrap";
 import Pharma from '../images/Pharma.webp';
 import Beverage from '../images/Beverage.webp';

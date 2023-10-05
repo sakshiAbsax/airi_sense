@@ -4,18 +4,20 @@ import {AiFillLinkedin,AiOutlineTwitter} from 'react-icons/ai';
 import {BsYoutube,BsFillTelephoneFill,} from 'react-icons/bs';
 import {BiLogoGmail} from 'react-icons/bi';
 import {FaLocationDot} from 'react-icons/fa6';
+import contact from '../images/contact.png';
+
 export const Contact = () => {
   return (
     <div>
     
     
-    {/* <div class="section-header py-5">
-      <div class="container d-flex flex-column justify-content-center">
-       
-      </div>
-    </div> */}
+    <div class="section-header ">
+          <div className="bnrImg">
+          <img src={contact} width="100%" height="700px" />
+        </div>
+    </div>
     <section class="contact_us">
-     
+
             <div class="row justify-content-center">
                 <div class="col-md-12 ">
                     <div class="contact_inner">
@@ -67,7 +69,7 @@ export const Contact = () => {
     <section class="map_sec">
        
             <div class="row justify-content-center">
-                <div class="col-md-10 ">
+                <div class="col-md-10  ">
                     <div class="map_inner">
                         <h4>Find Us on Google Map</h4>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore quo beatae quasi assumenda, expedita aliquam minima tenetur maiores neque incidunt repellat aut voluptas hic dolorem sequi ab porro, quia error.</p>

@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect } from "react";
 
 const ImageSlider = ({ images }) => {
   const [currentImageIndices, setCurrentImageIndices] = useState([0, 1, 2, 3]);
@@ -34,19 +34,20 @@ const ImageSlider = ({ images }) => {
   }, []);
 
   return (
-    <div className="container py-5">
-      <div className="image-slider">
-        <div className="slider-content d-flex justify-content-center">
-          {displayedImages.map((image, index) => (
-            <img
-              key={index}
-              src={image}
-               // Adjust the width as needed
-              alt={`Image ${currentImageIndices[index]}`}
-             className='me-5 w-25 h-25 p-4'/>
-          ))}
-        </div>
-       
+    <div className="image-slider my-5">
+      <div className="row slider-content justify-content-center">
+        
+            {displayedImages.map((image, index) => (
+            <div className="col-md-3 pe-5">
+                <img
+                key={index}
+                src={image}
+                // Adjust the width as needed
+                alt={`Image ${currentImageIndices[index]}`}
+                className="w-100 px-3"
+              />
+              </div>
+            ))}
       </div>
     </div>
   );

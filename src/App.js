@@ -9,6 +9,8 @@ import { Customer } from './page/Customer';
 import { PageNotFound } from './page/PageNotFound';
 import { Industries } from './page/Industries';
 import { Contact } from './page/Contact';
+import { Solutions } from './page/Solutions';
+import { Blogs } from './page/Blogs';
 
 function App() {
   return (
@@ -22,6 +24,8 @@ function App() {
         <Route path="/customer" element={<Customer />}> </Route>
         <Route path="/industries" element={<Industries />}> </Route>
         <Route path="/contact" element={<Contact />} />
+        <Route path="/solutions" element={<Solutions />} />
+        <Route path="/blogs" element={<Blogs />} />
         <Route path="/*" element={<PageNotFound />}> </Route>
       </Routes>
       

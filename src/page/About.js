@@ -26,11 +26,11 @@ export const About = () => {
         </div>
       </div>
 
-      <div className="values  ">
-        <div className="row py-4">
+      <div className="values  py-5 ">
+        <div className="row pb-3 ">
           <div className="col-md-12">
             <center>
-              <h1>Values</h1>
+              <h1 className="text-light">Values</h1>
             </center>
           </div>
         </div>
@@ -88,21 +88,21 @@ export const About = () => {
             <div className="icon">
               <img src={val1} />
             </div>
-            <p className="title">Agility</p>
+            <p className="title">People</p>
             <p className="text">Click to see or edit your profile page.</p>
           </div>
           <div className=" valuecard">
             <div className="icon">
               <img src={val1} />
             </div>
-            <p className="title">Innovation</p>
+            <p className="title">Customer Centricioty</p>
             <p className="text">Check all your favourites in one place.</p>
           </div>
           <div className=" valuecard">
             <div className="icon">
               <img src={val1} />
             </div>
-            <p className="title">Respect</p>
+            <p className="title">Integrity</p>
             <p className="text">Add or change your contacts and links.</p>
           </div>
         </div>

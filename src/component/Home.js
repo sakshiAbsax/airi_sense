@@ -9,6 +9,9 @@ export const Home = () => {
   const handleMouseEnter = () => {
     setIsHovered(true);
   };
+  const handleMouseLeave = () => {
+    setIsHovered(false);
+  };
 
   return (
     <>

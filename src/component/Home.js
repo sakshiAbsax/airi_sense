@@ -38,7 +38,7 @@ export const Home = () => {
                   {" "}
                   <a href="#">
                     <div className="fplogo">
-                      <img src="https://i.ibb.co/3MZXqZC/logo.png" alt="fp1" />
+                      <h1 className="text-white">TECHNO-1</h1>
                     </div>
                     <div className="fptext">
                       <p>
@@ -53,7 +53,7 @@ export const Home = () => {
                   {" "}
                   <a href="#">
                     <div className="fplogo">
-                      <img src="https://i.ibb.co/3MZXqZC/logo.png" alt="fp2" />
+                    <h1 className="text-white">TECHNO-1</h1>
                     </div>
                     <div className="fptext">
                       <p>
@@ -68,7 +68,52 @@ export const Home = () => {
                   {" "}
                   <a href="#">
                     <div className="fplogo">
-                      <img src="https://i.ibb.co/3MZXqZC/logo.png" alt="fp3" />
+                    <h1 className="text-white">TECHNO-1</h1>
+                    </div>
+                    <div className="fptext">
+                      <p>
+                        Dummy text is also used to demonstrate the appearance of
+                        different typefaces and layouts, and in general the
+                        content of dummy text is nonsensical.
+                      </p>
+                    </div>
+                  </a>{" "}
+                </li>
+                   <li>
+                  {" "}
+                  <a href="#">
+                    <div className="fplogo">
+                      <h1 className="text-white">TECHNO-1</h1>
+                    </div>
+                    <div className="fptext">
+                      <p>
+                        Dummy text is also used to demonstrate the appearance of
+                        different typefaces and layouts, and in general the
+                        content of dummy text is nonsensical.
+                      </p>
+                    </div>
+                  </a>{" "}
+                </li>
+                <li>
+                  {" "}
+                  <a href="#">
+                    <div className="fplogo">
+                    <h1 className="text-white">TECHNO-1</h1>
+                    </div>
+                    <div className="fptext">
+                      <p>
+                        Dummy text is also used to demonstrate the appearance of
+                        different typefaces and layouts, and in general the
+                        content of dummy text is nonsensical.
+                      </p>
+                    </div>
+                  </a>{" "}
+                </li>
+                <li>
+                  {" "}
+                  <a href="#">
+                    <div className="fplogo">
+                    <h1 className="text-white">TECHNO-1</h1>
                     </div>
                     <div className="fptext">
                       <p>
@@ -80,97 +125,11 @@ export const Home = () => {
                   </a>{" "}
                 </li>
 
-                <li>
-                  {" "}
-                  <a href="#">
-                    <div className="fplogo">
-                      <img src="https://i.ibb.co/3MZXqZC/logo.png" alt="fp1" />
-                    </div>
-                    <div className="fptext">
-                      <p>
-                        Dummy text is also used to demonstrate the appearance of
-                        different typefaces and layouts, and in general the
-                        content of dummy text is nonsensical.
-                      </p>
-                    </div>
-                  </a>{" "}
-                </li>
-                <li>
-                  {" "}
-                  <a href="#">
-                    <div className="fplogo">
-                      <img src="https://i.ibb.co/3MZXqZC/logo.png" alt="fp2" />
-                    </div>
-                    <div className="fptext">
-                      <p>
-                        Dummy text is also used to demonstrate the appearance of
-                        different typefaces and layouts, and in general the
-                        content of dummy text is nonsensical.
-                      </p>
-                    </div>
-                  </a>{" "}
-                </li>
-                <li>
-                  {" "}
-                  <a href="#">
-                    <div className="fplogo">
-                      <img src="https://i.ibb.co/3MZXqZC/logo.png" alt="fp3" />
-                    </div>
-                    <div className="fptext">
-                      <p>
-                        Dummy text is also used to demonstrate the appearance of
-                        different typefaces and layouts, and in general the
-                        content of dummy text is nonsensical.
-                      </p>
-                    </div>
-                  </a>{" "}
-                </li>
 
-                <li>
-                  {" "}
-                  <a href="#">
-                    <div className="fplogo">
-                      <img src="https://i.ibb.co/3MZXqZC/logo.png" alt="fp1" />
-                    </div>
-                    <div className="fptext">
-                      <p>
-                        Dummy text is also used to demonstrate the appearance of
-                        different typefaces and layouts, and in general the
-                        content of dummy text is nonsensical.
-                      </p>
-                    </div>
-                  </a>{" "}
-                </li>
-                <li>
-                  {" "}
-                  <a href="#">
-                    <div className="fplogo">
-                      <img src="https://i.ibb.co/3MZXqZC/logo.png" alt="fp2" />
-                    </div>
-                    <div className="fptext">
-                      <p>
-                        Dummy text is also used to demonstrate the appearance of
-                        different typefaces and layouts, and in general the
-                        content of dummy text is nonsensical.
-                      </p>
-                    </div>
-                  </a>{" "}
-                </li>
-                <li>
-                  {" "}
-                  <a href="#">
-                    <div className="fplogo">
-                      <img src="https://i.ibb.co/3MZXqZC/logo.png" alt="fp3" />
-                    </div>
-                    <div className="fptext">
-                      <p>
-                        Dummy text is also used to demonstrate the appearance of
-                        different typefaces and layouts, and in general the
-                        content of dummy text is nonsensical.
-                      </p>
-                    </div>
-                  </a>{" "}
-                </li>
+           
+             
+           
+              
               </ul>
             </div>
           </div>

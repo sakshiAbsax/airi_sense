@@ -557,6 +557,17 @@ a:hover {
   background: #333 !important;
   color: #fff !important;
 }
+@media (max-width: 767px) {
+  .container .card {
+    width: 100%; /* Cards will take up full width on small screens */
+  }
+}
+
+@media (min-width: 768px) {
+  .container .card {
+    width: calc(33.33% - 20px); /* Adjust for three columns with spacing */
+  }
+}
 
 .solution-cutomized{
 height: 270px;

@@ -146,13 +146,13 @@ export const Home = () => {
                 <h3 className="text-center"  style={{letterSpacing:"3px"}}>Shri Vasant Engineer's</h3>
               </div>
 
-              <p className="text-center" >
+              <p className="text-center text-dark" >
                 Our Root's Shri Vasant Engineer's Shri Vasant Engineer’s – 2
                 Decade Old parent company with established footprint from 2003
                 in Indore, has been a rapid growing company, targeting change
                 with New Focus into Conveying & Intralogistics domain.
               </p>
-              <p className="text-center pb-3">
+              <p className="text-center text-dark pb-3">
                 Serving more than 233 clients true mix of Global, MNC & Giant
                 Indian conglomerate spread across various industrial sector,
                 with 103+ clients trusting us for repeat business for year over

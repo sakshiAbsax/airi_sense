@@ -21,7 +21,7 @@ export const Home = () => {
       <div className=" py-5 mt-5">
         <HomeAbout />
       </div>
-      <div className="row pb-4 pt-2">
+      {/* <div className="row pb-4 pt-2">
         <div className="col-md-12">
           <center>
             <h1>Technologies</h1>
@@ -29,7 +29,7 @@ export const Home = () => {
         </div>
       </div>
 
-      <div className="row ">
+      <div className="row pb-5">
         <div className="container justify-content-center">
           <div className="col-lg-10">
             <div className="featuredPropBox">
@@ -134,7 +134,7 @@ export const Home = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
 
       
       <div className="aboutRoot text-white mb-5">

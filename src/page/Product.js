@@ -10,18 +10,17 @@ export const Product = () => {
         <div className="bnrImg">
           <img src={product_bnr} width="100%" height="700px" alt="Solutions" />
         </div>
-        
       </section>
 
-      <div className=" py-5" style={{ backgroundColor: "#f1f1f1" }}>
+      <div className="py-5" style={{ backgroundColor: "#f1f1f1" }}>
         <div className="container">
           <Row className="d-flex">
             <Col lg={7} xs={12} md={7} className="pt-4">
               <h1
-                className=" fw-bold text-start  "
+                className=" fw-bold text-start"
                 style={{ color: "#6f309d", letterSpacing: "6px" }}
               >
-                Industries
+                About Products
               </h1>
               <div className=" pt-2 whatWeDo">
                 <p className="mt-3">
@@ -59,6 +58,20 @@ export const Product = () => {
           </Row>
         </div>
       </div>
+
+      <div className="row justify-content-center pt-5 ">
+        <div className="col-lg-8">
+          <h1
+            className=" fw-bold text-center"
+            style={{ color: "#6f309d", letterSpacing: "6px" }}
+          >
+            Our Products
+          </h1>
+        </div>
+      </div>
+
+
+
     </div>
   );
 };

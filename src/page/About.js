@@ -1,10 +1,16 @@
 import React from "react";
 import about_bnr from "../images/about_bnr.jpg";
 import "./About.css";
-import val1 from "../images/values/val-3.png";
 import mission from "../images/mission.png";
 import vision from "../images/vision.png";
 import aboutHistory from "../images/aboutHistor.webp";
+import val1 from "../images/values/agility.png";
+import val2 from "../images/values/inovation.png";
+import val3 from "../images/values/respect.png";
+import val4 from "../images/values/people.png";
+import val5 from "../images/values/customer.png";
+import val6 from "../images/values/intgrity.png";
+
 
 export const About = () => {
   return (
@@ -17,7 +23,7 @@ export const About = () => {
      
         <div className="container">
      
-          <div className="d-flex">
+          <div className=" row  justify-content-center d-flex">
             <div className="col-lg-7 col-md-12 col-sm-12 ">
             <h1 className=" fw-bold text-start  " style={{color:"#6f309d", letterSpacing:"6px"}}>History</h1>
               <div className=" pt-2 whatWeDo">
@@ -56,9 +62,9 @@ export const About = () => {
       </div>
 
       <div className="aboutRoot text-white mb-5">
-        <div className=" container py-4  ">
+        <div className=" py-4  ">
           <div className="row justify-content-center  py-5">
-            <div className="col-md-10 card px-4 py-3 shadow ">
+            <div className="col-md-8 card px-4 py-3 shadow ">
               <div className="py-4 " style={{color:"#6f309d"}}>
                 <h2 className="text-center fw-bold">Our Root's</h2>
                 <h3 className="text-center"  style={{letterSpacing:"3px"}}>Shri Vasant Engineer's</h3>
@@ -162,14 +168,14 @@ export const About = () => {
           </div>
           <div className=" valuecard">
             <div className="icon">
-              <img src={val1} />
+              <img src={val2} />
             </div>
             <p className="title">Innovation</p>
             <p className="text">Check all your favourites in one place.</p>
           </div>
           <div className=" valuecard">
             <div className="icon">
-              <img src={val1} />
+              <img src={val3} />
             </div>
             <p className="title">Respect</p>
             <p className="text">Add or change your contacts and links.</p>
@@ -178,21 +184,21 @@ export const About = () => {
         <div className="content mt-3">
           <div className="valuecard">
             <div className="icon">
-              <img src={val1} />
+              <img src={val4} />
             </div>
             <p className="title">People</p>
             <p className="text">Click to see or edit your profile page.</p>
           </div>
           <div className=" valuecard">
             <div className="icon">
-              <img src={val1} />
+              <img src={val5} />
             </div>
             <p className="title">Customer Centricioty</p>
             <p className="text">Check all your favourites in one place.</p>
           </div>
           <div className=" valuecard">
             <div className="icon">
-              <img src={val1} />
+              <img src={val6} />
             </div>
             <p className="title">Integrity</p>
             <p className="text">Add or change your contacts and links.</p>

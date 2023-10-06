@@ -31,7 +31,7 @@ export const Home = () => {
 
       <div className="row ">
         <div className="container justify-content-center">
-          <div className="col-lg-8">
+          <div className="col-lg-10">
             <div className="featuredPropBox">
               <ul>
                 <li>
@@ -136,22 +136,23 @@ export const Home = () => {
         </div>
       </div>
 
-      <div className="aboutRoot text-white my-5">
+      
+      <div className="aboutRoot text-white mb-5">
         <div className=" container py-4  ">
-          <div className="row justify-content-center pb-3">
-            <div className="col-md-8">
-              <div className="py-4">
-                <h2 className="text-center">Our Root's</h2>
-                <h3 className="text-center">Shri Vasant Engineer's</h3>
+          <div className="row justify-content-center  py-5">
+            <div className="col-md-10 card px-4 py-3 shadow ">
+              <div className="py-4 " style={{color:"#6f309d"}}>
+                <h2 className="text-center fw-bold">Our Root's</h2>
+                <h3 className="text-center"  style={{letterSpacing:"3px"}}>Shri Vasant Engineer's</h3>
               </div>
 
-              <p>
+              <p className="text-center" >
                 Our Root's Shri Vasant Engineer's Shri Vasant Engineer’s – 2
                 Decade Old parent company with established footprint from 2003
                 in Indore, has been a rapid growing company, targeting change
                 with New Focus into Conveying & Intralogistics domain.
               </p>
-              <p>
+              <p className="text-center pb-3">
                 Serving more than 233 clients true mix of Global, MNC & Giant
                 Indian conglomerate spread across various industrial sector,
                 with 103+ clients trusting us for repeat business for year over

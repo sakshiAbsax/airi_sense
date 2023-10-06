@@ -18,12 +18,28 @@ export const Industries = () => {
           <img src={industries} width="100%" height="700px" />
         </div>
       </section>
+
+      <div className="mb-2 pt-5 container aboutOverview">
+        <div className="row  justify-content-center ">
+          <div className="col-lg-10">
+            <h1 className="text-center py-3 fw-bold" style={{ color:"#6f309e" , letterSpacing:"3px"}}>Industries</h1>
+            <p className="text-center" style={{textAlign:"justify"}}>
+              Airi-Sense is a global company with Swiss roots and one of the
+              world's leading logistics automation companies. We are
+              headquartered in Buchs/Aarau, Switzerland and stand for
+              innovation, quality, industry-leading software and robotics
+              technologies developed in-house.{" "}
+            </p>
+          </div>
+        </div>
+      </div>
+
       <section className="section_padding partnerSec1 mt-5">
         <div className="container py-5">
           <div className="row justify-content-between align-items-center">
             <div className="col-md-8 col-lg-7 col-lg-6 mb-5">
               <div className="whatWeDo">
-                <h1 className="text-start">Bharma</h1>
+                <h1 style={{fontWeight:"600", color:"#6f309e" , letterSpacing:"3px"}} className="text-start">Bharma</h1>
                 <p
                   className="card-paragraph mt-4"
                   style={{ textAlign: "justify" }}
@@ -56,7 +72,7 @@ export const Industries = () => {
             </div>
             <div className="col-md-8 col-lg-7 col-lg-6 mb-5">
               <div className="whatWeDo">
-                <h1 className="text-start">Beverage</h1>
+                <h1 style={{fontWeight:"600", color:"#6f309e" , letterSpacing:"3px"}} className="text-start">Beverage</h1>
                 <p
                   className="card-paragraph mt-4"
                   style={{ textAlign: "justify" }}
@@ -80,7 +96,7 @@ export const Industries = () => {
           <div className="row justify-content-between align-items-center">
             <div className="col-md-8 col-lg-7 col-lg-6 mb-5">
               <div className="whatWeDo">
-                <h1 className="text-start">Chemical</h1>
+                <h1 style={{fontWeight:"600", color:"#6f309e" , letterSpacing:"3px"}} className="text-start">Chemical</h1>
                 <p
                   className="card-paragraph mt-4"
                   style={{ textAlign: "justify" }}
@@ -113,7 +129,7 @@ export const Industries = () => {
             </div>
             <div className="col-md-8 col-lg-7 col-lg-6 mb-5">
               <div className="whatWeDo">
-                <h1 className="text-start">FMCG</h1>
+                <h1 style={{fontWeight:"600", color:"#6f309e" , letterSpacing:"3px"}} className="text-start">FMCG</h1>
                 <p
                   className="card-paragraph mt-4"
                   style={{ textAlign: "justify" }}
@@ -137,7 +153,7 @@ export const Industries = () => {
           <div className="row justify-content-between align-items-center">
             <div className="col-md-8 col-lg-7 col-lg-6 mb-5">
               <div className="whatWeDo">
-                <h1 className="text-start">FMEG</h1>
+                <h1 style={{fontWeight:"600", color:"#6f309e" , letterSpacing:"3px"}} className="text-start">FMEG</h1>
                 <p
                   className="card-paragraph mt-4"
                   style={{ textAlign: "justify" }}
@@ -170,7 +186,7 @@ export const Industries = () => {
             </div>
             <div className="col-md-8 col-lg-7 col-lg-6 mb-5">
               <div className="whatWeDo">
-                <h1 className="text-start">Food</h1>
+                <h1 style={{fontWeight:"600", color:"#6f309e" , letterSpacing:"3px"}} className="text-start">Food</h1>
                 <p
                   className="card-paragraph mt-4"
                   style={{ textAlign: "justify" }}

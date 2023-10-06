@@ -4,7 +4,6 @@ import "./About.css";
 import val1 from "../images/values/val-3.png";
 import mission from "../images/mission.png";
 import vision from "../images/vision.png";
-import { Col, Row } from "react-bootstrap";
 import aboutHistory from "../images/aboutHistor.webp";
 
 export const About = () => {
@@ -18,8 +17,8 @@ export const About = () => {
      
         <div className="container">
      
-          <Row className="d-flex">
-            <Col lg={7} xs={12} md={7}>
+          <div className="d-flex">
+            <div className="col-lg-7 col-md-12 col-sm-12 ">
             <h1 className=" fw-bold text-start  " style={{color:"#6f309d", letterSpacing:"6px"}}>History</h1>
               <div className=" pt-2 whatWeDo">
                 <p className="mt-3">
@@ -46,13 +45,13 @@ export const About = () => {
                   traditional and state-of-the-art robotics.
                 </p>
               </div>
-            </Col>
-            <Col lg={5} xs={12} md={5} className=" pt-5">
-              <div className="ps-lg-5 ms-3">
-                <img src={aboutHistory} width="500px" height="500px" />
+            </div>
+            <div  className=" pt-5 col-lg-5 col-md-12 col-sm-12">
+              <div className="ps-lg-5 ms-3 ms-sm-0 ">
+                <img src={aboutHistory} width="auto" height="500px" />
               </div>
-            </Col>
-          </Row>
+            </div>
+          </div>
         </div>
       </div>
 

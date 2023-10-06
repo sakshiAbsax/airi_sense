@@ -228,7 +228,7 @@ export const Solutions = () => {
       </div>
       <div className="row ">
         <div className="container justify-content-center">
-          <div className="col-lg-10">
+          <div className="col-lg-10 col-md-12">
           <h1
               className="text-center py-3"
               style={{ fontWeight: "600", color: "#6f309e" }}
@@ -267,7 +267,7 @@ export const Solutions = () => {
                     </div>
                   </a>{" "}
                 </li>
-             
+
               </ul>
             </div>
           </div>

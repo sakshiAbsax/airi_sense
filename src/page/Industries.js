@@ -39,7 +39,7 @@ export const Industries = () => {
           <div className="row justify-content-between align-items-center">
             <div className="col-md-8 col-lg-7 col-lg-6 mb-5">
               <div className="whatWeDo">
-                <h1 style={{fontWeight:"600", color:"#6f309e" , letterSpacing:"3px"}} className="text-start">Bharma</h1>
+                <h1 style={{fontWeight:"600", color:"#6f309e" , letterSpacing:"3px"}} className="text-start">Pharma</h1>
                 <p
                   className="card-paragraph mt-4"
                   style={{ textAlign: "justify" }}

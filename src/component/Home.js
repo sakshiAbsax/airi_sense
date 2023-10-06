@@ -138,9 +138,10 @@ export const Home = () => {
 
       
       <div className="aboutRoot text-white mb-5">
-        <div className=" container py-4  ">
+        <div className="  py-4  ">
           <div className="row justify-content-center  py-5">
-            <div className="col-md-10 card px-4 py-3 shadow ">
+            <div className="col-md-8 card px-4 py-3 shadow ">
+              
               <div className="py-4 " style={{color:"#6f309d"}}>
                 <h2 className="text-center fw-bold">Our Root's</h2>
                 <h3 className="text-center"  style={{letterSpacing:"3px"}}>Shri Vasant Engineer's</h3>

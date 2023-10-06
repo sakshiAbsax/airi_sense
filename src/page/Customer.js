@@ -21,6 +21,22 @@ export const Customer = () => {
         <div className="bnrImg">
           <img src={coustomer} width="100%" height="700px" />
         </div>
+
+        <div className="mb-2 pt-5 container aboutOverview">
+        <div className="row  justify-content-center ">
+          <div className="col-lg-10">
+            <h1 className="text-center py-2 fw-bold" style={{ color:"#6f309e" , letterSpacing:"3px"}}>Customer</h1>
+            <p className="text-center" style={{textAlign:"justify"}}>
+              Airi-Sense is a global company with Swiss roots and one of the
+              world's leading logistics automation companies. We are
+              headquartered in Buchs/Aarau, Switzerland and stand for
+              innovation, quality, industry-leading software and robotics
+              technologies developed in-house.{" "}
+            </p>
+          </div>
+        </div>
+
+      </div>
         <div className="">
           <Container>
             <Row>

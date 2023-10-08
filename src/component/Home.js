@@ -15,10 +15,10 @@ export const Home = () => {
   return (
     <>
       <div className="bnrImg">
-        <img src={home_bnr} width="100%" height="700px" />
+        <img src={home_bnr} width="100%" />
       </div>
 
-      <div className=" py-5 mt-5">
+      <div>
         <HomeAbout />
       </div>
       {/* <div className="row pb-4 pt-2">
@@ -136,18 +136,18 @@ export const Home = () => {
         </div>
       </div> */}
 
-      
       <div className="aboutRoot text-white mb-5">
         <div className="  py-4  ">
           <div className="row justify-content-center  py-5">
             <div className="col-md-8 card px-4 py-3 shadow ">
-              
-              <div className="py-4 " style={{color:"#6f309d"}}>
+              <div className="py-4 " style={{ color: "#6f309d" }}>
                 <h2 className="text-center fw-bold">Our Root's</h2>
-                <h3 className="text-center"  style={{letterSpacing:"3px"}}>Shri Vasant Engineer's</h3>
+                <h3 className="text-center" style={{ letterSpacing: "3px" }}>
+                  Shri Vasant Engineer's
+                </h3>
               </div>
 
-              <p className="text-center text-dark" >
+              <p className="text-center text-dark">
                 Our Root's Shri Vasant Engineer's Shri Vasant Engineer’s – 2
                 Decade Old parent company with established footprint from 2003
                 in Indore, has been a rapid growing company, targeting change
@@ -174,7 +174,7 @@ export const Home = () => {
         </div>
         <div className="container">
           <div className="row justify-content-center">
-            <div className="column  col-lg-4 col-md-4 px-3">
+            <div className="column  col-lg-4 col-md-6 px-3">
               <div
                 className={`post-module ${isHovered ? "hovered" : ""}`}
                 onMouseEnter={handleMouseEnter}
@@ -209,7 +209,7 @@ export const Home = () => {
               </div>
             </div>
 
-            <div className="column col-lg-4 col-md-4 px-3">
+            <div className="column col-lg-4 col-md-6 px-3">
               <div className="post-module">
                 <div className="thumbnail">
                   <div className="date">
@@ -240,7 +240,7 @@ export const Home = () => {
               </div>
             </div>
 
-            <div className="column col-lg-4 col-md-4 px-3">
+            <div className="column col-lg-4 col-md-6 px-3">
               <div className="post-module">
                 <div className="thumbnail">
                   <div className="date">

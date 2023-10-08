@@ -7,9 +7,9 @@ export const HomeAbout = () => {
   return (
     <>
       <section className="section_padding partnerSec1">
-        <div className="container py-5">
+        <div className="container pt-5 pb-3">
           <div className="row justify-content-between align-items-center">
-            <div className="col col-md-8 col-sm-12 col-lg-6 mb-5">
+            <div className="col col-md-12 col-sm-12 col-lg-6 mb-5">
               <div className="whatWeDo">
                 <h1
                   style={{

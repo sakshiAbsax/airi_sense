@@ -26,6 +26,7 @@
     display: none; /* Hide list items by default */
     cursor: pointer; /* Change cursor on hover (optional) */
     height: auto;
+    border: none;
   }
   
   .cardhover .list-group-item:hover {

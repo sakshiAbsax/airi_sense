@@ -18,7 +18,7 @@ export const Header = () => {
   };
   return (
     <>
-      <Navbar expand="lg" className="bg-body-tertiary">
+      <Navbar expand="lg" className="bg-body-tertiary" sticky="top" style={{boxShadow: "6px 2px 15px 1px rgba(0,0,0,0.8)"}}>
         <Container>
           <NavLink to="/">
             <div className="logo ms-lg-5">

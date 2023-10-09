@@ -1,8 +1,8 @@
 import React,{useState} from "react";
 import product_bnr from "../images/product_bnr.png";
-import { Col, ListGroup, ListGroupItem, Row } from "react-bootstrap";
+import { ListGroup, } from "react-bootstrap";
 import productDiscription from "../images/productDis.webp";
-import Button from "react-bootstrap/Button";
+
 import Card from "react-bootstrap/Card";
 import { Link } from "react-router-dom";
 import download1 from "../images/download1.jpg";
@@ -95,7 +95,7 @@ export const Product = () => {
           </div>
         </div>
       </section>
-      <div className="mx-lg-5">
+      <div className="mx-lg-5 py-5">
         <div className="row justify-content-center pt-5  mx-lg-5 mx-3">
             <h1
               className=" fw-bold text-center"
@@ -239,7 +239,7 @@ export const Product = () => {
                     <Card.Title className="py-2">
                       Cloud based - IIoT & Data management Solutions​
                     </Card.Title>
-                    <ListGroup>
+                    <ListGroup style={{ border: "none !important" }}>
                       <ListGroup.Item className="text-start list-group-item">
                         ​Production Data MIS
                       </ListGroup.Item>

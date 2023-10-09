@@ -61,7 +61,8 @@ export const Header = () => {
             </div>
 
             <div className="ps-lg-5  ps-md-3 ms-lg-3 headerBtn">
-              <a href="/contact" className="text-white btn-md headerBtn  btn-warning btn rounded-pill">Contact-Us</a>
+            <a href="#" class="fancy-button bg-gradient1"><span><i></i>Tickets</span></a>
+              {/* <a href="/contact" className="text-white btn-md headerBtn  btn-warning btn rounded-pill">Contact-Us</a> */}
             </div>
             
           </div>

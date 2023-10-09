@@ -112,7 +112,7 @@ export const Product = () => {
                     style={{ height: 'au' }}>
                   <Card.Img variant="top" src={download1} style={{ height: '250px' }} />
                   <Card.Body>
-                    <Card.Title>
+                    <Card.Title className="py-2">
                       ​​​​​​​ ​​​​​​​Smart Robotic solutons
                     </Card.Title>
                     <ListGroup>
@@ -139,7 +139,7 @@ export const Product = () => {
                 <Card className="me-2 cardhover" style={{ height: 'auto' }}>
                   <Card.Img variant="top" src={download2} style={{ height: '250px' }} />
                   <Card.Body>
-                    <Card.Title>​​Material Transfer Solutions</Card.Title>
+                    <Card.Title className="py-2">​​Material Transfer Solutions</Card.Title>
                     <ListGroup>
                       <ListGroup.Item className="text-start list-group-item list-group-item">
                         ​Silos
@@ -161,7 +161,7 @@ export const Product = () => {
                 <Card className="me-2 cardhover" style={{ height: 'auto' }}>
                   <Card.Img variant="top" src={donload3} style={{ height: '250px' }} />
                   <Card.Body>
-                    <Card.Title>Truck Loading & Unloading Solutions</Card.Title>
+                    <Card.Title className="py-2">Truck Loading & Unloading Solutions</Card.Title>
                     <ListGroup>
                       <ListGroup.Item className="text-start list-group-item">
                         ​Telescopic Conveyors
@@ -180,7 +180,7 @@ export const Product = () => {
                 <Card className="me-2 cardhover" style={{ height: 'auto' }}>
                   <Card.Img variant="top" src={download1} style={{ height: '250px' }} />
                   <Card.Body>
-                    <Card.Title>
+                    <Card.Title className="py-2">
                       ​​​​​​​ ​​​​​​​Smart Conveying Solutions
                     </Card.Title>
                     ​
@@ -215,7 +215,7 @@ export const Product = () => {
                 <Card className="me-2 cardhover" style={{ height: 'auto' }}>
                   <Card.Img variant="top" src={download2} style={{ height: '250px' }} />
                   <Card.Body>
-                    <Card.Title>
+                    <Card.Title className="py-2">
                       Cross Transfer System – Case, Tote, Pallet
                     </Card.Title>
                     <ListGroup>
@@ -236,7 +236,7 @@ export const Product = () => {
                 <Card className="me-2 cardhover" style={{ height: 'auto' }}>
                   <Card.Img variant="top" src={donload3} style={{ height: '250px' }} />
                   <Card.Body>
-                    <Card.Title>
+                    <Card.Title className="py-2">
                       Cloud based - IIoT & Data management Solutions​
                     </Card.Title>
                     <ListGroup>

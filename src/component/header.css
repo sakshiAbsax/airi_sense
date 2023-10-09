@@ -17,28 +17,49 @@
    }
 
   
+/* Common styles for all devices */
+.carousel-indicators [data-bs-target] {
+  border-radius: 50%;
+  background-color: rgba(141, 6, 225, 0.5) !important;
+}
 
-   .carousel-indicators [data-bs-target]{
-    border-radius: 50% !important;
-    background-color: rgba(141, 6, 225, 0.5) !important; 
-   }
+.carousel-caption {
+  position: absolute !important;
+  right: 70% !important;
+  bottom: 16.25rem !important;
+  left: 0 !important;
+  padding-top: 1.25rem !important;
+  padding-bottom: 1.25rem !important;
+  color: #fff !important;
+  text-align: center !important;
+}
+.carousel-control-prev,
+.carousel-control-next {
+  display: none !important;
+}
 
-   .carousel-caption {
-    position: absolute;
-    right: 53% !important;
-    bottom: 14.25rem !important;
-    left: 0 !important;
-    padding-top: 1.25rem;
-    padding-bottom: 1.25rem;
-    color: #fff;
-    text-align: center;
+/* Adjust caption position for smaller screens if needed */
+@media (max-width: 768px) {
+  /* Mobile and Tablet Styles */
+  .carousel-item {
+    height: 35vh !important;
   }
-  
-  /* Adjust caption position for smaller screens if needed */
-  @media (max-width: 768px) {
-    .carousel-caption {
-      text-align: center;
-      left: auto;
-      right: auto;
-    }
+
+  .carousel-caption {
+    text-align: center !important;
+    left: auto !important;
+    right: auto !important;
+    margin: 0 5px !important;
   }
+
+  /* Hide previous and next buttons for mobile and tablet */
+  .carousel-control-prev,
+  .carousel-control-next {
+    display: none !important;
+  }
+
+  /* Hide carousel indicators for mobile and tablet */
+  .carousel-indicators [data-bs-target] {
+    display: none !important; 
+  }
+}

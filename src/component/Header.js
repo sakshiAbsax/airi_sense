@@ -41,7 +41,7 @@ export const Header = () => {
               <Link to="/contact">
 
             
-              <Button variant="warning"> Contact Us</Button>
+              <Button variant="warning" className="btn btn-lg btn-borderd"> Contact Us</Button>
               </Link>
             </Form>
           </Navbar.Collapse>

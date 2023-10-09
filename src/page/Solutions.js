@@ -28,7 +28,7 @@ export const Solutions = () => {
 
       <div class="container">
         <div className=" row justify-content-center py-0 ">
-          <div className="col-lg-4">
+          <div className="col-lg-4 col-sm-12">
             <div class="card py-0 my-0">
               <div class="face face1">
                 <div class="content">
@@ -56,7 +56,7 @@ export const Solutions = () => {
               </div>
             </div>
           </div>
-          <div className="col-lg-4">
+          <div className="col-lg-4 col-sm-12">
             <div class="card">
               <div class="face face1">
                 <div class="content d-flex flex-column ">
@@ -84,7 +84,7 @@ export const Solutions = () => {
               </div>
             </div>
           </div>
-          <div className="col-lg-4">
+          <div className="col-lg-4 col-sm-12">
             <div class="card">
               <div class="face face1">
                 <div class="content">
@@ -112,7 +112,7 @@ export const Solutions = () => {
               </div>
             </div>
           </div>
-          <div className="col-lg-4">
+          <div className="col-lg-4 col-sm-12">
             <div class="card">
               <div class="face face1">
                 <div class="content">
@@ -140,7 +140,7 @@ export const Solutions = () => {
               </div>
             </div>
           </div>
-          <div className="col-lg-4">
+          <div className="col-lg-4 col-sm-12">
             <div class="card">
               <div class="face face1">
                 <div class="content d-flex flex-column ">
@@ -168,7 +168,7 @@ export const Solutions = () => {
               </div>
             </div>
           </div>
-          <div className="col-lg-4">
+          <div className="col-lg-4 col-sm-12">
             <div class="card">
               <div class="face face1">
                 <div class="content">

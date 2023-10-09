@@ -9,56 +9,60 @@ import './header.css';
 export const Slider = () => {
   return (
     <div>
-      <Carousel data-bs-theme="dark">
-        <Carousel.Item style={{height:"70vh"}}>
-          <img
-            className="d-block w-100"
-            src={download1}
-            alt="First slide"
-          />
-          <Carousel.Caption>
-            <h2  style={{color:"purple !important"}}>First slide label</h2>
-            <p  style={{color:"purple !important"}}>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-          </Carousel.Caption>
-        </Carousel.Item>
-        <Carousel.Item style={{height:"70vh"}}>
-          <img
-            className="d-block w-100"
-            src={download2}
-            alt="Second slide"
-          />
-          <Carousel.Caption >
-            <h2  style={{color:"purple !important"}}>Second slide label</h2>
-            <p  style={{color:"purple !important"}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-          </Carousel.Caption>
-        </Carousel.Item >
-        <Carousel.Item style={{height:"70vh"}}>
-          <img
-            className="d-block w-100"
-            src={donload3}
-            alt="Third slide"
-          />
-          <Carousel.Caption>
-            <h2  style={{color:"purple !important"}}>Third slide label</h2>
-            <p  style={{color:"purple !important"}}>
-              Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-            </p>
-          </Carousel.Caption>
-        </Carousel.Item>
-        <Carousel.Item style={{height:"70vh"}}>
-          <img
-            className="d-block w-100"
-            src={download4}
-            alt="Fourth slide"
-          />
-          <Carousel.Caption>
-            <h2  style={{color:"purple !important"}}>Fourth slide label</h2>
-            <p  style={{color:"purple !important"}}>
-              Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-            </p>
-          </Carousel.Caption>
-        </Carousel.Item>
-      </Carousel>
+  <Carousel data-bs-theme="dark">
+  <Carousel.Item style={{ height: "70vh" }}>
+    <img
+      className="d-block w-100"
+      src={download1}
+      alt="First slide"
+    />
+    <Carousel.Caption>
+      <h2 style={{ color: "purple" }}>First slide label</h2>
+      <p style={{ color: "purple" }}>
+        Nulla vitae elit libero, a pharetra augue mollis interdum.
+      </p>
+    </Carousel.Caption>
+  </Carousel.Item>
+  <Carousel.Item style={{ height: "70vh" }}>
+    <img
+      className="d-block w-100"
+      src={download2}
+      alt="Second slide"
+    />
+    <Carousel.Caption>
+      <h2 style={{ color: "purple" }}>Second slide label</h2>
+      <p style={{ color: "purple" }}>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      </p>
+    </Carousel.Caption>
+  </Carousel.Item>
+  <Carousel.Item style={{ height: "70vh" }}>
+    <img
+      className="d-block w-100"
+      src={donload3}
+      alt="Third slide"
+    />
+    <Carousel.Caption>
+      <h2 style={{ color: "purple" }}>Third slide label</h2>
+      <p style={{ color: "purple" }}>
+        Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+      </p>
+    </Carousel.Caption>
+  </Carousel.Item>
+  <Carousel.Item style={{ height: "70vh" }}>
+    <img
+      className="d-block w-100"
+      src={download4}
+      alt="Fourth slide"
+    />
+    <Carousel.Caption>
+      <h2 style={{ color: "purple" }}>Fourth slide label</h2>
+      <p style={{ color: "purple" }}>
+        Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+      </p>
+    </Carousel.Caption>
+  </Carousel.Item>
+</Carousel>
     </div>
   );
 };

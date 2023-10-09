@@ -18,7 +18,7 @@ import Footer from './component/Footer';
 function App() {
   return (
     <div>
-      
+    
       <Header />
       <Routes >
           <Route path='/' element={<Home />} />
@@ -32,11 +32,7 @@ function App() {
         <Route path="/product" element={<Product />} />                             
         <Route path="/*" element={<PageNotFound />}> </Route>
       </Routes>
-<<<<<<< HEAD
- 
-=======
-      {/* <Footer /> */}
->>>>>>> 253776ce896c657c307f32b65e237114a7cb595b
+      
     </div>
   );
 }

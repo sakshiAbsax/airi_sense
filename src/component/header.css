@@ -1,0 +1,25 @@
+.nav-link-products {
+     color: white; /* Change text color to purple */
+     text-decoration: none !important; /* Remove default underline */
+   }
+   
+   /* Add hover style */
+   .nav-link-products:hover {
+     color: orange; /* Change text color on hover (if desired) */
+     text-decoration: none !important; /* Remove underline on hover */
+   }
+   
+   /* Add active style */
+   .nav-link-products.active {
+     color: orange; /* Change text color when the link is active */
+     text-decoration: underline !important; /* Remove underline when the link is active */
+   }
+
+  
+
+   .carousel-indicators [data-bs-target]{
+    border-radius: 50% !important;
+    background-color: rgba(141, 6, 225, 0.5) !important; 
+   }
+
+  

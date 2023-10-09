@@ -1,0 +1,29 @@
+.cardhover{
+     background-color: aliceblue;
+
+}
+.cardhover:hover{
+     background-color:orange;
+     transform: scale(1.05);
+     
+}
+.cardhover {
+     height: auto; /* Set a fixed height for all cards */
+     display: flex;
+     flex-direction: column;
+     margin-top: 12px;
+     margin-right: 22px;
+     box-shadow: 2px 2px 2px 2px rgb(112, 109, 109);
+     
+   }
+   
+   .cardhover .card {
+     flex: 1; /* Make all cards have equal height within the container */
+     margin-bottom: 15px; /* Add margin between cards */
+   }
+
+   .cardhover .list-group-item:hover {
+     background-color: purple; /* Background color on hover */
+     color: white; /* Text color on hover */
+     cursor: pointer; /* Change cursor on hover (optional) */
+   }

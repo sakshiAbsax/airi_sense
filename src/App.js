@@ -14,10 +14,11 @@ import  Blogs  from './page/Blogs';
 import { Product } from './page/Product';
 import { Footer } from './component/Footer';
 
+
 function App() {
   return (
     <div>
-      
+    
       <Header />
       <Routes >
           <Route path='/' element={<Home />} />

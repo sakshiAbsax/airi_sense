@@ -15,7 +15,10 @@ export const Home = () => {
   };
   return (
     <>
+    <div className="">
     <Slider />
+    </div>
+   
       <div className="mt-3">
         <HomeAbout />
       </div>

@@ -3,8 +3,9 @@
 
 }
 .cardhover:hover{
-     background-color:orange;
-     transform: scale(1.05);
+     background-color:white;
+     transform: scale(1.01);
+     height: auto;
      
 }
 .cardhover {
@@ -13,7 +14,7 @@
      flex-direction: column;
      margin-top: 12px;
      margin-right: 22px;
-     box-shadow: 2px 2px 2px 2px rgb(112, 109, 109);
+     box-shadow: 2px 2px 0px 0px rgb(161, 160, 160);
      
    }
    
@@ -21,9 +22,25 @@
      flex: 1; /* Make all cards have equal height within the container */
      margin-bottom: 15px; /* Add margin between cards */
    }
-
-   .cardhover .list-group-item:hover {
-     background-color: purple; /* Background color on hover */
-     color: white; /* Text color on hover */
-     cursor: pointer; /* Change cursor on hover (optional) */
-   }
+  .cardhover .list-group-item {
+    display: none; /* Hide list items by default */
+    cursor: pointer; /* Change cursor on hover (optional) */
+    height: auto;
+  }
+  
+  .cardhover .list-group-item:hover {
+    background-color: orange; /* Background color on hover */
+    color: purple; /* Text color on hover */
+    cursor: pointer; /* Change cursor on hover (optional) */
+    height: auto;
+    font-size: 16px;
+    font-weight: 700;
+    overflow: hidden;
+  }
+  
+  /* Additional styles for showing list items on card hover */
+  .cardhover:hover .list-group-item {
+    display: block;
+    height: auto;
+  }
+  

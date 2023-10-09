@@ -10,62 +10,61 @@ a:hover {
   text-decoration: none;
 }
 
+
 .container {
   max-width: 1100px;
   margin: 0 auto;
+  padding: 0 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
 }
 
 .navbar {
-  background-color: #fff;
+  background-color: #fef7e5;
   position: relative;
   font-family: "kuka-bulo", Calibri, Segoe UI, Helvetica, Arial, Sans-Serif;
 }
 
-.header-nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
 .logo {
-  width: 140px;
-  height: auto;
 }
-
 
 .menu-icon {
   display: none;
 }
 
-
+.nav-elements {
+}
 
 .nav-elements ul {
   display: flex;
-  justify-content: start;
+  justify-content: space-between;
   list-style-type: none;
 }
 
 .nav-elements ul li:not(:last-child) {
-  margin-right: 25px;
+  margin-right: 60px;
 }
 
 .nav-elements ul a {
-  font-weight: 500;
+  font-size: 16px;
+  font-weight: 400;
   color: #2f234f;
   text-decoration: none;
 }
 
 .nav-elements ul a:hover {
-  color:#6f309e;
+  font-size: 16px;
+  font-weight: 600;
+  color: #6f309d;
   text-decoration: none;
 }
 
 .nav-elements ul a.active {
-  font-weight: 600;
-  color:#6f309e;
-  text-decoration: none;
+  color: #574c4c;
+  font-weight: 500;
 }
-
 
 @media (max-width: 768px) {
   .nav-elements ul li:not(:last-child) {
@@ -79,14 +78,10 @@ a:hover {
     cursor: pointer;
   }
 
-  .headerBtn{
-    display: none;
-  }
-
   .nav-elements {
     position: absolute;
     right: 0;
-    top: 53px;
+    top: 60px;
     background-color: #fef7e5;
     width: 0px;
     height: calc(100vh - 60px);
@@ -146,21 +141,20 @@ a:hover {
 
 /* Home Technology  */
 
-@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800");
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800');
 
 .np {
-  padding: 0px;
+    padding: 0px;
 }
 
-.featuredPropBox {
-}
+.featuredPropBox {}
 
 .featuredPropBox ul {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  list-style: outside none none;
-  padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: outside none none;
+    padding: 0;
 }
 
 .featuredPropBox ul li {
@@ -179,98 +173,99 @@ a:hover {
 }
 
 .featuredPropBox ul li:after {
-  position: absolute;
-  content: "";
-  width: 100%;
-  height: 100%;
-  left: 0;
-  top: 0;
-  background-color: rgba(22, 22, 22, 0.6);
-  transition: all 0.3s;
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-color: rgba(22, 22, 22, 0.6);
+    transition: all 0.3s;
 }
 
 .featuredPropBox ul li:nth-child(1) {
-  background-image: url("https://i.ibb.co/ZmtmLGK/a.jpg");
+    background-image: url('https://i.ibb.co/ZmtmLGK/a.jpg');
 }
 
 .featuredPropBox ul li:nth-child(2) {
-  background-image: url("https://i.ibb.co/pzGysVS/b.jpg");
+    background-image: url('https://i.ibb.co/pzGysVS/b.jpg');
 }
 
 .featuredPropBox ul li:nth-child(3) {
-  background-image: url("https://i.ibb.co/QMrtWT1/c.jpg");
+    background-image: url('https://i.ibb.co/QMrtWT1/c.jpg');
 }
 
 .featuredPropBox ul li:nth-child(4) {
-  background-image: url("https://i.ibb.co/DL5pvY6/bg-1-2.jpg");
+    background-image: url('https://i.ibb.co/DL5pvY6/bg-1-2.jpg');
 }
 
 .featuredPropBox ul li:nth-child(5) {
-  background-image: url("https://i.ibb.co/FWV1BJG/bg-1.jpg");
+    background-image: url('https://i.ibb.co/FWV1BJG/bg-1.jpg');
 }
 .featuredPropBox ul li:nth-child(6) {
-  background-image: url("https://i.ibb.co/ZXmWmSZ/14.jpg");
+    background-image: url('https://i.ibb.co/ZXmWmSZ/14.jpg');
 }
 
 .featuredPropBox ul li:nth-child(7) {
-  background-image: url("https://i.ibb.co/hLcmWbT/15646.jpg");
+    background-image: url('https://i.ibb.co/hLcmWbT/15646.jpg');
 }
 
 .featuredPropBox ul li:nth-child(8) {
-  background-image: url("https://i.ibb.co/89P5rTs/15678.jpg");
+    background-image: url('https://i.ibb.co/89P5rTs/15678.jpg');
 }
 
 .featuredPropBox ul li:nth-child(9) {
-  background-image: url("https://i.ibb.co/RhZgpSG/20845.jpg");
+    background-image: url('https://i.ibb.co/RhZgpSG/20845.jpg');
 }
 
 .featuredPropBox ul li .fplogo {
-  left: 50%;
-  position: absolute;
-  top: 50%;
-  transform: translate(-50%, -50%);
-  width: 60%;
-  z-index: 1;
-  transition: all 0.3s;
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 60%;
+    z-index: 1;
+    transition: all 0.3s;
 }
 
 .featuredPropBox ul li .fplogo img {
-  width: 100%;
+    width: 100%;
 }
 
 .featuredPropBox ul li .fptext {
-  display: none;
-  font-size: 16px;
-  left: 50%;
-  position: absolute;
-  text-align: center;
-  top: 50%;
-  transform: translate(-50%, -50%);
-  transition: all 0.3s ease 0s;
-  width: 65%;
-  z-index: 1;
+    display: none;
+    font-size: 16px;
+    left: 50%;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    transition: all 0.3s ease 0s;
+    width: 65%;
+    z-index: 1;
 }
 
 .featuredPropBox ul li .fptext p {
-  color: #fff;
-  margin: 0px;
+    color: #fff;
+    margin: 0px;
 }
 
 .featuredPropBox ul li:hover {
-  box-shadow: 0 0 0 25px rgba(0, 0, 0, 0.2) inset;
+    box-shadow: 0 0 0 25px rgba(0, 0, 0, 0.2) inset;
 }
 
 .featuredPropBox ul li:hover:after {
-  background-color: rgba(22, 22, 22, 0.3);
+    background-color: rgba(22, 22, 22, 0.3);
 }
 
 .featuredPropBox ul li:hover .fplogo {
-  display: none;
+    display: none;
 }
 
 .featuredPropBox ul li:hover .fptext {
-  display: block;
+    display: block;
 }
+
 
 /* News  */
 
@@ -455,65 +450,68 @@ a:hover {
 
 .img-zoom-out:hover {
   /* Scale down the image on hover */
-  transform: scale(
-    0.95
-  ); /* You can adjust the scale factor as needed for the desired zoom out level */
+  transform: scale(0.95); /* You can adjust the scale factor as needed for the desired zoom out level */
   opacity: 0.8; /* Decrease opacity on hover */
   transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out; /* Add a smooth transition effect for both scale and opacity */
 }
 
-.container {
+.container{
   width: 1000px;
   position: relative;
   display: flex;
   justify-content: space-between;
 }
 
-.container .card {
+.container .card{
   position: relative;
   cursor: pointer;
   --bs-card-border-color: none;
   color: White;
+  
 }
 
-.container .card .face {
+.container .card .face{
   width: 400px;
   height: 200px;
   transition: 0.5s;
   overflow: hidden;
+
 }
 
-.container .card .face.face1 {
+.container .card .face.face1{
   position: relative;
-  background: #6f309d;
+  background:#6f309d;
   display: flex;
   justify-content: center;
   align-items: center;
   z-index: 1;
   transform: translateY(100px);
-  background: url("https://i.ibb.co/pzGysVS/b.jpg") rgba(255, 255, 255, 0.1);
+  background: url('https://i.ibb.co/pzGysVS/b.jpg') rgba(255, 255, 255, 0.1);
   height: 300px;
   border-radius: 5px;
 }
 
-.container .card:hover .face.face1 {
+.container .card:hover .face.face1{
+
   transform: translateY(0);
 }
 
-.container .card .face.face1 .content {
+.container .card .face.face1 .content{
   opacity: 1;
   transition: 0.5s;
+
 }
 
-.container .card:hover .face.face1 .content {
+.container .card:hover .face.face1 .content{
+  
   opacity: 1;
 }
 
-.container .card .face.face1 .content img {
+.container .card .face.face1 .content img{
   max-width: 100px;
 }
 
-.container .card .face.face1 .content h3 {
+.container .card .face.face1 .content h3{
   margin: 10px 0 0;
   padding: 0;
   color: #fff;
@@ -521,9 +519,9 @@ a:hover {
   font-size: 1.5em;
 }
 
-.container .card .face.face2 {
+.container .card .face.face2{
   position: relative;
-  background: black;
+  background:black;
   color: #fff;
   display: flex;
   justify-content: center;
@@ -532,21 +530,22 @@ a:hover {
   box-sizing: border-box;
   box-shadow: 0 20px 50px rgba(0, 0, 0, 0.8);
   transform: translateY(-100px);
+
 }
 
-.container .card:hover .face.face2 {
+.container .card:hover .face.face2{
   transform: translateY(0);
   height: auto;
 }
 
-.container .card .face.face2 .content p {
+.container .card .face.face2 .content p{
   margin: 0;
   padding: 0;
 }
 
-.container .card .face.face2 .content a {
+.container .card .face.face2 .content a{
   margin: 15px 0 0;
-  display: inline-block;
+  display:  inline-block;
   text-decoration: none;
   font-weight: 900;
   color: #333;
@@ -554,7 +553,7 @@ a:hover {
   border: 1px solid #333;
 }
 
-.container .card .face.face2 .content a:hover {
+.container .card .face.face2 .content a:hover{
   background: #333 !important;
   color: #fff !important;
 }
@@ -570,8 +569,8 @@ a:hover {
   }
 }
 
-.solution-cutomized {
-  height: 270px;
-  margin: 10px 60px !important;
-  width: 590px !important;
+.solution-cutomized{
+height: 270px;
+    margin: 10px 60px !important;
+    width: 590px !important;
 }

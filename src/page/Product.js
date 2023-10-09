@@ -1,4 +1,4 @@
-import React from "react";
+import React,{useState} from "react";
 import product_bnr from "../images/product_bnr.png";
 import { Col, ListGroup, ListGroupItem, Row } from "react-bootstrap";
 import productDiscription from "../images/productDis.webp";
@@ -11,6 +11,15 @@ import donload3 from "../images/donload3.jpg";
 import "./product.css";
 
 export const Product = () => {
+  const [isHovered, setIsHovered] = useState(false);
+
+  const handleHover = () => {
+    setIsHovered(true);
+  };
+
+  const handleMouseLeave = () => {
+    setIsHovered(false);
+  };
   return (
     <div>
       <section id="our_pride">
@@ -86,7 +95,8 @@ export const Product = () => {
           </div>
         </div>
       </section>
-        <div className="row justify-content-center pt-5 ">
+      <div className="mx-lg-5">
+        <div className="row justify-content-center pt-5  mx-lg-5 mx-3">
             <h1
               className=" fw-bold text-center"
               style={{ color: "#6f309d", letterSpacing: "6px" }}
@@ -94,9 +104,13 @@ export const Product = () => {
               Our Products
             </h1>
          
-              <div className="col-lg-4 mx-5">
-                <Card className="me-2 cardhover">
-                  <Card.Img variant="top" src={download1} />
+              <div className="col-lg-3 mx-2">
+                <Card 
+                   className={`me-2 cardhover ${isHovered ? 'hovered' : ''}`}
+                   onMouseEnter={handleHover}
+                   onMouseLeave={handleMouseLeave}
+                    style={{ height: 'au' }}>
+                  <Card.Img variant="top" src={download1} style={{ height: '250px' }} />
                   <Card.Body>
                     <Card.Title>
                       ​​​​​​​ ​​​​​​​Smart Robotic solutons
@@ -121,9 +135,9 @@ export const Product = () => {
                   </Card.Body>
                 </Card>
               </div>
-              <div className="col-lg-4 mx-5">
-                <Card className="me-2 cardhover">
-                  <Card.Img variant="top" src={download2} />
+              <div className="col-lg-3 mx-2">
+                <Card className="me-2 cardhover" style={{ height: 'auto' }}>
+                  <Card.Img variant="top" src={download2} style={{ height: '250px' }} />
                   <Card.Body>
                     <Card.Title>​​Material Transfer Solutions</Card.Title>
                     <ListGroup>
@@ -143,12 +157,12 @@ export const Product = () => {
                   </Card.Body>
                 </Card>
               </div>
-              <div className="col-lg-4 mx-5 pb-5">
-                <Card className="me-2 cardhover">
-                  <Card.Img variant="top" src={donload3} />
+              <div className="col-lg-3 mx-2 ">
+                <Card className="me-2 cardhover" style={{ height: 'auto' }}>
+                  <Card.Img variant="top" src={donload3} style={{ height: '250px' }} />
                   <Card.Body>
                     <Card.Title>Truck Loading & Unloading Solutions</Card.Title>
-                    <ListGroup className="cardhover">
+                    <ListGroup>
                       <ListGroup.Item className="text-start list-group-item">
                         ​Telescopic Conveyors
                       </ListGroup.Item>
@@ -162,9 +176,9 @@ export const Product = () => {
                   </Card.Body>
                 </Card>
               </div>
-              <div className="col-lg-4 mx-5">
-                <Card className="me-2 cardhover">
-                  <Card.Img variant="top" src={download1} />
+              <div className="col-lg-3 mx-2">
+                <Card className="me-2 cardhover" style={{ height: 'auto' }}>
+                  <Card.Img variant="top" src={download1} style={{ height: '250px' }} />
                   <Card.Body>
                     <Card.Title>
                       ​​​​​​​ ​​​​​​​Smart Conveying Solutions
@@ -197,9 +211,9 @@ export const Product = () => {
                   </Card.Body>
                 </Card>
               </div>
-              <div className="col-lg-4 mx-5">
-                <Card className="me-2 cardhover">
-                  <Card.Img variant="top" src={download2} />
+              <div className="col-lg-3 mx-2">
+                <Card className="me-2 cardhover" style={{ height: 'auto' }}>
+                  <Card.Img variant="top" src={download2} style={{ height: '250px' }} />
                   <Card.Body>
                     <Card.Title>
                       Cross Transfer System – Case, Tote, Pallet
@@ -218,9 +232,9 @@ export const Product = () => {
                   </Card.Body>
                 </Card>
               </div>
-              <div className="col-lg-4">
-                <Card className="me-2 cardhover">
-                  <Card.Img variant="top" src={donload3} />
+              <div className="col-lg-3 mx-2">
+                <Card className="me-2 cardhover" style={{ height: 'auto' }}>
+                  <Card.Img variant="top" src={donload3} style={{ height: '250px' }} />
                   <Card.Body>
                     <Card.Title>
                       Cloud based - IIoT & Data management Solutions​
@@ -236,6 +250,7 @@ export const Product = () => {
                   </Card.Body>
                 </Card>
               </div>
+            </div>
             </div>
           </div>
   );

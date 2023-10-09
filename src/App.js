@@ -13,6 +13,7 @@ import { Solutions } from './page/Solutions';
 import  Blogs  from './page/Blogs';
 import { Product } from './page/Product';
 
+
 function App() {
   return (
     <div>
@@ -30,7 +31,7 @@ function App() {
         <Route path="/product" element={<Product />} />                             
         <Route path="/*" element={<PageNotFound />}> </Route>
       </Routes>
-      
+ 
     </div>
   );
 }

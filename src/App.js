@@ -12,6 +12,7 @@ import { Contact } from './page/Contact';
 import { Solutions } from './page/Solutions';
 import  Blogs  from './page/Blogs';
 import { Product } from './page/Product';
+import Footer from './component/Footer';
 
 
 function App() {
@@ -31,7 +32,11 @@ function App() {
         <Route path="/product" element={<Product />} />                             
         <Route path="/*" element={<PageNotFound />}> </Route>
       </Routes>
+<<<<<<< HEAD
  
+=======
+      {/* <Footer /> */}
+>>>>>>> 253776ce896c657c307f32b65e237114a7cb595b
     </div>
   );
 }

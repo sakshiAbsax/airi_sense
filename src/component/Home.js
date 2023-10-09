@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import home_bnr from "../images/home_bnr.jpg";
 import homeTech1 from "../images/homeTech1.jpg";
 import { HomeAbout } from "./HomeAbout";
+import { Slider } from "./Slider";
 
 export const Home = () => {
   const [isHovered, setIsHovered] = useState(false);
@@ -14,11 +15,8 @@ export const Home = () => {
   };
   return (
     <>
-      <div className="bnrImg">
-        <img src={home_bnr} width="100%" height="700px" />
-      </div>
-
-      <div className=" py-5 mt-5">
+    <Slider />
+      <div className="mt-3">
         <HomeAbout />
       </div>
       {/* <div className="row pb-4 pt-2">

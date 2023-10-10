@@ -43,7 +43,7 @@ export const Product = () => {
                 <h1
                   style={{
                     fontWeight: "600",
-                    color: "#6f309e",
+                    color: "#128c7e",
                     letterSpacing: "3px",
                   }}
                   className="text-start list-group-item"
@@ -103,7 +103,7 @@ export const Product = () => {
         <div className="row justify-content-center  mx-lg-5 mx-3">
             <h1
               className=" fw-bold text-center pb-3"
-              style={{ color: "#6f309d", letterSpacing: "6px" }}
+              style={{ color: "#128c7e", letterSpacing: "6px" }}
             >
               Our Products
             </h1>

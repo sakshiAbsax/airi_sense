@@ -25,7 +25,7 @@ export const About = () => {
      
           <div className=" row  justify-content-center d-flex">
             <div className="col-lg-7 col-md-12 col-sm-12 ">
-            <h1 className=" fw-bold text-start  " style={{color:"#6f309d", letterSpacing:"6px"}}>History</h1>
+            <h1 className=" fw-bold text-start  " style={{color:"#128c7e", letterSpacing:"6px"}}>History</h1>
               <div className=" pt-2 whatWeDo">
                 <p className="mt-3">
                   Airi-Sense, backed by the two-decade-old Automation &
@@ -65,7 +65,7 @@ export const About = () => {
         <div className=" py-4  ">
           <div className="row justify-content-center  py-5">
             <div className="col-md-8 card px-4 py-3 shadow ">
-              <div className="py-4 " style={{color:"#6f309d"}}>
+              <div className="py-4 " style={{color:"#128c7e"}}>
                 <h2 className="text-center fw-bold">Our Root's</h2>
                 <h3 className="text-center"  style={{letterSpacing:"3px"}}>Shri Vasant Engineer's</h3>
               </div>
@@ -95,7 +95,7 @@ export const About = () => {
             </div>
           </div>
           <div className="col-md-8 mt-lg-3 pt-lg-5 ">
-            <h1 className="py-3 text-center fw-bold" style={{color:"#6f309d" , letterSpacing:"3px"}}>Mission</h1>
+            <h1 className="py-3 text-center fw-bold" style={{color:"#128c7e" , letterSpacing:"3px"}}>Mission</h1>
             <p className="py-2 px-3">
               To deliver reliable, secure, & scalable solutions enabling our
               clients to innovate, collaborate, and scale their operations
@@ -108,7 +108,7 @@ export const About = () => {
       <div className="container  vision">
         <div className="row clearfix pb-lg-5 justify-content-end ">
           <div className="col-md-8 mt-lg-3 pt-lg-5 ">
-            <h1 className="pb-3 text-center fw-bold" style={{color:"#6f309d" , letterSpacing:"3px"}}>Vision</h1>
+            <h1 className="pb-3 text-center fw-bold" style={{color:"#128c7e" , letterSpacing:"3px"}}>Vision</h1>
             <p className=" py-2 px-3">
               To deliver reliable, secure, & scalable solutions enabling our
               clients to innovate, collaborate, and scale their operations

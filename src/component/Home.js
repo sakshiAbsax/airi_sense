@@ -143,7 +143,7 @@ export const Home = () => {
           <div className="row justify-content-center  py-5">
             <div className="col-md-8 card px-4 py-3 shadow ">
               
-              <div className="py-4 " style={{color:"#6f309d"}}>
+              <div className="py-4 " style={{color:"#128c7e"}}>
                 <h2 className="text-center fw-bold">Our Root's</h2>
                 <h3 className="text-center"  style={{letterSpacing:"3px"}}>Shri Vasant Engineer's</h3>
               </div>
@@ -169,7 +169,7 @@ export const Home = () => {
         <div className="row py-4">
           <div className="col-md-12">
             <center>
-              <h1>Updated News</h1>
+              <h1 style={{color:"#128c7e"}}>Updated News</h1>
             </center>
           </div>
         </div>

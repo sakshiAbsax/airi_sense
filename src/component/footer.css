@@ -4,10 +4,10 @@
 }
     /* Hover state */
     .nav-link:hover {
-      color: #fbbd02 !important;
+      color:orange !important;
     }
   
     /* Active state */
     .nav-link:active {
-      color: #fbbd02 !important;
+      color: orange !important;
     }

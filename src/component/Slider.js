@@ -17,8 +17,8 @@ export const Slider = () => {
       alt="First slide"
     />
     <Carousel.Caption>
-      <h2 style={{ color: "purple" }}>First slide label</h2>
-      <p style={{ color: "purple" }}>
+      <h2 className=' text-center fw-bold' style={{fontSize:"65px"}} >First slide label</h2>
+      <p className=' text-center fs-4' >
         Nulla vitae elit libero, a pharetra augue mollis interdum.
       </p>
     </Carousel.Caption>
@@ -30,8 +30,8 @@ export const Slider = () => {
       alt="Second slide"
     />
     <Carousel.Caption>
-      <h2 style={{ color: "purple" }}>Second slide label</h2>
-      <p style={{ color: "purple" }}>
+      <h2 className='text-center fw-bold' style={{fontSize:"65px"}}>Second slide label</h2>
+      <p className='text-center fs-4'>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit.
       </p>
     </Carousel.Caption>
@@ -43,8 +43,8 @@ export const Slider = () => {
       alt="Third slide"
     />
     <Carousel.Caption>
-      <h2 style={{ color: "purple" }}>Third slide label</h2>
-      <p style={{ color: "purple" }}>
+      <h2 className='text-center fw-bold'style={{fontSize:"65px"}}>Third slide label</h2>
+      <p className='text-center fs-4'>
         Praesent commodo cursus magna, vel scelerisque nisl consectetur.
       </p>
     </Carousel.Caption>
@@ -56,13 +56,13 @@ export const Slider = () => {
       alt="Fourth slide"
     />
     <Carousel.Caption>
-      <h2 style={{ color: "purple" }}>Fourth slide label</h2>
-      <p style={{ color: "purple" }}>
+      <h2 className='text-center  fw-bold' style={{fontSize:"65px"}}>Fourth slide label</h2>
+      <p className="text-center fs-4">
         Praesent commodo cursus magna, vel scelerisque nisl consectetur.
       </p>
     </Carousel.Caption>
   </Carousel.Item>
-</Carousel>
+</Carousel>   
     </div>
   );
 };

@@ -1,17 +1,9 @@
-<<<<<<< HEAD
 
-import solutions from "../images/solutions.jpg";
-import React,{useState} from "react";
-
-import product_bnr from "../images/product_bnr.png";
-import { ListGroup, } from "react-bootstrap";
-
-=======
 import solutions from "../images/solutions.jpg";
 import React,{useState} from "react";
 import product_bnr from "../images/product_bnr.png";
 import { ListGroup, } from "react-bootstrap";
->>>>>>> 387b50e13154d8b85b220a094d6fd0cc7a9396f5
+
 
 import Card from "react-bootstrap/Card";
 import { Link } from "react-router-dom";

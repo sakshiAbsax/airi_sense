@@ -1,21 +1,23 @@
 .nav-link-products {
-     color: #642551; /* Change text color to purple */
+     color: black; /* Change text color to purple */
      text-decoration: none !important; /* Remove default underline */
      font-size: 22px;
    }
    
    /* Add hover style */
    .nav-link-products:hover {
-     color: orange; /* Change text color on hover (if desired) */
+     color: #128c7e; /* Change text color on hover (if desired) */
      text-decoration: none !important; /* Remove underline on hover */
    }
    
    /* Add active style */
    .nav-link-products.active {
-     color: orange; /* Change text color when the link is active */
+    color:#128c7e ;
     
    }
 
+
+   /* background-image: linear-gradient(to right top, #63b2be, #53c3b4, #71d095, #abd66c, #f1d34d); */
   
 /* Common styles for all devices */
 .carousel-indicators [data-bs-target] {
@@ -52,8 +54,7 @@
   }
 
   .carousel-caption {
-    text-align: center !important;
-    left: auto !important;
+    
     right: auto !important;
     margin: 0 5px !important;
     

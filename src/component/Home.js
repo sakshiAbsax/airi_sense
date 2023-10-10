@@ -139,7 +139,7 @@ export const Home = () => {
 
       
       <div className="aboutRoot text-white mb-5">
-        <div className="  py-4  ">
+        <div className="py-lg-4 ">
           <div className="row justify-content-center  py-5">
             <div className="col-md-8 card px-4 py-3 shadow ">
               

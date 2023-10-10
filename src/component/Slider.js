@@ -1,9 +1,8 @@
 import React from 'react';
 import Carousel from 'react-bootstrap/Carousel';
-import download1 from '../images/download1.jpg';
-import download2 from '../images/download2.jpg';
-import donload3 from '../images/donload3.jpg';
-import download4 from '../images/download4.jpg';
+import slider1 from '../images/slider1.png';
+import slider2 from '../images/slider2.png';
+import slider3 from '../images/slider3.png';
 import './header.css';
 
 export const Slider = () => {
@@ -13,7 +12,7 @@ export const Slider = () => {
   <Carousel.Item style={{ height: "70vh" }}>
     <img
       className="d-block w-100"
-      src={download1}
+      src={slider1}
       alt="First slide"
     />
     <Carousel.Caption>
@@ -26,7 +25,7 @@ export const Slider = () => {
   <Carousel.Item style={{ height: "70vh" }}>
     <img
       className="d-block w-100"
-      src={download2}
+      src={slider2}
       alt="Second slide"
     />
     <Carousel.Caption>
@@ -39,7 +38,7 @@ export const Slider = () => {
   <Carousel.Item style={{ height: "70vh" }}>
     <img
       className="d-block w-100"
-      src={donload3}
+      src={slider3}
       alt="Third slide"
     />
     <Carousel.Caption>
@@ -52,7 +51,7 @@ export const Slider = () => {
   <Carousel.Item style={{ height: "70vh" }}>
     <img
       className="d-block w-100"
-      src={download4}
+      src={slider1}
       alt="Fourth slide"
     />
     <Carousel.Caption>

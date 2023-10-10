@@ -1,10 +1,10 @@
-import React from "react";
+
 import solutions from "../images/solutions.jpg";
 import React,{useState} from "react";
-import solutions from "../images/solutions.png";
+
 import product_bnr from "../images/product_bnr.png";
 import { ListGroup, } from "react-bootstrap";
-import productDiscription from "../images/productDis.webp";
+
 
 import Card from "react-bootstrap/Card";
 import { Link } from "react-router-dom";

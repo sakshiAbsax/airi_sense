@@ -1,0 +1,13 @@
+.nav-link {
+    color: white !important; /* Default color */
+    text-decoration: none !important; /* Remove underline */
+}
+    /* Hover state */
+    .nav-link:hover {
+      color: orange !important;
+    }
+  
+    /* Active state */
+    .nav-link:active {
+      color: orange !important;
+    }

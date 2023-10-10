@@ -27,7 +27,7 @@ export const Customer = () => {
             <div className="col-lg-10">
               <h1
                 className="text-center py-2 fw-bold"
-                style={{ color: "#6f309e", letterSpacing: "3px" }}
+                style={{ color: "#128c7e", letterSpacing: "3px" }}
               >
                 Customer
               </h1>
@@ -50,7 +50,7 @@ export const Customer = () => {
                   <h1
                     style={{
                       fontWeight: "600",
-                      color: "#6f309e",
+                      color: "#128c7e",
                       letterSpacing: "3px",
                     }}
                     className="text-start"

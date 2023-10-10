@@ -61,7 +61,7 @@ a:hover {
 }
 
 .nav-elements ul a:hover {
-  color: #6f309e;
+  color: #128c7e;
 
   text-decoration: none;
 }
@@ -69,7 +69,7 @@ a:hover {
 .nav-elements ul a.active {
   font-weight: 600;
 
-  color: #6f309e;
+  color: #128c7e;
 
   text-decoration: none;
 }
@@ -131,7 +131,7 @@ a:hover {
 }
 .whatWeDo h2 {
   font-size: 55px;
-  color: #6f309e;
+  color: #128c7e;
   font-weight: 500;
 }
 
@@ -143,13 +143,13 @@ a:hover {
 }
 .whatWeDo .button-1 {
   color: #fff;
-  border: 3px solid #6f309e !important;
+  border: 3px solid #128c7e !important;
   background-image: -webkit-linear-gradient(
     30deg,
-    #6f309e 50%,
+    #128c7e 50%,
     transparent 50%
   );
-  background-image: linear-gradient(30deg, #6f309e 50%, transparent 50%);
+  background-image: linear-gradient(30deg, #128c7e 50%, transparent 50%);
   background-size: 500px;
   background-repeat: no-repeat;
   background-position: 0%;
@@ -158,7 +158,7 @@ a:hover {
 }
 .whatWeDo .button-1:hover {
   background-position: 100%;
-  color: #6f309e;
+  color: #128c7e;
 }
 
 /* Home Technology  */
@@ -460,7 +460,7 @@ a:hover {
   font-family: "kuka-bulo", Calibri, Segoe UI, Helvetica, Arial, sans-serif;
 }
 .aboutRoot {
-  background: linear-gradient(to top right, #1325e8 -5%, #8f10b7 100%);
+  background-image: linear-gradient(to right top, #63b2be, #53c3b4, #71d095, #abd66c, #f1d34d);
 }
 
 .img-hover-effect:hover {

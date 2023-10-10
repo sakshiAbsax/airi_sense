@@ -2,15 +2,11 @@
 
 
 
-import React,{useState} from "react";
-<<<<<<< HEAD
+import React,{useState} from "react"
 import product_bnr from "../images/product_bnr.png";
 import { ListGroup, } from "react-bootstrap";
-=======
-import { ListGroup, } from "react-bootstrap";
-import solutions from "../images/solutions.jpg";
 
->>>>>>> 694ca907f453c5f148a49294bd3fd7b4df167ffa
+import solutions from "../images/solutions.jpg";
 
 
 import Card from "react-bootstrap/Card";

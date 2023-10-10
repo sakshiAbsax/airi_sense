@@ -1,13 +1,17 @@
 import React,{useState} from "react";
 import product_bnr from "../images/product_bnr.png";
 import { ListGroup, } from "react-bootstrap";
-import productDiscription from "../images/productDis.webp";
+import productDiscription from "../images/productDis.png";
 
 import Card from "react-bootstrap/Card";
 import { Link } from "react-router-dom";
-import download1 from "../images/download1.jpg";
-import download2 from "../images/download2.jpg";
-import donload3 from "../images/donload3.jpg";
+import p1 from "../images/product/p-1.jpg";
+import p2 from "../images/product/p-2.png";
+import p3 from "../images/product/p-3.png";
+import p4 from "../images/product/p-4.jpg";
+import p5 from "../images/product/p-5.png";
+import p6 from "../images/product/p-6.webp";
+
 import "./product.css";
 
 export const Product = () => {
@@ -24,7 +28,7 @@ export const Product = () => {
     <div>
       <section id="our_pride">
         <div className="bnrImg">
-          <img src={product_bnr} width="100%" height="700px" alt="Solutions" />
+          <img src={product_bnr} width="100%" height="auto" />
         </div>
       </section>
 
@@ -34,7 +38,7 @@ export const Product = () => {
       >
         <div className="container py-5">
           <div className="row justify-content-between align-items-center">
-            <div className="col col-md-8 col-sm-12 col-lg-6 mb-5">
+            <div className="col col-md-8 col-sm-12 col-lg-7 mb-5">
               <div className="whatWeDo">
                 <h1
                   style={{
@@ -87,18 +91,18 @@ export const Product = () => {
               </div>
             </div>
 
-            <div className="col-md-12 col-sm-12 col-lg-4 mb-5">
+            <div className="col-md-12 col-sm-12 col-lg-5 mb-5">
               <div className="about_us_img">
-                <img src={productDiscription} width="100%" alt="" />
+                <img src={productDiscription} className="image-fluid ms-2" width="100%" alt="" />
               </div>
             </div>
           </div>
         </div>
       </section>
       <div className="mx-lg-5 py-5">
-        <div className="row justify-content-center pt-5  mx-lg-5 mx-3">
+        <div className="row justify-content-center  mx-lg-5 mx-3">
             <h1
-              className=" fw-bold text-center"
+              className=" fw-bold text-center pb-3"
               style={{ color: "#6f309d", letterSpacing: "6px" }}
             >
               Our Products
@@ -110,7 +114,7 @@ export const Product = () => {
                    onMouseEnter={handleHover}
                    onMouseLeave={handleMouseLeave}
                     style={{ height: 'au' }}>
-                  <Card.Img variant="top" src={download1} style={{ height: '250px' }} />
+                  <Card.Img variant="top" src={p1} style={{ height: '250px' }} />
                   <Card.Body>
                     <Card.Title className="py-2">
                       ​​​​​​​ ​​​​​​​Smart Robotic solutons
@@ -137,7 +141,7 @@ export const Product = () => {
               </div>
               <div className="col-lg-3 mx-2">
                 <Card className="me-2 cardhover" style={{ height: 'auto' }}>
-                  <Card.Img variant="top" src={download2} style={{ height: '250px' }} />
+                  <Card.Img variant="top" src={p2} style={{ height: '250px' }} />
                   <Card.Body>
                     <Card.Title className="py-2">​​Material Transfer Solutions</Card.Title>
                     <ListGroup>
@@ -159,7 +163,7 @@ export const Product = () => {
               </div>
               <div className="col-lg-3 mx-2 ">
                 <Card className="me-2 cardhover" style={{ height: 'auto' }}>
-                  <Card.Img variant="top" src={donload3} style={{ height: '250px' }} />
+                  <Card.Img variant="top" src={p3} style={{ height: '250px' }} />
                   <Card.Body>
                     <Card.Title className="py-2">Truck Loading & Unloading Solutions</Card.Title>
                     <ListGroup>
@@ -178,7 +182,7 @@ export const Product = () => {
               </div>
               <div className="col-lg-3 mx-2">
                 <Card className="me-2 cardhover" style={{ height: 'auto' }}>
-                  <Card.Img variant="top" src={download1} style={{ height: '250px' }} />
+                  <Card.Img variant="top" src={p4} style={{ height: '250px' }} />
                   <Card.Body>
                     <Card.Title className="py-2">
                       ​​​​​​​ ​​​​​​​Smart Conveying Solutions
@@ -213,7 +217,7 @@ export const Product = () => {
               </div>
               <div className="col-lg-3 mx-2">
                 <Card className="me-2 cardhover" style={{ height: 'auto' }}>
-                  <Card.Img variant="top" src={download2} style={{ height: '250px' }} />
+                  <Card.Img variant="top" src={p5} style={{ height: '250px' }} />
                   <Card.Body>
                     <Card.Title className="py-2">
                       Cross Transfer System – Case, Tote, Pallet
@@ -234,10 +238,10 @@ export const Product = () => {
               </div>
               <div className="col-lg-3 mx-2">
                 <Card className="me-2 cardhover" style={{ height: 'auto' }}>
-                  <Card.Img variant="top" src={donload3} style={{ height: '250px' }} />
+                  <Card.Img variant="top" src={p6} style={{ height: '250px' }} />
                   <Card.Body>
                     <Card.Title className="py-2">
-                      Cloud based - IIoT & Data management Solutions​
+                      Cloud based - IIoT & Data management
                     </Card.Title>
                     <ListGroup style={{ border: "none !important" }}>
                       <ListGroup.Item className="text-start list-group-item">

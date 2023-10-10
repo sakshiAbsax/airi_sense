@@ -15,7 +15,7 @@ export const Industries = () => {
     <div>
       <section id="our_pride">
         <div className="bnrImg">
-          <img src={industries} width="100%" height="700px" />
+          <img src={industries} width="100%" height="auto" />
         </div>
       </section>
 

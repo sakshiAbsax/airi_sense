@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import solutions from '../images/solutions.png'; // Import your image
+import solutions from '../images/solutions.jpg'; // Import your image
 import blogsData from './BlogsData'; // Import your blog data (if available)
 
 const Blogs = () => {
@@ -17,7 +17,7 @@ const Blogs = () => {
     <div>
       <section id="our_pride">
         <div className="bnrImg">
-          <img src={solutions} width="100%" height="700px" alt="Solutions" />
+          <img src={solutions} width="100%" height="auto" alt="Solutions" />
         </div>
 
         <div className="news">

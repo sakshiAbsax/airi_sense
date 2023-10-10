@@ -1,11 +1,11 @@
 import React from "react";
-import solutions from "../images/solutions.png";
+import solutions from "../images/solutions.jpg";
 export const Solutions = () => {
   return (
     <div>
       <section id="our_pride">
         <div className="bnrImg">
-          <img src={solutions} width="100%" height="700px" />
+          <img src={solutions} width="100%" height="auto" />
         </div>
       </section>
       <div className="mb-2 pt-5 mt-3 container aboutOverview">

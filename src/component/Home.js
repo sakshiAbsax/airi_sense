@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import home_bnr from "../images/home_bnr.jpg";
+// import home_bnr from "../images/home_bnr.jpg";
 import homeTech1 from "../images/homeTech1.jpg";
 import { HomeAbout } from "./HomeAbout";
 import { Slider } from "./Slider";

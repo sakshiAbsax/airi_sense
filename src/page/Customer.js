@@ -19,7 +19,7 @@ export const Customer = () => {
     <div>
       <section id="customer">
         <div className="bnrImg">
-          <img src={coustomer} width="100%" height="700px" />
+          <img src={coustomer} width="100%" height="auto" />
         </div>
 
         <div className="mb-2 pt-5 container aboutOverview">

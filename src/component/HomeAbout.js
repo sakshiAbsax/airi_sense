@@ -9,7 +9,7 @@ export const HomeAbout = () => {
       <section className="section_padding partnerSec1">
         <div className="container py-5">
           <div className="row justify-content-between align-items-center">
-            <div className="col col-md-8 col-sm-12 col-lg-6 mb-5">
+            <div className="col col-md-8 col-sm-12 col-lg-7 mb-5">
               <div className="whatWeDo">
                 <h1
                   style={{
@@ -43,9 +43,9 @@ export const HomeAbout = () => {
               </div>
             </div>
 
-            <div className="col-md-12 col-sm-12 col-lg-4 mb-5">
+            <div className="col-md-12 col-sm-12 col-lg-5 mb-5">
               <div className="about_us_img">
-                <img src={home_side1} width="100%" alt="" />
+                <img src={home_side1} width="100%" className="ps-5" alt="" />
               </div>
             </div>
           </div>

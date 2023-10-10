@@ -16,7 +16,7 @@ export const About = () => {
   return (
     <>
       <div className="bnrImg">
-        <img src={about_bnr} width="100%" height="700px" />
+        <img src={about_bnr} width="100%" height="auto" />
       </div>
 
       <div className=" py-5" style={{ backgroundColor: "#f1f1f1" }}>

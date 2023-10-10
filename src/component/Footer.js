@@ -14,7 +14,7 @@ import './footer.css';
 export const Footer = () => {
   return (
     <>
-      <footer className="footer-section bg-dark">
+      <footer className="footer-section" style={{backgroundColor:"#86838a"}}>
         <div className=" container-fluid w-100">
           <div className="row justify-content-center py-5" >
             <div className="col-lg-4 col-md-12 col-sm-12   text-light">

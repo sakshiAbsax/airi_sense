@@ -4,7 +4,7 @@ import {AiFillLinkedin,AiOutlineTwitter} from 'react-icons/ai';
 import {BsYoutube,BsFillTelephoneFill,} from 'react-icons/bs';
 import {BiLogoGmail} from 'react-icons/bi';
 import {FaLocationDot} from 'react-icons/fa6';
-import contact from '../images/contact.png';
+import contact from '../images/contact.jpg';
 
 export const Contact = () => {
   return (
@@ -13,7 +13,7 @@ export const Contact = () => {
     
     <div class="section-header ">
           <div className="bnrImg">
-          <img src={contact} width="100%" height="700px" />
+          <img src={contact} width="100%" height="auto" />
         </div>
     </div>
     <section class="contact_us">

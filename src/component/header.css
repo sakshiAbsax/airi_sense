@@ -6,13 +6,13 @@
    
    /* Add hover style */
    .nav-link-products:hover {
-     color: #128c7e; /* Change text color on hover (if desired) */
+     color: #fB8B23; /* Change text color on hover (if desired) */
      text-decoration: none !important; /* Remove underline on hover */
    }
    
    /* Add active style */
    .nav-link-products.active {
-    color:#128c7e ;
+    color:#fB8B23 ;
     
    }
 
@@ -22,7 +22,7 @@
 /* Common styles for all devices */
 .carousel-indicators [data-bs-target] {
   border-radius: 50%;
-  background-color: rgba(141, 6, 225, 0.5) !important;
+  background-color:#fB8B23 !important;
 }
 
 .carousel-caption {

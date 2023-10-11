@@ -21,8 +21,8 @@ export const Industries = () => {
 
       <div className="mb-2 pt-5 container aboutOverview">
         <div className="row  justify-content-center ">
-          <div className="col-lg-10">
-            <h1 className="text-center py-2 fw-bold" style={{ color:"#128c7e" , letterSpacing:"3px"}}>Industries</h1>
+          <div className="col-lg-10 whatWeDo">
+            <h1 className="text-center py-2 fw-bold" style={{ letterSpacing:"3px"}}>Industries</h1>
             <p className="text-center" style={{textAlign:"justify"}}>
               Airi-Sense is a global company with Swiss roots and one of the
               world's leading logistics automation companies. We are
@@ -92,7 +92,7 @@ export const Industries = () => {
         </div>
       </section>
 
-      <div style={{background: "linear-gradient(to right top, #63b2be, #53c3b4, #71d095, #abd66c, #f1d34d)"}}>
+      <div className="aboutRoot">
           <section className="section_padding partnerSec1">
             <div className="container py-5">
               <div className="row justify-content-between align-items-center">

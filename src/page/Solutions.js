@@ -5,15 +5,15 @@
 import React,{useState} from "react"
 import product_bnr from "../images/product_bnr.png";
 import { ListGroup, } from "react-bootstrap";
-
 import solutions from "../images/solutions.jpg";
-
-
 import Card from "react-bootstrap/Card";
 import { Link } from "react-router-dom";
 import download1 from "../images/download1.jpg";
 import download2 from "../images/download2.jpg";
 import donload3 from "../images/donload3.jpg";
+import tracktrace from "../images/tracktrace.png";
+import pakeging from "../images/pakeging.png";
+import checkWeight from "../images/checkWeight.png";
 import './product.css'
 
 export const Solutions = () => {
@@ -34,11 +34,10 @@ export const Solutions = () => {
         </div>
       </section>
       <div className="mb-2 pt-5 mt-3 container aboutOverview">
-        <div className="row  justify-content-center ">
-          <div className="col-lg-10">
+        <div className="row  justify-content-center  ">
+          <div className="col-lg-10 whatWeDo">
             <h1
               className="text-center py-2"
-              style={{ fontWeight: "600", color: "#6f309e" }}
             >
               Modularity solution’s…
             </h1>
@@ -61,24 +60,15 @@ export const Solutions = () => {
                     style={{ height: 'au' }}>
                   <Card.Img variant="top" src={download1} style={{ height: '250px' }} />
                   <Card.Body>
-                    <Card.Title className="py-2">
-                      ​​​​​​​ ​​​​​​​Smart Robotic solutons
+                    <Card.Title className="py-4">
+                    Palletizing Cell
                     </Card.Title>
                     <ListGroup>
                       <ListGroup.Item className="text-start list-group-item">
-                        ​Palletizing & De-palletizing
+                      Gantry Based
                       </ListGroup.Item>
                       <ListGroup.Item className="text-start list-group-item">
-                        Packing Solutions
-                      </ListGroup.Item>
-                      <ListGroup.Item className="text-start list-group-item">
-                        Material Handling
-                      </ListGroup.Item>
-                      <ListGroup.Item className="text-start list-group-item">
-                        Pick & Place
-                      </ListGroup.Item>
-                      <ListGroup.Item className="text-start list-group-item">
-                        Multi-level feeder
+                      Robot Based
                       </ListGroup.Item>
                     </ListGroup>
                   </Card.Body>
@@ -88,19 +78,13 @@ export const Solutions = () => {
                 <Card className="me-2 cardhover" style={{ height: 'auto' }}>
                   <Card.Img variant="top" src={download2} style={{ height: '250px' }} />
                   <Card.Body>
-                    <Card.Title className="py-2">​​Material Transfer Solutions</Card.Title>
+                    <Card.Title className="py-4">​​Pick & Place</Card.Title>
                     <ListGroup>
                       <ListGroup.Item className="text-start list-group-item list-group-item">
-                        ​Silos
+                      Machine tending
                       </ListGroup.Item>
                       <ListGroup.Item className="text-start list-group-item list-group-item">
-                        Fillers
-                      </ListGroup.Item>
-                      <ListGroup.Item className="text-start list-group-item">
-                        Charging Systems
-                      </ListGroup.Item>
-                      <ListGroup.Item className="text-start list-group-item">
-                        Discharging System
+                      Material Handling
                       </ListGroup.Item>
                     </ListGroup>
                   </Card.Body>
@@ -108,66 +92,44 @@ export const Solutions = () => {
               </div>
               <div className="col-lg-3 mx-2 ">
                 <Card className="me-2 cardhover" style={{ height: 'auto' }}>
-                  <Card.Img variant="top" src={donload3} style={{ height: '250px' }} />
+                  <Card.Img variant="top" src={pakeging} style={{ height: '250px' }} />
                   <Card.Body>
-                    <Card.Title className="py-2">Truck Loading & Unloading Solutions</Card.Title>
+                    <Card.Title className="py-4">Packing Solution</Card.Title>
                     <ListGroup>
                       <ListGroup.Item className="text-start list-group-item">
-                        ​Telescopic Conveyors
+                      Secondary
                       </ListGroup.Item>
                       <ListGroup.Item className="text-start list-group-item">
-                        Expandable Conveyors
-                      </ListGroup.Item>
-                      <ListGroup.Item className="text-start list-group-item">
-                        Expandable Conveyors
+                      Tertiary
                       </ListGroup.Item>
                     </ListGroup>
                   </Card.Body>
                 </Card>
               </div>
               <div className="col-lg-3 mx-2">
-                <Card className="me-2 cardhover" style={{ height: 'auto' }}>
-                  <Card.Img variant="top" src={download1} style={{ height: '250px' }} />
+              <Card className="me-2 cardhover" style={{ height: 'auto' }}>
+                  <Card.Img variant="top" src={tracktrace} style={{ height: '250px' }} />
                   <Card.Body>
-                    <Card.Title className="py-2">
-                      ​​​​​​​ ​​​​​​​Smart Conveying Solutions
-                    </Card.Title>
-                    ​
-                    <ListGroup>
-                      <ListGroup.Item className="text-start list-group-item list-group-item">
-                        ​Case & Tote Handling Lifts
+                    <Card.Title className="py-4">Track & Trace</Card.Title>
+                    {/* <ListGroup>
+                      <ListGroup.Item className="text-start list-group-item">
+                      Secondary
                       </ListGroup.Item>
-                      <ListGroup.Item className="text-start list-group-item list-group-item">
-                        Case Conveyor’s – Belt, Modular, PVC, MDR, Roller,
-                        Gravity
+                      <ListGroup.Item className="text-start list-group-item">
+                      Tertiary
                       </ListGroup.Item>
-                      <ListGroup.Item className="text-start list-group-item list-group-item">
-                        Smart Conveying Solutions
-                      </ListGroup.Item>
-                      <ListGroup.Item className="text-start list-group-item list-group-item">
-                        Pallet Lift
-                      </ListGroup.Item>
-                      <ListGroup.Item className="text-start list-group-item list-group-item">
-                        Turn table - Case, Tote, Pallet
-                      </ListGroup.Item>
-                      <ListGroup.Item className="text-start list-group-item list-group-item">
-                        Cross Transfer System – Case, Tote, Pallet
-                      </ListGroup.Item>
-                      <ListGroup.Item className="text-start list-group-item list-group-item">
-                        Spiral Conveyor’s – Belt, Gravity Roller
-                      </ListGroup.Item>
-                    </ListGroup>
+                    </ListGroup> */}
                   </Card.Body>
                 </Card>
               </div>
               <div className="col-lg-3 mx-2">
                 <Card className="me-2 cardhover" style={{ height: 'auto' }}>
-                  <Card.Img variant="top" src={download2} style={{ height: '250px' }} />
+                  <Card.Img variant="top" src={checkWeight} style={{ height: '250px' }} />
                   <Card.Body>
-                    <Card.Title className="py-2">
-                      Cross Transfer System – Case, Tote, Pallet
+                    <Card.Title className="py-4">
+                    Check-weighing & Rejection
                     </Card.Title>
-                    <ListGroup>
+                    {/* <ListGroup>
                       <ListGroup.Item className="text-start list-group-item list-group-item">
                         ​Maintenance Management System
                       </ListGroup.Item>
@@ -177,7 +139,7 @@ export const Solutions = () => {
                       <ListGroup.Item className="text-start list-group-item">
                         Energy Management System
                       </ListGroup.Item>
-                    </ListGroup>
+                    </ListGroup> */}
                   </Card.Body>
                 </Card>
               </div>
@@ -185,17 +147,17 @@ export const Solutions = () => {
                 <Card className="me-2 cardhover" style={{ height: 'auto' }}>
                   <Card.Img variant="top" src={donload3} style={{ height: '250px' }} />
                   <Card.Body>
-                    <Card.Title className="py-2">
-                      Cloud based - IIoT & Data management Solutions​
+                    <Card.Title className="py-4">
+                    Printing & Packing
                     </Card.Title>
-                    <ListGroup style={{ border: "none !important" }}>
+                    {/* <ListGroup style={{ border: "none !important" }}>
                       <ListGroup.Item className="text-start list-group-item">
                         ​Production Data MIS
                       </ListGroup.Item>
                       <ListGroup.Item className="text-start list-group-item">
                         OEE Information system
                       </ListGroup.Item>
-                    </ListGroup>
+                    </ListGroup> */}
                   </Card.Body>
                 </Card>
               </div>
@@ -203,17 +165,17 @@ export const Solutions = () => {
                 <Card className="me-2 cardhover" style={{ height: 'auto' }}>
                   <Card.Img variant="top" src={donload3} style={{ height: '250px' }} />
                   <Card.Body>
-                    <Card.Title className="py-2">
-                      Cloud based - IIoT & Data management Solutions​
+                    <Card.Title className="py-4">
+                    Vertical Solutions
                     </Card.Title>
-                    <ListGroup style={{ border: "none !important" }}>
+                    {/* <ListGroup style={{ border: "none !important" }}>
                       <ListGroup.Item className="text-start list-group-item">
                         ​Production Data MIS
                       </ListGroup.Item>
                       <ListGroup.Item className="text-start list-group-item">
                         OEE Information system
                       </ListGroup.Item>
-                    </ListGroup>
+                    </ListGroup> */}
                   </Card.Body>
                 </Card>
               </div>
@@ -222,10 +184,9 @@ export const Solutions = () => {
       </div>
       <div className="row ">
         <div className="container justify-content-center">
-          <div className="col-lg-10 col-md-12">
+          <div className="col-lg-10 col-md-12 whatWeDo">
           <h1
               className="text-center py-3"
-              style={{ fontWeight: "600", color: "#6f309e" }}
             >
              Customized Solutions
             </h1>
@@ -235,7 +196,7 @@ export const Solutions = () => {
                   {" "}
                   <a href="#">
                     <div className="fplogo">
-                      <h1 className="text-white">TECHNO-1</h1>
+                      <h3 className="text-white">TECHNO-1</h3>
                     </div>
                     <div className="fptext">
                       <p>
@@ -250,7 +211,7 @@ export const Solutions = () => {
                   {" "}
                   <a href="#">
                     <div className="fplogo">
-                      <h1 className="text-white">TECHNO-1</h1>
+                      <h3 className="text-white">TECHNO-1</h3>
                     </div>
                     <div className="fptext">
                       <p>

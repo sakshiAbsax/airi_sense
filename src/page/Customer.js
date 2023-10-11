@@ -24,7 +24,7 @@ export const Customer = () => {
 
         <div className="mb-2 pt-5 container aboutOverview">
           <div className="row  justify-content-center ">
-            <div className="col-lg-10">
+            <div className="col-lg-10 whatWeDo">
               <h1
                 className="text-center py-2 fw-bold"
                 style={{ color: "#128c7e", letterSpacing: "3px" }}

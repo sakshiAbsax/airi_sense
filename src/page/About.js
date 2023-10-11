@@ -11,7 +11,6 @@ import val4 from "../images/values/people.png";
 import val5 from "../images/values/customer.png";
 import val6 from "../images/values/intgrity.png";
 
-
 export const About = () => {
   return (
     <>
@@ -20,12 +19,15 @@ export const About = () => {
       </div>
 
       <div className=" py-5" style={{ backgroundColor: "#f1f1f1" }}>
-     
         <div className="container">
-     
           <div className=" row  justify-content-center d-flex">
-            <div className="col-lg-7 col-md-12 col-sm-12 ">
-            <h1 className=" fw-bold text-start  " style={{color:"#128c7e", letterSpacing:"6px"}}>History</h1>
+            <div className="col-lg-7 col-md-12 col-sm-12 whatWeDo">
+              <h1
+                className=" fw-bold text-start  "
+                style={{ color: "#128c7e", letterSpacing: "6px" }}
+              >
+                History
+              </h1>
               <div className=" pt-2 whatWeDo">
                 <p className="mt-3">
                   Airi-Sense, backed by the two-decade-old Automation &
@@ -52,7 +54,7 @@ export const About = () => {
                 </p>
               </div>
             </div>
-            <div  className=" pt-5 col-lg-5 col-md-12 col-sm-12">
+            <div className=" pt-5 col-lg-5 col-md-12 col-sm-12">
               <div className="ps-lg-5 ms-3 ms-sm-0 ">
                 <img src={aboutHistory} width="auto" height="500px" />
               </div>
@@ -65,12 +67,14 @@ export const About = () => {
         <div className=" py-4  ">
           <div className="row justify-content-center  py-5">
             <div className="col-md-8 card px-4 py-3 shadow ">
-              <div className="py-4 " style={{color:"#128c7e"}}>
+              <div className="py-4 ourroootSection">
                 <h2 className="text-center fw-bold">Our Root's</h2>
-                <h3 className="text-center"  style={{letterSpacing:"3px"}}>Shri Vasant Engineer's</h3>
+                <h3 className="text-center" style={{ letterSpacing: "3px" }}>
+                  Shri Vasant Engineer's
+                </h3>
               </div>
 
-              <p className="text-center text-dark" >
+              <p className="text-center text-dark">
                 Our Root's Shri Vasant Engineer's Shri Vasant Engineer’s – 2
                 Decade Old parent company with established footprint from 2003
                 in Indore, has been a rapid growing company, targeting change
@@ -94,8 +98,13 @@ export const About = () => {
               <img src={mission} alt="" className="w-100" />
             </div>
           </div>
-          <div className="col-md-8 mt-lg-3 pt-lg-5 ">
-            <h1 className="py-3 text-center fw-bold" style={{color:"#128c7e" , letterSpacing:"3px"}}>Mission</h1>
+          <div className="col-md-8 mt-lg-3 pt-lg-5 whatWeDo ">
+            <h1
+              className="py-3 text-center fw-bold"
+              style={{ color: "#128c7e", letterSpacing: "3px" }}
+            >
+              Mission
+            </h1>
             <p className="py-2 px-3">
               To deliver reliable, secure, & scalable solutions enabling our
               clients to innovate, collaborate, and scale their operations
@@ -107,8 +116,13 @@ export const About = () => {
 
       <div className="container  vision">
         <div className="row clearfix pb-lg-5 justify-content-end ">
-          <div className="col-md-8 mt-lg-3 pt-lg-5 ">
-            <h1 className="pb-3 text-center fw-bold" style={{color:"#128c7e" , letterSpacing:"3px"}}>Vision</h1>
+          <div className="col-md-8 mt-lg-3 pt-lg-5 whatWeDo ">
+            <h1
+              className="pb-3 text-center fw-bold"
+              style={{ color: "#128c7e", letterSpacing: "3px" }}
+            >
+              Vision
+            </h1>
             <p className=" py-2 px-3">
               To deliver reliable, secure, & scalable solutions enabling our
               clients to innovate, collaborate, and scale their operations
@@ -124,11 +138,16 @@ export const About = () => {
         </div>
       </div>
 
-      <div className="values  py-5 mt-5 ">
-        <div className="row pb-3 ">
+      <div className="values  py-5 mt-5 aboutRoot">
+        <div className="row pb-3  ">
           <div className="col-md-12">
             <center>
-              <h1 className="text-light fw-bold" style={{letterSpacing:"3px"}}>Values</h1>
+              <h1
+                className="text-light fw-bold text-white"
+                style={{fontSize:"55px",color:"white !important", letterSpacing: "3px" }}
+              >
+                Values
+              </h1>
             </center>
           </div>
         </div>
@@ -158,7 +177,7 @@ export const About = () => {
           <a className="bg_links logo"></a>
         </div>
 
-        <div className="content">
+        <div className="content ">
           <div className=" valuecard">
             <div className="icon">
               <img src={val1} />

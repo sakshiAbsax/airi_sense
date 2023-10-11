@@ -149,7 +149,7 @@
     }
   }
   .values{
-    background-image: linear-gradient(to right top, #63b2be, #53c3b4, #71d095, #abd66c, #f1d34d);
+    /* background-image: linear-gradient(to right top, #63b2be, #53c3b4, #71d095, #abd66c, #f1d34d); */
   }
   .valuecard {
     width: 100%;

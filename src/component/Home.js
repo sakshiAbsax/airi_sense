@@ -143,23 +143,24 @@ export const Home = () => {
           <div className="row justify-content-center  py-5">
             <div className="col-md-8 card px-4 py-3 shadow ">
               
-              <div className="py-4 " style={{color:"#128c7e"}}>
+              <div className="py-4 ourroootSection ">
                 <h2 className="text-center fw-bold">Our Root's</h2>
                 <h3 className="text-center"  style={{letterSpacing:"3px"}}>Shri Vasant Engineer's</h3>
-              </div>
+              
 
-              <p className="text-center text-dark" >
+              <p className="text-center outRoot" >
                 Our Root's Shri Vasant Engineer's Shri Vasant Engineer’s – 2
                 Decade Old parent company with established footprint from 2003
                 in Indore, has been a rapid growing company, targeting change
                 with New Focus into Conveying & Intralogistics domain.
               </p>
-              <p className="text-center text-dark pb-3">
+              <p className="text-center outRoot pb-3">
                 Serving more than 233 clients true mix of Global, MNC & Giant
                 Indian conglomerate spread across various industrial sector,
                 with 103+ clients trusting us for repeat business for year over
                 year.
               </p>
+              </div>
             </div>
           </div>
         </div>
@@ -168,13 +169,13 @@ export const Home = () => {
       <div className="news">
         <div className="row py-4">
           <div className="col-md-12">
-            <center>
-              <h1 style={{color:"#128c7e"}}>Updated News</h1>
+            <center className="whatWeDo">
+              <h1 className="text-center">Updated News</h1>
             </center>
           </div>
         </div>
         <div className="container">
-          <div className="row justify-content-center">
+          <div className="row justify-content-center py-5">
             <div className="column  col-lg-4 col-md-4 px-3">
               <div
                 className={`post-module ${isHovered ? "hovered" : ""}`}

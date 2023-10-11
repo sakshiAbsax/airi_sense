@@ -2,7 +2,7 @@ import React from "react";
 // import Container from "react-bootstrap/Container";
 import { Hamburger } from "./Hamburger";
 import { Link, NavLink } from "react-router-dom";
-import logo from "../images/logo.png";
+import logo300 from "../images/logo300.png";
 import Button from "react-bootstrap/Button";
 import Container from "react-bootstrap/Container";
 import Form from "react-bootstrap/Form";
@@ -10,6 +10,7 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
 import './header.css';
+
 export const Header = () => {
   const [showNavbar, setShowNavbar] = React.useState(false);
 
@@ -22,7 +23,7 @@ export const Header = () => {
         <Container>
           <NavLink to="/">
             <div className="logo ms-lg-5">
-              <img src={logo} className="w-75" />
+              <img src={logo300} className="w-75" />
             </div>
           </NavLink>
           <Navbar.Toggle aria-controls="navbarScroll" />
@@ -41,7 +42,7 @@ export const Header = () => {
               <Link to="/contact">
 
             
-              <Button  className="btn btn-lg btn-borderd" style={{backgroundColor:"#fB8B23",border:"none"}}> Contact Us</Button>
+              <Button  className="btn btn-lg btn-borderd" style={{border:"none"}}> Contact Us</Button>
               </Link>
             </Form>
           </Navbar.Collapse>

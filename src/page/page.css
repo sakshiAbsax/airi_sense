@@ -19,17 +19,17 @@ html, body{
   
   .section .error{
     font-size: 150px;
-    color:#6f309e;
+    color:var(--orange);
     text-shadow: 
       1px 1px 1px #fff,    
       2px 2px 1px #fff,
-      3px 3px 1px #FFAC1C,
-      4px 4px 1px #FFAC1C,
-      5px 5px 1px #FFAC1C,
-      6px 6px 1px #FFAC1C,
-      7px 7px 1px #FFAC1C,
-      8px 8px 1px #FFAC1C,
-      25px 25px 8px rgba(0,0,0, 0.2);
+      3px 3px 1px var(--gray),
+      4px 4px 1px var(--gray),
+      5px 5px 1px var(--gray),
+      6px 6px 1px var(--gray),
+      7px 7px 1px  var(--gray),
+      8px 8px 1px var(--gray),
+      25px 25px 8px var(--gray);
   }
   
   .page{
@@ -50,8 +50,8 @@ html, body{
     box-shadow: 0 3px 8px rgba(0,0,0, 0.3);
   }
   .back-home:hover{
-    background: #222;
-    color: #ddd;
+    background: var(--orange);
+    color: var(--white);
   }
 
   .blog-card {
@@ -273,7 +273,7 @@ html, body{
 
 
   .right_conatct_social_icon{
-       background: linear-gradient(to top right, #dca709 -5%, #8f10b7 100%);
+       background: var(--orange);
   }
   .contact_us{
       background-color: #f1f1f1;
@@ -317,7 +317,7 @@ html, body{
   .contact_field .form-control:focus{
       box-shadow: none;
       outline: none;
-      border-bottom: 2px solid #1325e8;
+      border-bottom: 2px solid var(--orange) !important;
   }
   .contact_field .form-control::placeholder{
       font-size: 13px;
@@ -326,8 +326,8 @@ html, body{
   
   .contact_info_sec {
       position: absolute;
-      background-color: #2d2d2d;
-      color: #fff;
+      background-color: var(--footerbackground);
+      color: var(--white);
       right: 1px;
       top: 18%;
       height: 340px;
@@ -338,6 +338,7 @@ html, body{
   .contact_info_sec h4{
       letter-spacing: 1px;
       padding-bottom: 15px;
+      font-weight: 800;
   }
   
   .info_single{
@@ -345,14 +346,16 @@ html, body{
   }
   .info_single i{
       margin-right: 15px;
+      font-weight: 600;
   }
   .info_single span{
       font-size: 14px;
       letter-spacing: 1px;
+      font-weight: 600;
   }
   
   button.contact_form_submit {
-      background: linear-gradient(to top right, #1325e8 -5%, #8f10b7 100%);
+      background: var(--orange);
       border: none;
       color: #fff;
       padding: 10px 15px;
@@ -360,7 +363,8 @@ html, body{
       margin-top: 25px;
       border-radius: 35px;
       cursor: pointer;
-      font-size: 14px;
+      font-size: 18px;
+      font-weight: 600;
       letter-spacing: 2px;
   }
   .socil_item_inner li{

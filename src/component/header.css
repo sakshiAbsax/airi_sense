@@ -1,3 +1,10 @@
+
+:root {
+  --orange:#fB8B23;
+  --gray: rgb(203, 198, 198);
+  --white:#fff;
+}
+
 .nav-link-products {
      color: black; /* Change text color to purple */
      text-decoration: none !important; /* Remove default underline */
@@ -6,16 +13,18 @@
    
    /* Add hover style */
    .nav-link-products:hover {
-     color: #fB8B23; /* Change text color on hover (if desired) */
+     color:var(--orange); /* Change text color on hover (if desired) */
      text-decoration: none !important; /* Remove underline on hover */
    }
    
    /* Add active style */
    .nav-link-products.active {
-    color:#fB8B23 ;
+    color:var(--orange) ;
     
    }
-
+.btn{
+  background-color: var(--orange) !important;
+}
 
    /* background-image: linear-gradient(to right top, #63b2be, #53c3b4, #71d095, #abd66c, #f1d34d); */
   
@@ -33,7 +42,7 @@
   line-height: 1.5; 
   padding-top: 1.25rem !important;
   padding-bottom: 1.25rem !important;
-  color:#fff !important;
+  color:var(--white) !important;
   text-align: center !important;
    display: flex;
    justify-content: center !important;

@@ -22,10 +22,9 @@ const Blogs = () => {
 
         <div className="news">
           <div className="row py-4">
-            <div className="col-md-12">
-              <center>
-                <h1>Updated Blogs</h1>
-              </center>
+            <div className="col-md-12 whatWeDo">
+                <h1 className='text-center'>Updated Blogs</h1>
+             
             </div>
           </div>
           <div className="container">

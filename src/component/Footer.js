@@ -50,7 +50,7 @@ export const Footer = () => {
   return (
     <>
       <footer className="footer-section">
-        <div className=" container w-100">
+        <div className=" auto-container-fluid w-100">
           <div className="row justify-content-center pt-4">
             <div className="col-lg-4 col-md-12 col-sm-12 pt-3  text-start ">
               <Link to="/"  className="text-start">
@@ -115,7 +115,7 @@ export const Footer = () => {
                   </li>
               </ul>
             </div>
-            <div className="col-lg-4 col-md-6 col-sm-6 text-start  pt-3 ">
+            <div className="col-lg-3 col-md-6 col-sm-6 text-start  pt-3 ">
               <h3 className="text-start nav-links ms-5">Location</h3>
               <ul className="list-group " style={{ listStyleType: "none" }}>
                 <Link to="/" className=" mb-3 ps-5 nav-link  text-start">

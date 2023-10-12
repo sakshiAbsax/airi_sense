@@ -3,6 +3,7 @@ import coustomer from "../images/coustomer.png";
 import { Col, Container, Row } from "react-bootstrap";
 import ourpride from "../images/pride.webp";
 import ImageSlider from "../component/ImageSlider";
+// import ReviewSlider from "../component/ReviewSlider";
 
 export const Customer = () => {
   const images = [
@@ -45,7 +46,7 @@ export const Customer = () => {
         <section className="section_padding partnerSec1">
           <div className="container py-5">
             <div className="row justify-content-between align-items-center">
-              <div className="col col-md-8 col-sm-12 col-lg-6 mb-5">
+              <div className="col col-md-8 col-sm-12 col-lg-6 ">
                 <div className="whatWeDo">
                   <h1
                     style={{
@@ -86,7 +87,7 @@ export const Customer = () => {
                 </div>
               </div>
 
-              <div className="col-md-12 col-sm-12 col-lg-6 mb-5">
+              <div className="col-md-12 col-sm-12 col-lg-6">
                 <div className="about_us_img">
                   <img src={ourpride} width="100%" alt="" className="ps-5 mt-5" />
                 </div>
@@ -94,10 +95,16 @@ export const Customer = () => {
             </div>
           </div>
         </section>
+       <div className="customer-slider">
 
-        <div className="container d-flex justify-content-center my-5">
+     
+        <div className="container d-flex justify-content-center py-5">
           <ImageSlider images={images} />
         </div>
+        </div>
+
+
+       
       </section>
     </div>
   );

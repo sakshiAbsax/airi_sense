@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-import { reviewslider } from "../ReviewSliderCard";
 
 const ReviewSlider = ({ images }) => {
   const [currentImageIndices, setCurrentImageIndices] = useState([0, 1, 2, 3]);
@@ -37,20 +36,17 @@ const ReviewSlider = ({ images }) => {
   return (
     <div className="image-slider my-5">
       <div className="row slider-content justify-content-center">
-        
-            {reviewslider.map((image, index) => (
-            <div className="col-md-3 pe-5">
-                <img
-                key={index}
-                src={image.img}
-                // Adjust the width as needed
-                alt={`Image ${currentImageIndices[index]}`}
-                className="w-100 px-3"
-              />
-              <h1>{image.name}</h1>
-              <p>{image.comment}</p>
-              </div>
-            ))}
+        {ReviewSliderCa.map((image, index) => (
+          <div key={index} className="col-md-3 pe-5">
+            <img
+              src={image.img}
+              alt={`Image ${currentImageIndices[index]}`}
+              className="w-100 px-3"
+            />
+            <h1>{image.name}</h1>
+            <p>{image.comment}</p>
+          </div>
+        ))}
       </div>
     </div>
   );

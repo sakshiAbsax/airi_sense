@@ -444,3 +444,7 @@ html, body{
  .row {
   --bs-gutter-x: none !important;
  }
+
+ .customer-slider{
+  background-color: var(--orange);
+ }

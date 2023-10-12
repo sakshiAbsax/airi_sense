@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from "react";
 import coustomer from "../images/coustomer.png";
 import { Col, Container, Row } from "react-bootstrap";
-import ourpride from "../images/ourpride.png";
+import ourpride from "../images/pride.webp";
 import ImageSlider from "../component/ImageSlider";
 import ReviewSlider from "../component/ReviewSlider";
 
@@ -87,9 +87,9 @@ export const Customer = () => {
                 </div>
               </div>
 
-              <div className="col-md-12 col-sm-12 col-lg-4 mb-5">
+              <div className="col-md-12 col-sm-12 col-lg-6 mb-5">
                 <div className="about_us_img">
-                  <img src={ourpride} width="100%" alt="" />
+                  <img src={ourpride} width="100%" alt="" className="ps-5 mt-5" />
                 </div>
               </div>
             </div>

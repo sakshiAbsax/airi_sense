@@ -29,8 +29,12 @@ export const Solutions = () => {
       <div className="mb-2 pt-5 mt-3 container aboutOverview">
         <div className="row  justify-content-center  ">
           <div className="col-lg-10 whatWeDo">
-            <h1
-              className="text-center py-2"
+            <h1    
+              className="text-center py-2 "
+              style={{
+                fontWeight: "600",
+                letterSpacing: "3px",
+              }}
             >
               Modularity solution’s…
             </h1>
@@ -42,6 +46,8 @@ export const Solutions = () => {
           </div>
         </div>
       </div>
+
+      
 
       <div className="mx-lg-5 py-5">
         <div className="row justify-content-center pt-5  mx-lg-5 mx-3">

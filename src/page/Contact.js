@@ -27,20 +27,37 @@ export const Contact = () => {
                         Feel Free to contact us any time. We will get back to
                         you as soon as we can.
                       </p>
-                      <input
-                        type="text"
-                        class="form-control form-group"
-                        placeholder="Name"
-                      />
-                      <input
-                        type="text"
-                        class="form-control form-group"
-                        placeholder="Email"
-                      />
-                      <textarea
-                        class="form-control form-group"
-                        placeholder="Message"
-                      ></textarea>
+
+                      <div class="form-floating mb-3">
+                        <input
+                          type="text"
+                          class="form-control"
+                          id="floatingInput"
+                          placeholder="name@example.com"
+                        />
+                        <label for="floatingInput">Name</label>
+                      </div>
+
+                      <div class="form-floating mb-3">
+                        <input
+                          type="email"
+                          class="form-control"
+                          id="floatingInput"
+                          placeholder="name@example.com"
+                        />
+                        <label for="floatingInput">Email address</label>
+                      </div>
+
+                      <div class="form-floating">
+                        <textarea
+                          class="form-control"
+                          placeholder="Leave a comment here"
+                          id="floatingTextarea2"
+                          style={{height:"100px"}}
+                        ></textarea>
+                        <label for="floatingTextarea2">Message</label>
+                      </div>
+
                       <button class="contact_form_submit">Send</button>
                     </div>
                   </div>
@@ -95,7 +112,7 @@ export const Contact = () => {
           <div class="col-md-10  ">
             <div class="map_inner whatWeDo">
               <h1 className="text-center">Find Us on Google Map</h1>
-          
+
               <div class="map_bind">
                 <iframe
                   src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d471220.5631094339!2d88.04952462217592!3d22.6757520733225!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f882db4908f667%3A0x43e330e68f6c2cbc!2sKolkata%2C%20West%20Bengal!5e0!3m2!1sen!2sin!4v1596988408134!5m2!1sen!2sin"

@@ -5,14 +5,15 @@ import productDiscription from "../images/productDis.png";
 
 import Card from "react-bootstrap/Card";
 import { Link } from "react-router-dom";
-import p1 from "../images/product/p-1.jpg";
-import p2 from "../images/product/p-2.png";
-import p3 from "../images/product/p-3.png";
-import p4 from "../images/product/p-4.jpg";
-import p5 from "../images/product/p-5.png";
-import p6 from "../images/product/p-6.webp";
+// import p1 from "../images/product/p-1.jpg";
+// import p2 from "../images/product/p-2.png";
+// import p3 from "../images/product/p-3.png";
+// import p4 from "../images/product/p-4.jpg";
+// import p5 from "../images/product/p-5.png";
+// import p6 from "../images/product/p-6.webp";
 
 import "./product.css";
+import { productCard } from "./ProductCards";
 
 export const Product = () => {
   const [isHovered, setIsHovered] = useState(false);
@@ -112,8 +113,10 @@ export const Product = () => {
           >
             Our Products
           </h1>
-
-          <div className="col-lg-3 mx-2">
+    {
+          productCard.map((card, index) => (
+          <div className="col-lg-3 mx-2 mb-3">
+      
             <Card
               className={`me-2 cardhover ${isHovered ? 'hovered' : ''}`}
               onMouseEnter={handleHover}
@@ -123,36 +126,29 @@ export const Product = () => {
                 transition: 'transform 0.9s ease-in-out', // Add a transition for smoother hover effect
                 transform: isHovered ? 'scale(1.03)' : 'scale(1)',}}
             >
-              <Card.Img variant="top" src={p1} style={{ height: "250px" }} />
+              <Card.Img variant="top" src={card.img} style={{ height: "250px" }} />
               <Card.Body>
                 <Card.Title className="py-4">
-                  ​​​​​​​ ​​​​​​​Smart Robotic solutons
+                  ​​​​​​​ ​​​​​​​{card.title}
                 </Card.Title>
                 <ListGroup>
-                  <ListGroup.Item className="text-start list-group-item">
-                    ​Palletizing & De-palletizing
+                {card.list.map((item, itemIndex) => (
+                  <ListGroup.Item className="text-start list-group-item"  key={itemIndex}>
+                   {item}
                   </ListGroup.Item>
-                  <ListGroup.Item className="text-start list-group-item">
-                    Packing Solutions
-                  </ListGroup.Item>
-                  <ListGroup.Item className="text-start list-group-item">
-                    Material Handling
-                  </ListGroup.Item>
-                  <ListGroup.Item className="text-start list-group-item">
-                    Pick & Place
-                  </ListGroup.Item>
-                  <ListGroup.Item className="text-start list-group-item">
-                    Multi-level feeder
-                  </ListGroup.Item>
+))}
                 </ListGroup>
               </Card.Body>
             </Card>
+       
           </div>
-          <div className="col-lg-3 mx-2">
+             ))
+            };
+          {/* <div className="col-lg-3 mx-2">
             <Card className="me-2 cardhover" style={{ height: "auto" }}>
               <Card.Img variant="top" src={p2} style={{ height: "250px" }} />
               <Card.Body>
-                <Card.Title className="py-4">
+                <Card.Title className="py-2">
                   ​​Material Transfer Solutions
                 </Card.Title>
                 <ListGroup>
@@ -176,8 +172,8 @@ export const Product = () => {
             <Card className="me-2 cardhover" style={{ height: "auto" }}>
               <Card.Img variant="top" src={p3} style={{ height: "250px" }} />
               <Card.Body>
-                <Card.Title className="py-4">
-                  Truck Loading & Unloading Solutions
+                <Card.Title className="py-2">
+                  Truck Loading Solutions
                 </Card.Title>
                 <ListGroup>
                   <ListGroup.Item className="text-start list-group-item">
@@ -197,7 +193,7 @@ export const Product = () => {
             <Card className="me-2 cardhover" style={{ height: "auto" }}>
               <Card.Img variant="top" src={p4} style={{ height: "250px" }} />
               <Card.Body>
-                <Card.Title className="py-4">
+                <Card.Title className="py-2">
                   ​ ​​​​​​​Smart Conveying Solutions
                 </Card.Title>
                 <ListGroup>
@@ -230,8 +226,8 @@ export const Product = () => {
             <Card className="me-2 cardhover" style={{ height: "auto" }}>
               <Card.Img variant="top" src={p5} style={{ height: "250px" }} />
               <Card.Body>
-                <Card.Title className="py-4">
-                  Cross Transfer System – Case, Tote, Pallet
+                <Card.Title className="py-2">
+                  Cross Transfer System
                 </Card.Title>
                 <ListGroup>
                   <ListGroup.Item className="text-start list-group-item list-group-item">
@@ -252,7 +248,7 @@ export const Product = () => {
               <Card.Img variant="top" src={p6} style={{ height: "250px" }} />
               <Card.Body>
                 <Card.Title className="py-4">
-                  Cloud based - IIoT & Data management
+                 IIoT & Data management
                 </Card.Title>
                 <ListGroup style={{ border: "none !important" }}>
                   <ListGroup.Item className="text-start list-group-item">
@@ -264,7 +260,7 @@ export const Product = () => {
                 </ListGroup>
               </Card.Body>
             </Card>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>

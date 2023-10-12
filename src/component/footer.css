@@ -9,10 +9,13 @@
 .nav-link {
     color: var(--white) !important; /* Default color */
     text-decoration: none !important; /* Remove underline */
+    text-align: left !important;
 }
     /* Hover state */
     .nav-link:hover {
-      color:var(--orange) !important;
+     
+      color: var(--orange);
+       padding: 0;
     }
   
     /* Active state */

@@ -3,6 +3,7 @@ import coustomer from "../images/coustomer.png";
 import { Col, Container, Row } from "react-bootstrap";
 import ourpride from "../images/ourpride.png";
 import ImageSlider from "../component/ImageSlider";
+import ReviewSlider from "../component/ReviewSlider";
 
 export const Customer = () => {
   const images = [
@@ -97,6 +98,11 @@ export const Customer = () => {
 
         <div className="container d-flex justify-content-center my-5">
           <ImageSlider images={images} />
+        </div>
+
+
+        <div className="container d-flex justify-content-center my-5">
+          <ReviewSlider images={images} />
         </div>
       </section>
     </div>

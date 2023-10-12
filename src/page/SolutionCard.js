@@ -1,10 +1,13 @@
-import tracktrace from "../images/tracktrace.png";
-import pakeging from "../images/pakeging.png";
-import checkWeight from "../images/checkWeight.png";
+import track_trace from "../images/solution/tracktrace.png";
+import pakeging from "../images/solution/packing.png";
+import printing from "../images/solution/printing_packing.png";
+import checkWeight from "../images/solution/check_weighing.png";
+import cell from "../images/solution/palletizing_Cell.png";
+import pic from "../images/solution/pick_place.png";
 
 export const solutionCard = [
   {
-    img: pakeging,
+    img: cell,
     title: "Palletizing Cell",
     list: [
       "Gantry Based ",
@@ -12,8 +15,8 @@ export const solutionCard = [
     ],
   },
   {
-    img: pakeging,
-    title: "MPick & Place",
+    img: pic,
+    title: "Pick & Place",
     list: ["Machine tending", "Material Handling",],
   },
   {
@@ -25,14 +28,7 @@ export const solutionCard = [
     ],
   },
   {
-    img:pakeging,
-    title: "Vertical Solutions",
-    list: [
-      
-    ],
-  },
-  {
-    img:  tracktrace,
+    img:  track_trace,
     title: "Track & Trace",
     list: [
      
@@ -44,7 +40,7 @@ export const solutionCard = [
     list: [],
   },
   {
-    img: checkWeight,
+    img: printing,
     title: " Printing & Packing​",
     list: [],
   },

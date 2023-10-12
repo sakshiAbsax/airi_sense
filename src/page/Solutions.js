@@ -3,17 +3,9 @@
 
 
 import React,{useState} from "react"
-import product_bnr from "../images/product_bnr.png";
 import { ListGroup, } from "react-bootstrap";
 import solutions from "../images/solutions.jpg";
 import Card from "react-bootstrap/Card";
-import { Link } from "react-router-dom";
-import download1 from "../images/download1.jpg";
-import download2 from "../images/download2.jpg";
-import donload3 from "../images/donload3.jpg";
-import tracktrace from "../images/tracktrace.png";
-import pakeging from "../images/pakeging.png";
-import checkWeight from "../images/checkWeight.png";
 import './product.css'
 import { solutionCard } from "./SolutionCard";
 

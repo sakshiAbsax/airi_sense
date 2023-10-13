@@ -1,54 +1,90 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
+import reviews from "../page/ReviewSliderCard";
+import {
+  FaStar,
+  FaChevronLeft,
+  FaChevronRight,
+  FaQuoteRight,
+} from "react-icons/fa";
+import _ from "lodash";
+const ReviewSlider = ({ starData }) => {
+  const [index, setIndex] = useState(0);
+  const { id, name, job, image, text, star } = reviews[index];
 
-const ReviewSlider = ({ images }) => {
-  const [currentImageIndices, setCurrentImageIndices] = useState([0, 1, 2, 3]);
+  const checkNumber = (number) => {
+    if (number > reviews.length - 1) {
+      return 0;
+    }
+    if (number < 0) {
+      return reviews.length - 1;
+    }
+    return number;
+  };
 
-  const prevImages = () => {
-    setCurrentImageIndices((prevIndices) => {
-      const newIndices = prevIndices.map((index) =>
-        index === 0 ? images.length - 1 : index - 1
-      );
-      return newIndices;
+  const nextPerson = () => {
+    setIndex((index) => {
+      let newIndex = index + 1;
+      return checkNumber(newIndex);
     });
   };
 
-  const nextImages = () => {
-    setCurrentImageIndices((prevIndices) => {
-      const newIndices = prevIndices.map((index) =>
-        index === images.length - 1 ? 0 : index + 1
-      );
-      return newIndices;
+  const prevPerson = () => {
+    setIndex((index) => {
+      let newIndex = index - 1;
+      return checkNumber(newIndex);
     });
   };
 
-  // Update the displayed images whenever the current indices change
-  const displayedImages = currentImageIndices.map((index) => images[index]);
+  const minIndex = 0;
+  const maxIndex = reviews.length - 1;
 
-  // Automatically update the displayed images when the component mounts
-  useEffect(() => {
-    const interval = setInterval(() => {
-      nextImages();
-    }, 5000); // Change images every 5 seconds (adjust as needed)
+  const getRandomPerson = () => {
+    const getRandomIntInclusive = (min, max) => {
+      min = Math.ceil(min);
+      max = Math.floor(max);
+      return Math.floor(Math.random() * (max - min + 1) + min);
+    };
 
-    return () => clearInterval(interval);
-  }, []);
+    let randomIndex = getRandomIntInclusive(minIndex, maxIndex);
+    if (randomIndex === index) {
+      randomIndex = index + 1;
+    }
+    setIndex(checkNumber(randomIndex));
+  };
 
   return (
-    <div className="image-slider my-5">
-      <div className="row slider-content justify-content-center">
-        {ReviewSliderCa.map((image, index) => (
-          <div key={index} className="col-md-3 pe-5">
-            <img
-              src={image.img}
-              alt={`Image ${currentImageIndices[index]}`}
-              className="w-100 px-3"
-            />
-            <h1>{image.name}</h1>
-            <p>{image.comment}</p>
-          </div>
-        ))}
-      </div>
-    </div>
+    <>
+      <article className="review">
+        <div className="img-container">
+          <img src={image} alt={name} className="person-img" />
+          <span className="quote-icon">
+            <FaQuoteRight />
+          </span>
+        </div>
+        <h4 className="author">{name}</h4>
+        <p className="job">
+          {_.times(5, (i) =>
+            i < star ? (
+              <FaStar className="text-dark fs-5 pe-1" />
+            ) : (
+              <FaStar className="text-white fs-5 pe-1" />
+            )
+          )}
+        </p>
+        <p className="info">{text}</p>
+        <div className="button-container">
+          <button className="prev-btn" onClick={prevPerson}>
+            <FaChevronLeft />
+          </button>
+          <button className="next-btn" onClick={nextPerson}>
+            <FaChevronRight />
+          </button>
+        </div>
+        <button className="random-btn" onClick={getRandomPerson}>
+          Get Random Review
+        </button>
+      </article>
+    </>
   );
 };
 

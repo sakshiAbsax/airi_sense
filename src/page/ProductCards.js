@@ -3,7 +3,7 @@ import product2 from '../images/product/product2.png';
 import product3 from '../images/product/product3.png';
 import product4 from '../images/product/product4.jpg';
 import product5 from '../images/product/product5.png';
-import product6 from '../images/product/product6.webp';
+import product6 from '../images/product/product6.jpg';
 
 export const productCard = [
   {

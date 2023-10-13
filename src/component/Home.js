@@ -1,13 +1,10 @@
-import React, { useState, useEffect } from "react";
-// import home_bnr from "../images/home_bnr.jpg";
-import homeTech1 from "../images/homeTech1.jpg";
+import React, { useState} from "react";
 import { HomeAbout } from "./HomeAbout";
 import { Slider } from "./Slider";
 import { Link } from "react-router-dom";
-import home_side1 from "../images/home_side2.png";
-// import {BiRadioCircleMarke} from 'react-icons/bi';
-import { BiRadioCircleMarked } from "react-icons/bi";
-import homeoffer from '../images/homeoffer.jpg';
+
+
+import homeoffer from '../images/homeoffer.png';
 
 export const Home = () => {
   const [isHovered, setIsHovered] = useState(false);
@@ -143,7 +140,7 @@ export const Home = () => {
         </div>
       </div> */}
 
-      <div className="aboutRoot text-white mb-5">
+      <div className="aboutRoot text-white">
         <div className="py-lg-4 ">
           <div className="row justify-content-center  py-5">
             <div className="col-md-8 card px-4 py-3 shadow ">
@@ -170,23 +167,22 @@ export const Home = () => {
           </div>
         </div>
       </div>
-      <section className="section_padding partnerSec1" style={{backgroundColor:"#373040"}}>
-        <div className="container py-5">
+      <section className="section_paddinging partnerSec1">
+        <div className="container py-3">
           <div className="row justify-content-between align-items-center">
-            <div className="col-md-12 col-sm-12 col-lg-4 mb-5">
+            <div className="col-md-12 col-sm-12 col-lg-5  mb-5">
               <div className="about_us_img">
-                <img src={homeoffer} width="100%" className="ps-5" alt="" />
+                <img src={homeoffer} width="100%" className="pe-5" alt="" />
               </div>
             </div>
-            <div className="col col-md-8 col-sm-12 col-lg-6 mb-5 py-5">
-              <div className="whatWeDo">
+            <div className="col col-md-8 col-sm-12 col-lg-6 ps-5 mb-5 py-5">
+              <div className="whatWeoffer">
                 <h1
                   style={{
                     fontWeight: "600",
-                    color: "#128c7e",
                     letterSpacing: "3px",
                   }}
-                  className="text-start"
+                  className="text-start text-light"
                 >
                   What We Offer ?
                 </h1>
@@ -199,10 +195,10 @@ export const Home = () => {
                   concepts.
                 </p>
                 <div className="row">
-                  <div className="col-lg-6 pe-3 pt-3 ">
-                    <ul className="list-unstyled">
+                  <div className="col-lg-6 pe-1 pt-3 ">
+                    <ul className=" text-white">
                     <div className="d-flex my-3">
-                        <BiRadioCircleMarked className="checklistColor me-1"   />
+                        {/* <BiRadioCircleMarked className="checklistColor"   /> */}
                         <li>
                         
                           <span className="justify lits ">
@@ -211,7 +207,7 @@ export const Home = () => {
                         </li>
                       </div>
                       <div className="d-flex my-3">
-                        <BiRadioCircleMarked className="checklistColor me-1"   />
+                        {/* <BiRadioCircleMarked className="checklistColor"   /> */}
                         <li>
                          
                           <span className="justify lits ">
@@ -220,7 +216,7 @@ export const Home = () => {
                         </li>
                       </div>
                       <div className="d-flex my-3">
-                        <BiRadioCircleMarked className="checklistColor me-1"   />
+                        {/* <BiRadioCircleMarked className="checklistColor"   /> */}
                         <li>
                           <span className="justify lits ">
                           Green Solutions to ensure you stay on top for energy conservation
@@ -230,9 +226,9 @@ export const Home = () => {
                     </ul>
                   </div>
                   <div className="col-lg-6 pe-3 pt-3 ">
-                    <ul className="list-unstyled">
+                    <ul className="text-white">
                     <div className="d-flex my-3">
-                        <BiRadioCircleMarked className="checklistColor me-1"   />
+                        {/* <BiRadioCircleMarked className="checklistColor"   /> */}
                         <li>
                           <span className="justify lits ">
                           Defining value in your business with our solutions and products
@@ -240,7 +236,7 @@ export const Home = () => {
                         </li>
                       </div>
                       <div className="d-flex my-3">
-                        <BiRadioCircleMarked className="checklistColor me-1"   />
+                        {/* <BiRadioCircleMarked className="checklistColor"   /> */}
                         <li>
                           <span className="justify lits ">
                           Realistic approach for delivering on time every time
@@ -248,7 +244,7 @@ export const Home = () => {
                         </li>
                       </div>
                       <div className="d-flex my-3">
-                        <BiRadioCircleMarked className="checklistColor me-1"   />
+                        {/* <BiRadioCircleMarked className="checklistColor"   /> */}
                         <li>
                           <span className="justify lits ">
                           Customer centric approach in every action
@@ -258,10 +254,10 @@ export const Home = () => {
                     </ul>
                   </div>
                 </div>
-                <Link to="sjxk">
+                <Link to="/solutions">
                   {" "}
-                  <div className="btn btn-lg btn-borderd button-1 ms-3 my-3">
-                    What We Offer
+                  <div className="btn btn-lg btn-borderd button-1 mx-3 my-3">
+                    Read More
                   </div>{" "}
                 </Link>
               </div>

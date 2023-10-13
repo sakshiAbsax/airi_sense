@@ -58,7 +58,7 @@ export const Solutions = () => {
                    onMouseEnter={handleHover}
                    onMouseLeave={handleMouseLeave}
                     style={{ height: 'au' }}>
-                  <Card.Img variant="top" src={card.img} style={{ height: '250px' }} />
+                  <Card.Img variant="top" src={card.img} alt={card.title} style={{ height: '250px' }} />
                   <Card.Body>
                     <Card.Title className="py-2">
                  {card.title}

@@ -3,6 +3,7 @@ import coustomer from "../images/coustomer.png";
 import { Col, Container, Row } from "react-bootstrap";
 import ourpride from "../images/pride.webp";
 import ImageSlider from "../component/ImageSlider";
+import ReviewSlider from "../component/ReviewSlider";
 // import ReviewSlider from "../component/ReviewSlider";
 
 export const Customer = () => {
@@ -104,7 +105,14 @@ export const Customer = () => {
         </div>
 
 
-       
+        <div className="customer-review">
+
+     
+<div className="container d-flex justify-content-center py-5">
+  <ReviewSlider />
+</div>
+</div>
+
       </section>
     </div>
   );

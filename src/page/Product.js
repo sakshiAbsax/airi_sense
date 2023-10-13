@@ -98,7 +98,7 @@ export const Product = () => {
                   src={productDiscription}
                   className="image-fluid ms-2"
                   width="100%"
-                  alt=""
+                  alt="productdescription"
                 />
               </div>
             </div>
@@ -126,7 +126,7 @@ export const Product = () => {
                 transition: 'transform 0.9s ease-in-out', // Add a transition for smoother hover effect
                 transform: isHovered ? 'scale(1.03)' : 'scale(1)',}}
             >
-              <Card.Img variant="top" src={card.img} style={{ height: "250px" }} />
+              <Card.Img variant="top" src={card.img} alt={card.title} style={{ height: "250px" }} />
               <Card.Body>
                 <Card.Title className="py-4">
                   ​​​​​​​ ​​​​​​​{card.title}
@@ -144,123 +144,6 @@ export const Product = () => {
           </div>
              ))
             };
-          {/* <div className="col-lg-3 mx-2">
-            <Card className="me-2 cardhover" style={{ height: "auto" }}>
-              <Card.Img variant="top" src={p2} style={{ height: "250px" }} />
-              <Card.Body>
-                <Card.Title className="py-2">
-                  ​​Material Transfer Solutions
-                </Card.Title>
-                <ListGroup>
-                  <ListGroup.Item className="text-start list-group-item list-group-item">
-                    ​Silos
-                  </ListGroup.Item>
-                  <ListGroup.Item className="text-start list-group-item list-group-item">
-                    Fillers
-                  </ListGroup.Item>
-                  <ListGroup.Item className="text-start list-group-item">
-                    Charging Systems
-                  </ListGroup.Item>
-                  <ListGroup.Item className="text-start list-group-item">
-                    Discharging System
-                  </ListGroup.Item>
-                </ListGroup>
-              </Card.Body>
-            </Card>
-          </div>
-          <div className="col-lg-3 mx-2 ">
-            <Card className="me-2 cardhover" style={{ height: "auto" }}>
-              <Card.Img variant="top" src={p3} style={{ height: "250px" }} />
-              <Card.Body>
-                <Card.Title className="py-2">
-                  Truck Loading Solutions
-                </Card.Title>
-                <ListGroup>
-                  <ListGroup.Item className="text-start list-group-item">
-                    ​Telescopic Conveyors
-                  </ListGroup.Item>
-                  <ListGroup.Item className="text-start list-group-item">
-                    Expandable Conveyors
-                  </ListGroup.Item>
-                  <ListGroup.Item className="text-start list-group-item">
-                    Expandable Conveyors
-                  </ListGroup.Item>
-                </ListGroup>
-              </Card.Body>
-            </Card>
-          </div>
-          <div className="col-lg-3 mx-2">
-            <Card className="me-2 cardhover" style={{ height: "auto" }}>
-              <Card.Img variant="top" src={p4} style={{ height: "250px" }} />
-              <Card.Body>
-                <Card.Title className="py-2">
-                  ​ ​​​​​​​Smart Conveying Solutions
-                </Card.Title>
-                <ListGroup>
-                  <ListGroup.Item className="text-start list-group-item list-group-item">
-                    ​Case & Tote Handling Lifts
-                  </ListGroup.Item>
-                  <ListGroup.Item className="text-start list-group-item">
-                    Case Conveyor’s – Belt, Modular, PVC, MDR, Roller, Gravity
-                  </ListGroup.Item>
-                  <ListGroup.Item className="text-start list-group-item">
-                    Smart Conveying Solutions
-                  </ListGroup.Item>
-                  <ListGroup.Item className="text-start list-group-item">
-                    Pallet Lift
-                  </ListGroup.Item>
-                  <ListGroup.Item className="text-start list-group-item">
-                    Turn table - Case, Tote, Pallet
-                  </ListGroup.Item>
-                  <ListGroup.Item className="text-start list-group-item">
-                    Cross Transfer System – Case, Tote, Pallet
-                  </ListGroup.Item>
-                  <ListGroup.Item className="text-start list-group-item">
-                    Spiral Conveyor’s – Belt, Gravity Roller
-                  </ListGroup.Item>
-                </ListGroup>
-              </Card.Body>
-            </Card>
-          </div>
-          <div className="col-lg-3 mx-2">
-            <Card className="me-2 cardhover" style={{ height: "auto" }}>
-              <Card.Img variant="top" src={p5} style={{ height: "250px" }} />
-              <Card.Body>
-                <Card.Title className="py-2">
-                  Cross Transfer System
-                </Card.Title>
-                <ListGroup>
-                  <ListGroup.Item className="text-start list-group-item list-group-item">
-                    ​Maintenance Management System
-                  </ListGroup.Item>
-                  <ListGroup.Item className="text-start list-group-item">
-                    Maintenance Management System
-                  </ListGroup.Item>
-                  <ListGroup.Item className="text-start list-group-item">
-                    Energy Management System
-                  </ListGroup.Item>
-                </ListGroup>
-              </Card.Body>
-            </Card>
-          </div>
-          <div className="col-lg-3 mx-2">
-            <Card className="me-2 cardhover" style={{ height: "auto" }}>
-              <Card.Img variant="top" src={p6} style={{ height: "250px" }} />
-              <Card.Body>
-                <Card.Title className="py-4">
-                 IIoT & Data management
-                </Card.Title>
-                <ListGroup style={{ border: "none !important" }}>
-                  <ListGroup.Item className="text-start list-group-item">
-                    ​Production Data MIS
-                  </ListGroup.Item>
-                  <ListGroup.Item className="text-start list-group-item">
-                    OEE Information system
-                  </ListGroup.Item>
-                </ListGroup>
-              </Card.Body>
-            </Card>
-          </div> */}
         </div>
       </div>
     </div>

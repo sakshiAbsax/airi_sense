@@ -173,7 +173,7 @@ a:hover {
 .post-module .post-content .sub_title {
   margin: 0;
   padding: 0 0 20px;
-  color: var(--h2heading);
+  color: var(--black);
   font-size: 20px;
   font-weight: 400;
 }
@@ -373,4 +373,7 @@ a:hover {
   height: 270px;
   margin: 10px 60px !important;
   width: 590px !important;
+}
+.section_paddinging{
+   background-color: var(--footerbackground);
 }

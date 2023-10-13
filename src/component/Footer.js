@@ -1,13 +1,13 @@
 import React from "react";
 // import footerlogo from "../images/footerlogo.png";
 import "../component/footer.css";
-import { AiFillYoutube } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
-import { CiFacebook } from "react-icons/ci";
 import { FaOutdent } from "react-icons/fa";
 import { ImBlog } from "react-icons/im";
 import { BiMailSend, BiMobile, BiSolidContact } from "react-icons/bi";
 import { FaLocationDot } from "react-icons/fa6";
+import {FaFacebookF} from 'react-icons/fa';
+import {AiFillYoutube} from 'react-icons/ai';
 import whitetext from '../images/whitetext.png';
 import { Link } from "react-router-dom";
 import "./footer.css";
@@ -43,10 +43,7 @@ export const Footer = () => {
     const youTubeChannelUrl = 'https://www.youtube.com/c/yourchannel';
     window.open(youTubeChannelUrl, '_blank');
   }
-  const handleFacebbokClick = () => {
-    const email = "automate@airi-sense.co.in"; // Replace with the recipient's email address
-    window.location.href = `mailto:${email}`;
-  };
+ 
   return (
     <>
       <footer className="footer-section">
@@ -101,7 +98,7 @@ export const Footer = () => {
                 style={{ listStyleType: "none" }}
               >{" "}
                   <li onClick={openFacebookPage} className="mb-3 ps-5 nav-link">
-                    <FaOutdent className="me-3 fs-4" />
+                    <FaFacebookF className="me-3 fs-4" />
                      Facebook
                   </li> {" "}
                   <li onClick={openLinkedInProfile} className="mb-3 ps-5 nav-link">
@@ -110,7 +107,7 @@ export const Footer = () => {
                   </li>
                   <li onClick={openYouTubeChannel} className="mb-3 ps-5 nav-link">
                     {" "}
-                    <BiSolidContact className="me-3 fs-4" />
+                    <AiFillYoutube className="me-3 fs-4" />
                     Youtube
                   </li>
               </ul>

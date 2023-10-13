@@ -26,18 +26,18 @@ export const Solutions = () => {
           <img src={solutions} width="100%" height="auto" />
         </div>
       </section>
-      <div className="mb-2 pt-5 mt-3 container aboutOverview">
+      <div className="mb-2 pt-5 mt-3 container ">
         <div className="row  justify-content-center  ">
           <div className="col-lg-10 whatWeDo">
-            <h1    
-              className="text-center py-2 "
-              style={{
-                fontWeight: "600",
-                letterSpacing: "3px",
-              }}
-            >
-              Modularity solution’s…
-            </h1>
+          <h1
+                  style={{
+                    fontWeight: "600",
+                    letterSpacing: "3px",
+                  }}
+                  className="text-center"
+                >
+                 Modularity Solutions... 
+                </h1>
             <p className="text-center" style={{ textAlign: "justify" }}>
               Modularity is a key in all our solution’s…​ We build modular
               solutions for most of your needs for faster delivery & easy
@@ -60,7 +60,7 @@ export const Solutions = () => {
                     style={{ height: 'au' }}>
                   <Card.Img variant="top" src={card.img} style={{ height: '250px' }} />
                   <Card.Body>
-                    <Card.Title className="py-4">
+                    <Card.Title className="py-2">
                  {card.title}
                     </Card.Title>
                     <ListGroup>
@@ -78,7 +78,7 @@ export const Solutions = () => {
           
         </div>
       </div>
-      <div className="row ">
+      {/* <div className="row ">
         <div className="container justify-content-center">
           <div className="col-lg-10 col-md-12 whatWeDo">
           <h1
@@ -123,7 +123,7 @@ export const Solutions = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };

@@ -5,7 +5,9 @@ import { HomeAbout } from "./HomeAbout";
 import { Slider } from "./Slider";
 import { Link } from "react-router-dom";
 import home_side1 from "../images/home_side2.png";
-import {BiRadioCircleMarked} from 'react-icons/bi';
+// import {BiRadioCircleMarke} from 'react-icons/bi';
+import { BiRadioCircleMarked } from "react-icons/bi";
+import homeoffer from '../images/homeoffer.jpg';
 
 export const Home = () => {
   const [isHovered, setIsHovered] = useState(false);
@@ -21,74 +23,11 @@ export const Home = () => {
       <div className="">
         <Slider />
       </div>
-      <section className="section_padding partnerSec1">
-        <div className="container py-5">
-          <div className="row justify-content-between align-items-center">
-            <div className="col-md-12 col-sm-12 col-lg-4 mb-5">
-              <div className="about_us_img">
-                <img src={home_side1} width="100%" className="ps-5" alt="" />
-              </div>
-            </div>
-            <div className="col col-md-8 col-sm-12 col-lg-6 mb-5">
-              <div className="whatWeDo">
-                <h1
-                  style={{
-                    fontWeight: "600",
-                    color: "#128c7e",
-                    letterSpacing: "3px",
-                  }}
-                  className="text-start"
-                >
-                  What We Offer ?
-                </h1>
-                <p
-                  className="card-paragraph mt-4"
-                  style={{ textAlign: "justify" }}
-                >
-                  Airi sense delivers data-driven & robotic solutions for your
-                  logistics automation alongside reliable, modular service
-                  concepts.
-                </p>
-                <div className="row">
-                  <div className="col-lg-6">
-                    <ul className="list-unstyled">
-                      <li>
-                       <BiRadioCircleMarked /> Realistic Solution’s for your current & future needs…
-                      </li>
-                      <li>Data driven approach ensuring your goals….</li>
-                      <li>
-                        Green Solutions to ensure you stay on top for energy
-                        conservation…..
-                      </li>
-                    </ul>
-                  </div>
-                  <div className="col-lg-6">
-                    <ul>
-                      <li>
-                        Defining value in your business with our solutions and
-                        products….
-                      </li>
-                      <li>
-                        Realistic approach for delivering on time every time…..
-                      </li>
-                      <li>Customer centric approach in every action……</li>
-                    </ul>
-                  </div>
-                </div>
-                <Link to="/about">
-                  {" "}
-                  <div className="btn btn-lg btn-borderd button-1 my-3">
-                    What We Do
-                  </div>{" "}
-                </Link>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
       <div className="mt-3">
         <HomeAbout />
       </div>
+     
+
       {/* <div className="row pb-4 pt-2">
         <div className="col-md-12">
           <center>
@@ -231,7 +170,105 @@ export const Home = () => {
           </div>
         </div>
       </div>
-
+      <section className="section_padding partnerSec1" style={{backgroundColor:"#373040"}}>
+        <div className="container py-5">
+          <div className="row justify-content-between align-items-center">
+            <div className="col-md-12 col-sm-12 col-lg-4 mb-5">
+              <div className="about_us_img">
+                <img src={homeoffer} width="100%" className="ps-5" alt="" />
+              </div>
+            </div>
+            <div className="col col-md-8 col-sm-12 col-lg-6 mb-5 py-5">
+              <div className="whatWeDo">
+                <h1
+                  style={{
+                    fontWeight: "600",
+                    color: "#128c7e",
+                    letterSpacing: "3px",
+                  }}
+                  className="text-start"
+                >
+                  What We Offer ?
+                </h1>
+                <p
+                  className="card-paragraph mt-4"
+                  style={{ textAlign: "justify" }}
+                >
+                  Airi sense delivers data-driven & robotic solutions for your
+                  logistics automation alongside reliable, modular service
+                  concepts.
+                </p>
+                <div className="row">
+                  <div className="col-lg-6 pe-3 pt-3 ">
+                    <ul className="list-unstyled">
+                    <div className="d-flex my-3">
+                        <BiRadioCircleMarked className="checklistColor me-1"   />
+                        <li>
+                        
+                          <span className="justify lits ">
+                          Realistic Solution’s for your current & future needs
+                          </span>
+                        </li>
+                      </div>
+                      <div className="d-flex my-3">
+                        <BiRadioCircleMarked className="checklistColor me-1"   />
+                        <li>
+                         
+                          <span className="justify lits ">
+                          Data driven approach ensuring your goals
+                          </span>
+                        </li>
+                      </div>
+                      <div className="d-flex my-3">
+                        <BiRadioCircleMarked className="checklistColor me-1"   />
+                        <li>
+                          <span className="justify lits ">
+                          Green Solutions to ensure you stay on top for energy conservation
+                          </span>
+                        </li>
+                      </div>
+                    </ul>
+                  </div>
+                  <div className="col-lg-6 pe-3 pt-3 ">
+                    <ul className="list-unstyled">
+                    <div className="d-flex my-3">
+                        <BiRadioCircleMarked className="checklistColor me-1"   />
+                        <li>
+                          <span className="justify lits ">
+                          Defining value in your business with our solutions and products
+                          </span>
+                        </li>
+                      </div>
+                      <div className="d-flex my-3">
+                        <BiRadioCircleMarked className="checklistColor me-1"   />
+                        <li>
+                          <span className="justify lits ">
+                          Realistic approach for delivering on time every time
+                          </span>
+                        </li>
+                      </div>
+                      <div className="d-flex my-3">
+                        <BiRadioCircleMarked className="checklistColor me-1"   />
+                        <li>
+                          <span className="justify lits ">
+                          Customer centric approach in every action
+                          </span>
+                        </li>
+                      </div>
+                    </ul>
+                  </div>
+                </div>
+                <Link to="sjxk">
+                  {" "}
+                  <div className="btn btn-lg btn-borderd button-1 ms-3 my-3">
+                    What We Offer
+                  </div>{" "}
+                </Link>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
       <div className="news">
         <div className="row py-4">
           <div className="col-md-12">

@@ -13,8 +13,7 @@
 }
     /* Hover state */
     .nav-link:hover {
-     
-      color: var(--orange);
+      color: var(--orange) !important;
        padding: 0;
     }
   

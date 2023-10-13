@@ -14,7 +14,6 @@ export const HomeAbout = () => {
                 <h1
                   style={{
                     fontWeight: "600",
-                    color: "#128c7e",
                     letterSpacing: "3px",
                   }}
                   className="text-start"

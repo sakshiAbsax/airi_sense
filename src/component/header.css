@@ -1,0 +1,97 @@
+
+:root {
+  --orange:#fB8B23;
+  --gray: rgb(203, 198, 198);
+  --white:#fff;
+}
+
+.nav-link-products {
+     color: black; /* Change text color to purple */
+     text-decoration: none !important; /* Remove default underline */
+     font-size: 22px;
+   }
+   
+   /* Add hover style */
+   .nav-link-products:hover {
+     color:var(--orange); /* Change text color on hover (if desired) */
+     text-decoration: none !important; /* Remove underline on hover */
+   }
+   
+   /* Add active style */
+   .nav-link-products.active {
+    color:var(--orange) ;
+    
+   }
+.btn{
+  background-color: var(--orange) !important;
+}
+
+   /* background-image: linear-gradient(to right top, #63b2be, #53c3b4, #71d095, #abd66c, #f1d34d); */
+  
+/* Common styles for all devices */
+.carousel-indicators [data-bs-target] {
+  border-radius: 50%;
+  background-color:#fB8B23 !important;
+}
+
+.carousel-caption {
+  position: absolute; /* Position the element absolutely */
+  top: 0%; /* Vertically center */
+  left:15% !important; /* Horizontally center */
+  text-align: center; /* Center text horizontally */
+  line-height: 1.5; 
+  padding-top: 1.25rem !important;
+  padding-bottom: 1.25rem !important;
+  color:var(--white) !important;
+  text-align: center !important;
+   display: flex;
+   justify-content: center !important;
+   flex-direction: column !important;
+   margin: auto;
+}
+.carousel-control-prev,
+.carousel-control-next {
+  display: none !important;
+}
+
+/* Adjust caption position for smaller screens if needed */
+@media (max-width: 768px) {
+  /* Mobile and Tablet Styles */
+  .carousel-item {
+    height: 40vh !important;
+    padding-top: 2px;
+  }
+
+  .carousel-caption {
+    
+    right: auto !important;
+    margin: 0 5px !important;
+    
+  }
+  .carousel-caption h2{
+  
+    font-size:18px !important ;
+    
+  }
+  .carousel-caption p{
+  
+    font-size:14px !important ;
+    
+  }
+
+  /* Hide previous and next buttons for mobile and tablet */
+  .carousel-control-prev,
+  .carousel-control-next {
+    display: none !important;
+  }
+
+  /* Hide carousel indicators for mobile and tablet */
+  .carousel-indicators [data-bs-target] {
+    display: none !important; 
+  }
+}
+
+.carousel-item img{
+  width: 100%;
+filter:brightness(85%);
+}

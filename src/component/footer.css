@@ -1,0 +1,23 @@
+
+.footer-section{
+ background-color: var(--footerbackground);
+}
+.nav-links{
+  color: var(--white);
+
+}
+.nav-link {
+    color: var(--white) !important; /* Default color */
+    text-decoration: none !important; /* Remove underline */
+    text-align: left !important;
+}
+    /* Hover state */
+    .nav-link:hover {
+      color: var(--orange) !important;
+       padding: 0;
+    }
+  
+    /* Active state */
+    .nav-link:active {
+      color: var(--orange) !important;
+    }

@@ -1,8 +1,10 @@
 import React, { useState, useEffect, useRef } from "react";
 import coustomer from "../images/coustomer.png";
 import { Col, Container, Row } from "react-bootstrap";
-import ourpride from "../images/ourpride.png";
+import ourpride from "../images/pride.webp";
 import ImageSlider from "../component/ImageSlider";
+import ReviewSlider from "../component/ReviewSlider";
+// import ReviewSlider from "../component/ReviewSlider";
 
 export const Customer = () => {
   const images = [
@@ -19,15 +21,15 @@ export const Customer = () => {
     <div>
       <section id="customer">
         <div className="bnrImg">
-          <img src={coustomer} width="100%" height="700px" />
+          <img src={coustomer} width="100%" height="auto" />
         </div>
 
         <div className="mb-2 pt-5 container aboutOverview">
           <div className="row  justify-content-center ">
-            <div className="col-lg-10">
+            <div className="col-lg-10 whatWeDo">
               <h1
                 className="text-center py-2 fw-bold"
-                style={{ color: "#6f309e", letterSpacing: "3px" }}
+                style={{ color: "#128c7e", letterSpacing: "3px" }}
               >
                 Customer
               </h1>
@@ -45,12 +47,12 @@ export const Customer = () => {
         <section className="section_padding partnerSec1">
           <div className="container py-5">
             <div className="row justify-content-between align-items-center">
-              <div className="col col-md-8 col-sm-12 col-lg-6 mb-5">
+              <div className="col col-md-8 col-sm-12 col-lg-6 ">
                 <div className="whatWeDo">
                   <h1
                     style={{
                       fontWeight: "600",
-                      color: "#6f309e",
+                      color: "#128c7e",
                       letterSpacing: "3px",
                     }}
                     className="text-start"
@@ -86,18 +88,31 @@ export const Customer = () => {
                 </div>
               </div>
 
-              <div className="col-md-12 col-sm-12 col-lg-4 mb-5">
+              <div className="col-md-12 col-sm-12 col-lg-6">
                 <div className="about_us_img">
-                  <img src={ourpride} width="100%" alt="" />
+                  <img src={ourpride} width="100%" alt="" className="ps-5 mt-5" />
                 </div>
               </div>
             </div>
           </div>
         </section>
+       <div className="customer-slider">
 
-        <div className="container d-flex justify-content-center my-5">
+     
+        <div className="container d-flex justify-content-center py-5">
           <ImageSlider images={images} />
         </div>
+        </div>
+
+
+        <div className="customer-review">
+
+     
+<div className="container d-flex justify-content-center py-5">
+  <ReviewSlider />
+</div>
+</div>
+
       </section>
     </div>
   );

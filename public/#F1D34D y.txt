@@ -1,0 +1,9 @@
+#F1D34D y
+
+#DC624B r
+
+#63b2be b
+
+#128c7e g
+
+background-image: linear-gradient(to right top, #63b2be, #53c3b4, #71d095, #abd66c, #f1d34d);

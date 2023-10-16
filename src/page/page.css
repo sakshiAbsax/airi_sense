@@ -19,17 +19,17 @@ html, body{
   
   .section .error{
     font-size: 150px;
-    color:#6f309e;
+    color:var(--orange);
     text-shadow: 
       1px 1px 1px #fff,    
       2px 2px 1px #fff,
-      3px 3px 1px #FFAC1C,
-      4px 4px 1px #FFAC1C,
-      5px 5px 1px #FFAC1C,
-      6px 6px 1px #FFAC1C,
-      7px 7px 1px #FFAC1C,
-      8px 8px 1px #FFAC1C,
-      25px 25px 8px rgba(0,0,0, 0.2);
+      3px 3px 1px var(--gray),
+      4px 4px 1px var(--gray),
+      5px 5px 1px var(--gray),
+      6px 6px 1px var(--gray),
+      7px 7px 1px  var(--gray),
+      8px 8px 1px var(--gray),
+      25px 25px 8px var(--gray);
   }
   
   .page{
@@ -50,8 +50,8 @@ html, body{
     box-shadow: 0 3px 8px rgba(0,0,0, 0.3);
   }
   .back-home:hover{
-    background: #222;
-    color: #ddd;
+    background: var(--orange);
+    color: var(--white);
   }
 
   .blog-card {
@@ -273,7 +273,7 @@ html, body{
 
 
   .right_conatct_social_icon{
-       background: linear-gradient(to top right, #dca709 -5%, #8f10b7 100%);
+       background: var(--orange);
   }
   .contact_us{
       background-color: #f1f1f1;
@@ -305,9 +305,12 @@ html, body{
   .contact_field p{
       color: #000;
       font-size: 13px;
-      font-weight: 400;
       letter-spacing: 1px;
       margin-bottom: 35px;
+      color: var(--black) !important;
+      font-family: kuka-bulo,Calibri,Segoe UI,Helvetica,Arial,sans-serif !important;
+      font-size: 22px !important;
+      font-weight: 500;
   }
   .contact_field .form-control{
       border-radius: 0px;
@@ -317,17 +320,18 @@ html, body{
   .contact_field .form-control:focus{
       box-shadow: none;
       outline: none;
-      border-bottom: 2px solid #1325e8;
+      border-bottom: 2px solid var(--orange) !important;
   }
   .contact_field .form-control::placeholder{
-      font-size: 13px;
+      font-size: 20px !important;
+      font-weight: 500;
       letter-spacing: 1px;
   }
   
   .contact_info_sec {
       position: absolute;
-      background-color: #2d2d2d;
-      color: #fff;
+      background-color: var(--footerbackground);
+      color: var(--white);
       right: 1px;
       top: 18%;
       height: 340px;
@@ -338,6 +342,7 @@ html, body{
   .contact_info_sec h4{
       letter-spacing: 1px;
       padding-bottom: 15px;
+      font-weight: 800;
   }
   
   .info_single{
@@ -345,14 +350,16 @@ html, body{
   }
   .info_single i{
       margin-right: 15px;
+      font-weight: 600;
   }
   .info_single span{
       font-size: 14px;
       letter-spacing: 1px;
+      font-weight: 600;
   }
   
   button.contact_form_submit {
-      background: linear-gradient(to top right, #1325e8 -5%, #8f10b7 100%);
+      background: var(--orange);
       border: none;
       color: #fff;
       padding: 10px 15px;
@@ -360,7 +367,8 @@ html, body{
       margin-top: 25px;
       border-radius: 35px;
       cursor: pointer;
-      font-size: 14px;
+      font-size: 18px;
+      font-weight: 600;
       letter-spacing: 2px;
   }
   .socil_item_inner li{
@@ -390,6 +398,11 @@ html, body{
       border-radius: 30px;
       overflow: hidden;
   }
+  .contact-paragrap{
+    font-family: kuka-bulo,Calibri,Segoe UI,Helvetica,Arial,sans-serif !important;
+    font-size: 24px !important;
+  font-weight: 700 !important; 
+ }
   
   /* Mobile Devices */
 @media (max-width: 767px) {
@@ -431,3 +444,238 @@ html, body{
  .row {
   --bs-gutter-x: none !important;
  }
+
+ .customer-slider{
+  background-color: var(--orange);
+ }
+ .checklistColor{
+  color: var(--orange);
+ font-size: 50px;
+
+ }
+ .lits{
+  font-size: 22px;
+  text-align: justify;
+  color: var(--white);
+  font-family: "kuka-bulo", Calibri, Segoe UI, Helvetica, Arial, sans-serif;
+ }
+
+ .whatWeoffer {
+  text-align: left;
+}
+.whatWeoffer h1 {
+  font-size: 55px;
+  color:var(--white) !important;
+  font-weight: 600;
+}
+
+.whatWeoffer p {
+  font-size: 22px;
+  text-align: justify;
+  color: var(--white);
+  font-family: "kuka-bulo", Calibri, Segoe UI, Helvetica, Arial, sans-serif;
+}
+.whatWeoffer .button-1 {
+  color: var(--white) !important;
+  background-color:var(--orange) !important;
+}
+.whatWeoffer .button-1:hover {
+  background-position: 100%;
+  color: var(--orange) !important;
+  background-color: var(--white) !important;
+  border:2px solid var(--orange);
+  
+}
+
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4 {
+  letter-spacing: var(--spacing);
+  text-transform: capitalize;
+  line-height: 1.25;
+  margin-bottom: 0.75rem;
+}
+h1 {
+  font-size: 3rem;
+}
+h2 {
+  font-size: 2rem;
+}
+h3 {
+  font-size: 1.25rem;
+}
+h4 {
+  font-size: 0.875rem;
+}
+p {
+  margin-bottom: 1.25rem;
+  color: var(--clr-grey-5);
+}
+@media screen and (min-width: 800px) {
+  h1 {
+    font-size: 4rem;
+  }
+  h2 {
+    font-size: 2.5rem;
+  }
+  h3 {
+    font-size: 1.75rem;
+  }
+  h4 {
+    font-size: 1rem;
+  }
+  body {
+    font-size: 1rem;
+  }
+  h1,
+  h2,
+  h3,
+  h4 {
+    line-height: 1;
+  }
+}
+/*  global classes */
+
+/* section */
+.section {
+  width: 90vw;
+  margin: 0 auto;
+  max-width: 100%;
+}
+
+@media screen and (min-width: 992px) {
+  .section {
+    width: 95vw;
+  }
+}
+
+/*
+=============== 
+Reviews
+===============
+*/
+main {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+}
+.title {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+.underline {
+  height: 0.25rem;
+  width: 5rem;
+  background: var(--footerbackground);
+  margin-left: auto;
+  margin-right: auto;
+}
+.container {
+  width: 80vw;
+
+}
+.review {
+  width:839px !important;
+  background: var(--orange);
+  padding: 1.5rem 2rem;
+  border-radius: var(--radius);
+  box-shadow: var(--light-shadow);
+  transition: var(--transition);
+  text-align: center;
+}
+.review:hover {
+  box-shadow:1px 1px 1px 0 0.1 ;
+}
+.img-container {
+  position: relative;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin: 0 auto;
+  margin-bottom: 1.5rem;
+}
+.person-img {
+  width: 100%;
+  display: block;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+  position: relative;
+}
+.quote-icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 2.5rem;
+  height: 2.5rem;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  transform: translateY(25%);
+  background: var(--orange);
+  color: var(--white);
+}
+.img-container::before {
+  content: '';
+  width: 100%;
+  height: 100%;
+  background: var(--clr-primary-5);
+  color: var(--white) !important;
+  position: absolute;
+  top: -0.25rem;
+  right: -0.5rem;
+  border-radius: 50%;
+}
+.author {
+  margin-bottom: 0.25rem;
+}
+.job {
+  margin-bottom: 0.5rem;
+  text-transform: uppercase;
+  color: var(--clr-primary-5);
+  font-size: 0.85rem;
+}
+.info {
+  margin-bottom: 0.75rem;
+}
+.prev-btn,
+.next-btn {
+  color: var(--clr-primary-7);
+  font-size: 1.25rem;
+  background: transparent;
+  border-color: transparent;
+  margin: 0 0.5rem;
+  transition: var(--transition);
+  cursor: pointer;
+}
+.prev-btn:hover,
+.next-btn:hover {
+  color: var(--white);
+}
+.random-btn {
+  margin-top: 0.5rem;
+  background: var(--white);
+  color: var(--black);
+  padding: 0.25rem 0.5rem;
+  text-transform: capitalize;
+  border-radius: 15px;
+  transition:all 0.2s ease-in-out;
+  border-color: transparent;
+  cursor: pointer;
+}
+.random-btn:hover {
+  background: var(--clr-primary-5);
+  color: var(--clr-primary-1);
+}
+
+.icon{
+font-size: 4rem;
+color:red;
+}

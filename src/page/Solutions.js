@@ -1,22 +1,43 @@
-import React from "react";
-import solutions from "../images/solutions.png";
+
+
+
+
+import React,{useState} from "react"
+import { ListGroup, } from "react-bootstrap";
+import solutions from "../images/solutions.jpg";
+import Card from "react-bootstrap/Card";
+import './product.css'
+import { solutionCard } from "./SolutionCard";
+
 export const Solutions = () => {
+  const [isHovered, setIsHovered] = useState(false);
+
+  const handleHover = () => {
+    setIsHovered(true);
+  };
+
+  const handleMouseLeave = () => {
+    setIsHovered(false);
+  };
   return (
     <div>
       <section id="our_pride">
         <div className="bnrImg">
-          <img src={solutions} width="100%" height="700px" />
+          <img src={solutions} width="100%" height="auto" />
         </div>
       </section>
-      <div className="mb-2 pt-5 mt-3 container aboutOverview">
-        <div className="row  justify-content-center ">
-          <div className="col-lg-10">
-            <h1
-              className="text-center py-2"
-              style={{ fontWeight: "600", color: "#6f309e" }}
-            >
-              Modularity solution’s…
-            </h1>
+      <div className="mb-2 pt-5 mt-3 container ">
+        <div className="row  justify-content-center  ">
+          <div className="col-lg-10 whatWeDo">
+          <h1
+                  style={{
+                    fontWeight: "600",
+                    letterSpacing: "3px",
+                  }}
+                  className="text-center"
+                >
+                 Modularity Solutions... 
+                </h1>
             <p className="text-center" style={{ textAlign: "justify" }}>
               Modularity is a key in all our solution’s…​ We build modular
               solutions for most of your needs for faster delivery & easy
@@ -26,212 +47,42 @@ export const Solutions = () => {
         </div>
       </div>
 
-      <div class="container">
-        <div className=" row justify-content-center py-0 ">
-          <div className="col-lg-4">
-            <div class="card py-0 my-0">
-              <div class="face face1">
-                <div class="content">
-                  <h2
-                    className=" text-black px-3 py-2 "
-                    style={{ background: "#ffffff7a", borderRadius: "5px" }}
-                  >
-                    Palletizing Cell
-                  </h2>
-                </div>
+      
+
+      <div className="mx-lg-5 py-5">
+        <div className="row justify-content-center pt-5  mx-lg-5 mx-3">
+      { solutionCard.map((card, index) => (
+        <div className="col-lg-3 mx-2">
+                <Card 
+                   className={`me-2 cardhover ${isHovered ? 'hovered' : ''}`}
+                   onMouseEnter={handleHover}
+                   onMouseLeave={handleMouseLeave}
+                    style={{ height: 'au' }}>
+                  <Card.Img variant="top" src={card.img} alt={card.title} style={{ height: '250px' }} />
+                  <Card.Body>
+                    <Card.Title className="py-2">
+                 {card.title}
+                    </Card.Title>
+                    <ListGroup>
+                    {card.list.map((item, itemIndex) => (
+                      <ListGroup.Item className="text-start list-group-item">
+                      {item}
+                      </ListGroup.Item>
+                    ))}
+                    </ListGroup>
+                  </Card.Body>
+                </Card>
               </div>
-              <div class="face face2 overflow-hidden">
-                <div class="content d-flex flex-column h-auto ">
-                  <h5 className="mt-1 text-left">Gantry Based</h5>
-                  <p className="mt-1" style={{ textAlign: "justify" }}>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Quas cum cumque minus iste veritatis provident at.
-                  </p>
-                  <h5 className="mt-2">Robot Based</h5>
-                  <p className="mt-1" style={{ textAlign: "justify" }}>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Quas cum cumque minus iste veritatis provident at.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="col-lg-4">
-            <div class="card">
-              <div class="face face1">
-                <div class="content d-flex flex-column ">
-                  <h2
-                    className=" text-black px-3 py-2 "
-                    style={{ background: "#ffffff7a", borderRadius: "5px" }}
-                  >
-                    Pick & Place
-                  </h2>
-                </div>
-              </div>
-              <div class="face face2 overflow-hidden">
-                <div class="content d-flex flex-column h-auto">
-                  <h5 className="mt-1 text-left">Machine tending</h5>
-                  <p className="mt-1" style={{ textAlign: "justify" }}>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Quas cum cumque minus iste veritatis provident at.
-                  </p>
-                  <h5 className="mt-2">Material Handling</h5>
-                  <p className="mt-1" style={{ textAlign: "justify" }}>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Quas cum cumque minus iste veritatis provident at.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="col-lg-4">
-            <div class="card">
-              <div class="face face1">
-                <div class="content">
-                  <h2
-                    className=" text-black px-3 py-2 "
-                    style={{ background: "#ffffff7a", borderRadius: "5px" }}
-                  >
-                    Packing Solution
-                  </h2>
-                </div>
-              </div>
-              <div class="face face2 overflow-hidden">
-                <div class="content d-flex flex-column h-auto">
-                  <h5 className="mt-1 text-left">Secondary</h5>
-                  <p className="mt-1" style={{ textAlign: "justify" }}>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Quas cum cumque minus iste veritatis provident at.
-                  </p>
-                  <h5 className="mt-2">Tertiary</h5>
-                  <p className="mt-1" style={{ textAlign: "justify" }}>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Quas cum cumque minus iste veritatis provident at.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="col-lg-4">
-            <div class="card">
-              <div class="face face1">
-                <div class="content">
-                  <h2
-                    className=" text-black px-3 py-2 "
-                    style={{ background: "#ffffff7a", borderRadius: "5px" }}
-                  >
-                    Vertical Solutions
-                  </h2>
-                </div>
-              </div>
-              <div class="face face2 overflow-hidden">
-                <div class="content d-flex flex-column h-auto ">
-                  <h5 className="mt-1 text-left">Gantry Based</h5>
-                  <p className="mt-1" style={{ textAlign: "justify" }}>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Quas cum cumque minus iste veritatis provident at.
-                  </p>
-                  <h5 className="mt-2">Robot Based</h5>
-                  <p className="mt-1" style={{ textAlign: "justify" }}>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Quas cum cumque minus iste veritatis provident at.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="col-lg-4">
-            <div class="card">
-              <div class="face face1">
-                <div class="content d-flex flex-column ">
-                  <h2
-                    className=" text-black px-3 py-2 "
-                    style={{ background: "#ffffff7a", borderRadius: "5px" }}
-                  >
-                    Track & Trace
-                  </h2>
-                </div>
-              </div>
-              <div class="face face2 overflow-hidden">
-                <div class="content d-flex flex-column h-auto">
-                  <h5 className="mt-1 text-left">Machine tending</h5>
-                  <p className="mt-1" style={{ textAlign: "justify" }}>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Quas cum cumque minus iste veritatis provident at.
-                  </p>
-                  <h5 className="mt-2">Material Handling</h5>
-                  <p className="mt-1" style={{ textAlign: "justify" }}>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Quas cum cumque minus iste veritatis provident at.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="col-lg-4">
-            <div class="card">
-              <div class="face face1">
-                <div class="content">
-                  <h2
-                    className=" text-black px-3 py-2 "
-                    style={{ background: "#ffffff7a", borderRadius: "5px" }}
-                  >
-                    Check-weighing & Rejection
-                  </h2>
-                </div>
-              </div>
-              <div class="face face2 overflow-hidden">
-                <div class="content d-flex flex-column h-auto">
-                  <h5 className="mt-1 text-left">Secondary</h5>
-                  <p className="mt-1" style={{ textAlign: "justify" }}>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Quas cum cumque minus iste veritatis provident at.
-                  </p>
-                  <h5 className="mt-2">Tertiary</h5>
-                  <p className="mt-1" style={{ textAlign: "justify" }}>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Quas cum cumque minus iste veritatis provident at.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-          {/* <div className="col-lg-4">
-            <div class="card">
-              <div class="face face1">
-                <div class="content">
-                  <h2
-                    className=" text-black px-3 py-2 "
-                    style={{ background: "#ffffff7a", borderRadius: "5px" }}
-                  >
-                    Printing & Packing
-                  </h2>
-                </div>
-              </div>
-              <div class="face face2 overflow-hidden">
-                <div class="content d-flex flex-column h-auto">
-                  <h5 className="mt-1 text-left">Secondary</h5>
-                  <p className="mt-1" style={{ textAlign: "justify" }}>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Quas cum cumque minus iste veritatis provident at.
-                  </p>
-                  <h5 className="mt-2">Tertiary</h5>
-                  <p className="mt-1" style={{ textAlign: "justify" }}>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Quas cum cumque minus iste veritatis provident at.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div> */}
+))}
+              
+          
         </div>
       </div>
-      <div className="row ">
+      {/* <div className="row ">
         <div className="container justify-content-center">
-          <div className="col-lg-10 col-md-12">
+          <div className="col-lg-10 col-md-12 whatWeDo">
           <h1
               className="text-center py-3"
-              style={{ fontWeight: "600", color: "#6f309e" }}
             >
              Customized Solutions
             </h1>
@@ -241,7 +92,7 @@ export const Solutions = () => {
                   {" "}
                   <a href="#">
                     <div className="fplogo">
-                      <h1 className="text-white">TECHNO-1</h1>
+                      <h3 className="text-white">TECHNO-1</h3>
                     </div>
                     <div className="fptext">
                       <p>
@@ -256,7 +107,7 @@ export const Solutions = () => {
                   {" "}
                   <a href="#">
                     <div className="fplogo">
-                      <h1 className="text-white">TECHNO-1</h1>
+                      <h3 className="text-white">TECHNO-1</h3>
                     </div>
                     <div className="fptext">
                       <p>
@@ -272,7 +123,7 @@ export const Solutions = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };

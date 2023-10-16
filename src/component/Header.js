@@ -1,8 +1,16 @@
 import React from "react";
-import Container from "react-bootstrap/Container";
+// import Container from "react-bootstrap/Container";
 import { Hamburger } from "./Hamburger";
 import { Link, NavLink } from "react-router-dom";
-import logo from "../images/logo.png";
+import logo300 from "../images/logo300.png";
+import Button from "react-bootstrap/Button";
+import Container from "react-bootstrap/Container";
+import Form from "react-bootstrap/Form";
+import Nav from "react-bootstrap/Nav";
+import Navbar from "react-bootstrap/Navbar";
+import NavDropdown from "react-bootstrap/NavDropdown";
+import './header.css';
+
 export const Header = () => {
   const [showNavbar, setShowNavbar] = React.useState(false);
 
@@ -11,64 +19,35 @@ export const Header = () => {
   };
   return (
     <>
-      <nav className="navbar fixed-top   ">
+      <Navbar expand="lg" className="bg-body-tertiary" sticky="top" style={{boxShadow: "6px 2px 15px 1px rgba(0,0,0,0.8)"}}>
         <Container>
-          
-          <div className="header-nav ps-lg-5 ms-lg-5">
-            <Link to="/">
-              <div className="logo ms-lg-5">
-                <img src={logo} className="w-100" />
-              </div>
-            </Link>
-
-            <div className="menu-icon ps-5 ms-5" onClick={handleShowNavbar}>
-              <Hamburger />
+          <NavLink to="/">
+            <div className="logo ms-lg-5">
+              <img src={logo300} className="w-75" />
             </div>
+          </NavLink>
+          <Navbar.Toggle aria-controls="navbarScroll" />
+          <Navbar.Collapse id="navbarScroll">
+            <Nav
+              className="ms-auto my-2 my-lg-0"
+              style={{ maxHeight: "150px" }}
+              navbarScroll
+            >
+              <NavLink to="/product" className="mx-4 nav-link-products">Products</NavLink>
+              <NavLink to="/solutions" className="mx-4 nav-link-products">Solutions</NavLink>
+              <NavLink to="/industries" className="mx-4 nav-link-products">Industries</NavLink>
+              <NavLink to="/customer" className="mx-4 nav-link-products">Coustomer</NavLink>
+            </Nav>
+            <Form className="d-flex ms-auto  d-flex justify-content-center">
+              <Link to="/contact">
 
-            <div className={`nav-elements  ${showNavbar && "active"}`}>
-              <ul className="ms-lg-5  pb-0 mb-0 text-start">
-                <li>
-                  <NavLink className=" fs-6" to="/product">
-                    Products
-                  </NavLink>
-                </li>
-                <li>
-                  <NavLink className=" fs-6" to="/solutions">
-                    Solutions
-                  </NavLink>
-                </li>
-                <li>
-                  <NavLink className=" fs-6" to="/industries">
-                    Industries
-                  </NavLink>
-                </li>
-                <li>
-                  <NavLink className=" fs-6" to="/customer">
-                    Customers
-                  </NavLink>
-                </li>
-                 <li>
-                  <NavLink className=" fs-6" to="/about">
-                    About
-                  </NavLink>
-                </li>
-                {/* <li>
-              <NavLink className=" fs-6" to="/contact">Contact</NavLink>
-            </li> */}
-           
-              </ul>
             
-            </div>
-
-            <div className="ps-lg-5  ps-md-3 ms-lg-3 headerBtn">
-            <a href="#" class="fancy-button bg-gradient1"><span><i></i>Tickets</span></a>
-              {/* <a href="/contact" className="text-white btn-md headerBtn  btn-warning btn rounded-pill">Contact-Us</a> */}
-            </div>
-            
-          </div>
-         
+              <Button  className="btn btn-lg btn-borderd" style={{border:"none"}}> Contact Us</Button>
+              </Link>
+            </Form>
+          </Navbar.Collapse>
         </Container>
-      </nav>
+      </Navbar>
     </>
   );
 };

@@ -1,5 +1,5 @@
 import React,{useState} from "react";
-import solutions2 from "../images/solutions2.jpg";
+import carrer_bnnr from '../images/carrer_bnnr.jpg';
 import graduates from "../images/graduates.svg";
 import location from "../images/location.svg";
 import professionals from "../images/professionals.svg";
@@ -35,7 +35,7 @@ export const Carrers = () => {
     <div>
       <section id="our_pride">
         <div className="bnrImg">
-          <img src={solutions2} width="100%" height="auto" />
+          <img src={carrer_bnnr} width="100%" height="auto" />
         </div>
       </section>
       <div className="mb-2 pt-5 mt-3 container ">

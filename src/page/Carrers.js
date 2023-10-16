@@ -29,7 +29,7 @@ export const Carrers = () => {
       backgroundColor: "#ff0000",
     },
   ];
-  const [activeTab, setActiveTab] = useState(null);
+  const [activeTab, setActiveTab] = useState('Graduates');
   
   return (
     <div>

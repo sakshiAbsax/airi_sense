@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import product_bnr from "../images/product_bnr.png";
+import product_bnr from "../images/product/product_bnr.png";
 import { ListGroup } from "react-bootstrap";
-import productDiscription from "../images/productDis.png";
+import productDiscription from "../images/product/productDis.png";
 
 import Card from "react-bootstrap/Card";
 import { Link } from "react-router-dom";

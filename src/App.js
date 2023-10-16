@@ -13,6 +13,7 @@ import { Solutions } from './page/Solutions';
 import  Blogs  from './page/Blogs';
 import { Product } from './page/Product';
 import { Footer } from './component/Footer';
+import { Carrers } from './page/Carrers';
 
 
 function App() {
@@ -29,7 +30,8 @@ function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/solutions" element={<Solutions />} />
         <Route path="/blogs" element={<Blogs />} />
-        <Route path="/product" element={<Product />} />                             
+        <Route path="/product" element={<Product />} /> 
+        <Route path="/carrers" element={<Carrers />} />                            
         <Route path="/*" element={<PageNotFound />}> </Route>
       </Routes>
       <Footer />

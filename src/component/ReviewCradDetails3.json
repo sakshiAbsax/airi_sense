@@ -1,0 +1,29 @@
+
+    [
+        {
+          "image": "path-to-image-1.jpg",
+          "heading": "Heading 1",
+          "text": "This is the paragraph text for the first item."
+        },
+        {
+          "image": "path-to-image-2.jpg",
+          "heading": "Heading 2",
+          "text": "This is the paragraph text for the second item."
+        },
+        {
+            "image": "path-to-image-2.jpg",
+            "heading": "Heading 2",
+            "text": "This is the paragraph text for the second item."
+          },
+          {
+            "image": "path-to-image-2.jpg",
+            "heading": "Heading 2",
+            "text": "This is the paragraph text for the second item."
+          },
+          {
+            "image": "path-to-image-2.jpg",
+            "heading": "Heading 2",
+            "text": "This is the paragraph text for the second item."
+          }
+       
+      ]

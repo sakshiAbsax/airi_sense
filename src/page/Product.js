@@ -128,7 +128,7 @@ export const Product = () => {
             >
               <Card.Img variant="top" src={card.img} alt={card.title} style={{ height: "250px" }} />
               <Card.Body>
-                <Card.Title className="py-4">
+                <Card.Title className="py-2">
                   ​​​​​​​ ​​​​​​​{card.title}
                 </Card.Title>
                 <ListGroup>

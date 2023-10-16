@@ -1,10 +1,11 @@
-import React, { useState} from "react";
+import React, { useState } from "react";
 import { HomeAbout } from "./HomeAbout";
 import { Slider } from "./Slider";
 import { Link } from "react-router-dom";
-
-
-import homeoffer from '../images/homeoffer.png';
+import homeoffer from "../images/homeoffer.png";
+import ReviewSlider from "./ReviewSlider";
+import { BiRadioCircleMarked } from "react-icons/bi";
+import { AiOutlineCheckCircle } from "react-icons/ai";
 
 export const Home = () => {
   const [isHovered, setIsHovered] = useState(false);
@@ -23,7 +24,6 @@ export const Home = () => {
       <div className="mt-3">
         <HomeAbout />
       </div>
-     
 
       {/* <div className="row pb-4 pt-2">
         <div className="col-md-12">
@@ -195,68 +195,57 @@ export const Home = () => {
                   concepts.
                 </p>
                 <div className="row">
-                  <div className="col-lg-6 pe-1 pt-3 ">
-                    <ul className=" text-white">
-                    <div className="d-flex my-3">
-                        {/* <BiRadioCircleMarked className="checklistColor"   /> */}
-                        <li>
-                        
-                          <span className="justify lits ">
-                          Realistic Solution’s for your current & future needs
-                          </span>
-                        </li>
-                      </div>
-                      <div className="d-flex my-3">
-                        {/* <BiRadioCircleMarked className="checklistColor"   /> */}
-                        <li>
-                         
-                          <span className="justify lits ">
-                          Data driven approach ensuring your goals
-                          </span>
-                        </li>
-                      </div>
-                      <div className="d-flex my-3">
-                        {/* <BiRadioCircleMarked className="checklistColor"   /> */}
-                        <li>
-                          <span className="justify lits ">
-                          Green Solutions to ensure you stay on top for energy conservation
-                          </span>
-                        </li>
-                      </div>
-                    </ul>
+                  <div className="col-lg-6 pe-4 pt-3 ">
+                    <p>
+                      {" "}
+                      <span>
+                      <AiOutlineCheckCircle style={{color:"var(--orange)"}}/> 
+                      </span>
+                      <span  className="text-justify">
+                      Realistic Solution’s for your
+                      current & future needs... </span>
+                    </p>
+                    <p>
+                      {" "}
+                      <AiOutlineCheckCircle  style={{color:"var(--orange)"}}/>
+                    <span className="text-justify"> Data driven approach ensuring your goals...</span>
+                    </p>
+                    <p>
+                     
+                      {" "}
+                      <AiOutlineCheckCircle style={{color:"var(--orange)"}} />
+                      <span> Green Solutions to ensure you stay on top for energy
+                      conservation...</span>
+                   
+                    </p>
                   </div>
-                  <div className="col-lg-6 pe-3 pt-3 ">
-                    <ul className="text-white">
-                    <div className="d-flex my-3">
-                        {/* <BiRadioCircleMarked className="checklistColor"   /> */}
-                        <li>
-                          <span className="justify lits ">
-                          Defining value in your business with our solutions and products
-                          </span>
-                        </li>
-                      </div>
-                      <div className="d-flex my-3">
-                        {/* <BiRadioCircleMarked className="checklistColor"   /> */}
-                        <li>
-                          <span className="justify lits ">
-                          Realistic approach for delivering on time every time
-                          </span>
-                        </li>
-                      </div>
-                      <div className="d-flex my-3">
-                        {/* <BiRadioCircleMarked className="checklistColor"   /> */}
-                        <li>
-                          <span className="justify lits ">
-                          Customer centric approach in every action
-                          </span>
-                        </li>
-                      </div>
-                    </ul>
+                  <div className="col-lg-6 pt-3 ">
+                 <p>
+                      <AiOutlineCheckCircle
+                    
+                        style={{ color: "var(--orange)" }}
+                      />
+                      <span>  Defining value in your business with our solutions and
+                        products</span>
+                      </p>
+                    <p>
+                      <AiOutlineCheckCircle
+                      style={{ color: "var(--orange)" }}
+                    />
+                       <span> Realistic approach for delivering on time every time</span>
+                     
+                    </p>
+                 <p>
+                      <AiOutlineCheckCircle
+                        style={{ color: "var(--orange)" }}
+                      />
+                    <span>  Customer centric approach in every action </span>
+                </p>
                   </div>
                 </div>
                 <Link to="/solutions">
                   {" "}
-                  <div className="btn btn-lg btn-borderd button-1 mx-3 my-3">
+                  <div className="btn btn-lg btn-borderd button-1 my-3">
                     Read More
                   </div>{" "}
                 </Link>
@@ -265,6 +254,12 @@ export const Home = () => {
           </div>
         </div>
       </section>
+      <div className="reviews-sections container d-flex justify-content-center flex-column py-3">
+        <h1 className="my-4" style={{ fontSize: "55px" }}>
+          Testimonials
+        </h1>
+        <ReviewSlider />
+      </div>
       <div className="news">
         <div className="row py-4">
           <div className="col-md-12">
@@ -273,6 +268,7 @@ export const Home = () => {
             </center>
           </div>
         </div>
+
         <div className="container">
           <div className="row justify-content-center py-5">
             <div className="column  col-lg-4 col-md-4 px-3">

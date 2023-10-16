@@ -1,90 +1,70 @@
 import React, { useState } from "react";
-import reviews from "../page/ReviewSliderCard";
-import {
-  FaStar,
-  FaChevronLeft,
-  FaChevronRight,
-  FaQuoteRight,
-} from "react-icons/fa";
+import { FaStar, FaChevronLeft, FaChevronRight, FaQuoteRight } from "react-icons/fa";
 import _ from "lodash";
+import AliceCarousel from "react-alice-carousel";
+import "react-alice-carousel/lib/alice-carousel.css";
+import reviews from "../page/ReviewSliderCard";
+
 const ReviewSlider = ({ starData }) => {
-  const [index, setIndex] = useState(0);
-  const { id, name, job, image, text, star } = reviews[index];
+  const [currentIndex, setCurrentIndex] = useState(0);
 
   const checkNumber = (number) => {
-    if (number > reviews.length - 1) {
+    if (number >= reviews.length) {
       return 0;
-    }
-    if (number < 0) {
+    } else if (number < 0) {
       return reviews.length - 1;
     }
     return number;
   };
 
-  const nextPerson = () => {
-    setIndex((index) => {
-      let newIndex = index + 1;
-      return checkNumber(newIndex);
-    });
-  };
-
-  const prevPerson = () => {
-    setIndex((index) => {
-      let newIndex = index - 1;
-      return checkNumber(newIndex);
-    });
+  const changePerson = (step) => {
+    setCurrentIndex((currentIndex) => checkNumber(currentIndex + step));
   };
 
   const minIndex = 0;
   const maxIndex = reviews.length - 1;
 
   const getRandomPerson = () => {
-    const getRandomIntInclusive = (min, max) => {
-      min = Math.ceil(min);
-      max = Math.floor(max);
-      return Math.floor(Math.random() * (max - min + 1) + min);
-    };
+    let randomIndex;
+    do {
+      randomIndex = _.random(minIndex, maxIndex);
+    } while (randomIndex === currentIndex);
 
-    let randomIndex = getRandomIntInclusive(minIndex, maxIndex);
-    if (randomIndex === index) {
-      randomIndex = index + 1;
-    }
-    setIndex(checkNumber(randomIndex));
+    setCurrentIndex(randomIndex);
   };
 
   return (
-    <>
-      <article className="review">
-        <div className="img-container">
-          <img src={image} alt={name} className="person-img" />
-          <span className="quote-icon">
-            <FaQuoteRight />
-          </span>
+    <AliceCarousel
+      mouseTracking
+      responsive={{
+        0: { items: 1 },
+        600: { items: 2 },
+        1000: { items: 3 },
+      }}
+      startIndex={currentIndex}
+    >
+      {reviews.map((review, index) => (
+        <div key={index} className="review">
+          <div className="img-container">
+            <img src={review.image} alt={review.name} className="person-img" />
+            <span className="quote-icon">
+              <FaQuoteRight />
+            </span>
+          </div>
+          <h4 className="author">{review.name}</h4>
+          <p className="job">
+            {_.times(5, (i) =>
+              i < review.star ? (
+                <FaStar key={i} className="text-dark fs-5 pe-1" />
+              ) : (
+                <FaStar key={i} className="text-white fs-5 pe-1" />
+              )
+            )}
+          </p>
+          <p className="info">{review.text}</p>
         </div>
-        <h4 className="author">{name}</h4>
-        <p className="job">
-          {_.times(5, (i) =>
-            i < star ? (
-              <FaStar className="text-dark fs-5 pe-1" />
-            ) : (
-              <FaStar className="text-white fs-5 pe-1" />
-            )
-          )}
-        </p>
-        <p className="info">{text}</p>
-        <div className="button-container">
-          <button className="prev-btn" onClick={prevPerson}>
-            <FaChevronLeft />
-          </button>
-          <button className="next-btn" onClick={nextPerson}>
-            <FaChevronRight />
-          </button>
-        </div>
-        <button className="random-btn" onClick={getRandomPerson}>
-          Get Random Review
-        </button>
-      </article>
-    </>
+      ))}
+    </AliceCarousel>
   );
 };
 

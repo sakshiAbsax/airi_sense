@@ -36,15 +36,17 @@ const ReviewSlider = ({ starData }) => {
   return (
     <AliceCarousel
       mouseTracking
+      autoPlay={true} // Enable auto-sliding
+  autoPlayInterval={3000}
       responsive={{
         0: { items: 1 },
-        600: { items: 2 },
+        700: { items: 2},
         1000: { items: 3 },
       }}
       startIndex={currentIndex}
     >
       {reviews.map((review, index) => (
-        <div key={index} className="review">
+        <div key={index} className="review justify-content-center">
           <div className="img-container">
             <img src={review.image} alt={review.name} className="person-img" />
             <span className="quote-icon">

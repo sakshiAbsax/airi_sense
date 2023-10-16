@@ -582,7 +582,7 @@ main {
 
 }
 .review {
-  width:400px !important;
+  width:100% !important;
   height: 500px !important;
   overflow: hidden;
   background: var(--orange);
@@ -698,4 +698,11 @@ color:red;
 
 .img-responsive:hover {
   transform: translateX(-20px);
+}
+
+
+.alice-carousel__stage-item{
+
+width: 338px !important;
+margin:0 15px !important;
 }

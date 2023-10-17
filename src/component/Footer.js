@@ -49,7 +49,7 @@ export const Footer = () => {
       <footer className="footer-section">
         <div className=" auto-container-fluid w-100">
           <div className="row justify-content-center pt-4">
-            <div className="col-lg-4 col-md-12 col-sm-12 pt-3  text-start ">
+            <div className="col-lg-4 col-md-12 col-sm-12 pt-3 px-3  text-start ">
               <Link to="/"  className="text-start">
                 {" "}
                 <img src={whitetext} className="w-50" alt="logo_pic" />{" "}
@@ -63,26 +63,26 @@ export const Footer = () => {
                 concepts. divlaborating with forward-thinking companies
               </p>
             </div>
-            <div className="col-lg-2 col-md-6 col-sm-6 pt-3 text-start">
-              <h3 className="text-start nav-links ms-5">UsefullLinks</h3>
+            <div className="col-lg-2 col-md-6 col-sm-6 px-3 pt-3 text-start">
+              <h4 className="text-start nav-links">UsefullLinks</h4>
               <ul
                 className="list-group py-3 "
                 style={{ listStyleType: "none" }}
               >
-                <Link to="/about" className="mb-3 ps-5 nav-link">
+                <Link to="/about" className="mb-3  nav-link">
                   {" "}
                   <li>
                     <FaOutdent className="me-3 fs-4" />
                     About-us
                   </li>
                 </Link>
-                <Link to="/blogs" className=" mb-3 ps-5 nav-link">
+                <Link to="/blogs" className=" mb-3 nav-link">
                   {" "}
                   <li>
                     <ImBlog className="me-3 fs-4" /> Blogs
                   </li>
                 </Link>
-                <Link to="/contact" className=" mb-3 ps-5 nav-link">
+                <Link to="/contact" className=" mb-3 nav-link">
                   <li>
                     {" "}
                     <BiSolidContact className="me-3 fs-4" />
@@ -91,34 +91,34 @@ export const Footer = () => {
                 </Link>
               </ul>
             </div>
-            <div className="col-lg-2 col-md-6 col-sm-6 text-left  pt-3 ">
-            <h3 className="text-start nav-links ms-5">Social Media</h3>
+            <div className="col-lg-2 col-md-6 col-sm-6 text-left px-3  pt-3 ">
+            <h4 className="text-start nav-links ">Social Media</h4>
               <ul
                 className="list-group py-3 "
                 style={{ listStyleType: "none" }}
               >{" "}
-                  <li onClick={openFacebookPage} className="mb-3 ps-5 nav-link">
+                  <li onClick={openFacebookPage} className="mb-3  nav-link">
                     <FaFacebookF className="me-3 fs-4" />
                      Facebook
                   </li> {" "}
-                  <li onClick={openLinkedInProfile} className="mb-3 ps-5 nav-link">
+                  <li onClick={openLinkedInProfile} className="mb-3  nav-link">
                     <FaLinkedinIn className="me-3 fs-4" />
                     LinkedInd
                   </li>
-                  <li onClick={openYouTubeChannel} className="mb-3 ps-5 nav-link">
+                  <li onClick={openYouTubeChannel} className="mb-3  nav-link">
                     {" "}
                     <AiFillYoutube className="me-3 fs-4" />
                     Youtube
                   </li>
               </ul>
             </div>
-            <div className="col-lg-3 col-md-6 col-sm-6 text-start  pt-3 ">
-              <h3 className="text-start nav-links ms-5">Location</h3>
+            <div className="col-lg-3 col-md-6 col-sm-6 text-start px-3 pt-3 ">
+              <h4 className="text-start nav-links ">Location</h4>
               <ul className="list-group " style={{ listStyleType: "none" }}>
-                <Link to="/" className=" mb-3 ps-5 nav-link  text-start">
+                <Link to="/" className=" mb-3  nav-link  text-start">
                   <li className="mb-2">
                   <div class="d-flex pt-3 text-start">
-                  <FaLocationDot className="me-3 fs-5" />
+                  <FaLocationDot className=" fs-5" />
                   <span>
                     162 A Prime City Veena Nagar NX, Sukhliya, Indore, M.P.
                     452010
@@ -127,12 +127,12 @@ export const Footer = () => {
                   </li>
                 </Link>
           
-                  <li className=" mb-3 ps-5 nav-link  text-start" onClick={handleEmailClick}>
+                  <li className=" mb-3  nav-link  text-start" onClick={handleEmailClick}>
                     <BiMailSend className="me-3 fs-4 " />
                     {" "} automate@airi-sense.co.in
                   </li>
              
-                <Link to="/" className=" mb-3 ps-5 nav-link  text-start">
+                <Link to="/" className=" mb-3 nav-link  text-start">
                   <li onClick={handlePhoneCallClick}>
                     <BiMobile className="me-3 fs-4 " /> 
                     98270 67846

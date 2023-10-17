@@ -84,7 +84,7 @@ export const Carrers = () => {
           <div className="row py-5">
             {items.map((item, index) => (
               <div
-                className={`col-lg-3 col-md-3 col-sm-6 col-xs-12 wow fadeInLeft animated position-relative`}
+                className={`col-lg-3 col-md-3 col-sm-6 col-xs-12 py-3 wow fadeInLeft animated position-relative`}
                 data-wow-delay={item.delay}
                key={index}
                onClick={() => setActiveTab(item.title)}  >

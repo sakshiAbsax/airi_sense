@@ -196,51 +196,58 @@ export const Home = () => {
                 </p>
                 <div className="row">
                   <div className="col-lg-6 pe-4 pt-3 ">
-                    <p>
-                      {" "}
-                      <span>
+                    <div className="d-flex my-2">
+                      <span className="h4">
                       <AiOutlineCheckCircle style={{color:"var(--orange)"}}/> 
                       </span>
-                      <span  className="text-justify">
+                      <span className="ms-2 h5 text-white">
                       Realistic Solution’s for your
                       current & future needs... </span>
-                    </p>
-                    <p>
-                      {" "}
+                    </div>
+                    <div className="d-flex my-2">
+                    
+                    <span className="h4">
                       <AiOutlineCheckCircle  style={{color:"var(--orange)"}}/>
-                    <span className="text-justify"> Data driven approach ensuring your goals...</span>
-                    </p>
-                    <p>
-                     
-                      {" "}
+                      </span>
+                    <span className="text-justify ms-2 h5 text-white"> Data driven approach ensuring your goals...</span>
+                    </div>
+                    <div className="d-flex my-2">
+                    <span className="h4">
                       <AiOutlineCheckCircle style={{color:"var(--orange)"}} />
-                      <span> Green Solutions to ensure you stay on top for energy
+                      </span>
+                      <span className="ms-2 h5 text-white"> Green Solutions to ensure you stay on top for energy
                       conservation...</span>
                    
-                    </p>
+                    </div>
                   </div>
                   <div className="col-lg-6 pt-3 ">
-                 <p>
+                  <div className="d-flex my-2">
+                    <span className="h4">
                       <AiOutlineCheckCircle
                     
                         style={{ color: "var(--orange)" }}
                       />
-                      <span>  Defining value in your business with our solutions and
+                      </span>
+                      <span className=" ms-2 h5 text-white">  Defining value in your business with our solutions and
                         products</span>
-                      </p>
-                    <p>
+                      </div>
+                      <div className="d-flex my-2">
+                      <span className="h4">
                       <AiOutlineCheckCircle
                       style={{ color: "var(--orange)" }}
                     />
-                       <span> Realistic approach for delivering on time every time</span>
+                    </span>
+                       <span className=" ms-2 h5 text-white"> Realistic approach for delivering on time every time</span>
                      
-                    </p>
-                 <p>
+                    </div>
+                    <div className="d-flex my-2">
+                    <span className="h4">
                       <AiOutlineCheckCircle
                         style={{ color: "var(--orange)" }}
                       />
-                    <span>  Customer centric approach in every action </span>
-                </p>
+                      </span>
+                    <span className="ms-2 h5 text-white">  Customer centric approach in every action </span>
+                </div>
                   </div>
                 </div>
                 <Link to="/solutions">
@@ -262,7 +269,7 @@ export const Home = () => {
       </div>
       <div className="news">
         <div className="row py-4">
-          <div className="col-md-12">
+          <div className="col-lg-12">
             <center className="whatWeDo">
               <h1 className="text-center">Updated News</h1>
             </center>
@@ -306,8 +313,8 @@ export const Home = () => {
               </div>
             </div>
 
-            <div className="column col-lg-4 col-md-4 px-3">
-              <div className="post-module">
+            <div className="column col-lg-4 col-md-6 justify-content-center  px-3">
+              <div className="post-module justify-content-center">
                 <div className="thumbnail">
                   <div className="date">
                     <div className="day">27</div>

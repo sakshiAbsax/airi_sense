@@ -23,7 +23,7 @@ export const Header = () => {
         <Container>
           <NavLink to="/">
             <div className="logo ms-lg-5">
-              <img src={logo300} className="w-75" />
+              <img src={logo300} className="w-lg-50" />
             </div>
           </NavLink>
           <Navbar.Toggle aria-controls="navbarScroll" />

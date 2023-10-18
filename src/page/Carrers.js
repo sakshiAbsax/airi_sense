@@ -1,5 +1,5 @@
 import React,{useState} from "react";
-import carrer_bnnr from '../images/carrer_bnnr.jpg';
+import carrer_bnnr from '../images/carrer_bnnr.webp';
 import graduates from "../images/graduates.svg";
 import location from "../images/location.svg";
 import professionals from "../images/professionals.svg";

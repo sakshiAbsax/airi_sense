@@ -44,7 +44,7 @@ export const HomeAbout = () => {
                   Airi-Sense delivers data-driven & robotic solutions for your
                   current and future requirements alongside reliable, modular
                   service concepts. Collaborating with forward-thinking
-                  companies, we are committed in setting new standards material
+                  companies, we are committed in setting new standards in material
                   handling automation domain to provide future-proof products
                   and solutions.
                 </p>
@@ -55,12 +55,12 @@ export const HomeAbout = () => {
                  We're not just reimagining the future of intra-logistics; we're actively shaping it.
                 </p>
          
-                <Link to="/about">
+                {/* <Link to="/about">
                   {" "}
                   <div className="btn btn-lg btn-borderd button-1 my-3">
                     What We Do
                   </div>{" "}
-                </Link>
+                </Link> */}
               </div>
             </div>
 

@@ -36,7 +36,7 @@ export const Header = () => {
               <NavLink to="/product" className="mx-4 nav-link-products">Products</NavLink>
               <NavLink to="/solutions" className="mx-4 nav-link-products">Solutions</NavLink>
               <NavLink to="/industries" className="mx-4 nav-link-products">Industries</NavLink>
-              <NavLink to="/carrers" className="mx-4 nav-link-products">Carrers</NavLink>
+              <NavLink to="/carrers" className="mx-4 nav-link-products">Careers</NavLink>
             </Nav>
             <Form className="d-flex ms-auto  d-flex justify-content-center">
               <Link to="/contact">

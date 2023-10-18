@@ -8,7 +8,7 @@ import product6 from '../images/product/product6.jpg';
 export const productCard = [
   {
     img: product1,
-    title: "Track & tSmart Robotic Solutions",
+    title: "Smart Robotic Solutions",
     list: ["Palletizing & De-palletizing ", "Packing Solutions", "Material Handling","Pick & Place","Multi-level feeder"]
   },
   {
@@ -28,12 +28,12 @@ export const productCard = [
   },
   {
     img: product5,
-    title: "Cloud based Asset Care & Asset Management Solutions",
+    title: "Cloud Based Management",
     list: ["Maintenance Management System", "Asset Tracking & Access management", "Energy Management System"]
   },
   {
     img: product6,
-    title: " IIoT & Data management Solutions​",
+    title: " IIoT & Data Management​",
     list: ["Production Data MIS​", "OEE Information system​"]
   }
 ];

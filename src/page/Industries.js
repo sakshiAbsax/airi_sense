@@ -56,7 +56,6 @@ export const Industries = () => {
                 <h1
                   style={{
                     fontWeight: "600",
-                    color: "#128c7e",
                     letterSpacing: "3px",
                   }}
                   className="text-start"
@@ -113,7 +112,6 @@ export const Industries = () => {
                 <h1
                   style={{
                     fontWeight: "600",
-                    color: "#128c7e",
                     letterSpacing: "3px",
                   }}
                   className="text-start"
@@ -153,9 +151,9 @@ export const Industries = () => {
                       color: "#fff",
                       letterSpacing: "3px",
                     }}
-                    className="text-start"
+                    className="text-start text-white"
                   >
-                    Chemical
+                    <span className="text-white">  Chemical </span>
                   </h1>
                   <p
                     className="card-paragraph mt-4 text-light"
@@ -207,12 +205,12 @@ export const Industries = () => {
                   <h1
                     style={{
                       fontWeight: "600",
-                      color: "#fff",
                       letterSpacing: "3px",
+                     
                     }}
-                    className="text-start"
+                    className="text-start text-white"
                   >
-                    Beverage
+                   <span className="text-white"> Beverage </span>
                   </h1>
                   <p
                     className="card-paragraph mt-4 text-light"
@@ -244,8 +242,8 @@ export const Industries = () => {
                 <h1
                   style={{
                     fontWeight: "600",
-                    color: "#128c7e",
                     letterSpacing: "3px",
+                  
                   }}
                   className="text-start"
                 >
@@ -302,7 +300,6 @@ export const Industries = () => {
                 <h1
                   style={{
                     fontWeight: "600",
-                    color: "#128c7e",
                     letterSpacing: "3px",
                   }}
                   className="text-start"
@@ -344,7 +341,7 @@ export const Industries = () => {
                     }}
                     className="text-start"
                   >
-                    Sugar & Confectionery
+                     <span className="text-white"> Sugar & Confectionery </span>
                   </h1>
                   <p
                     className="card-paragraph mt-4 text-light"
@@ -394,7 +391,7 @@ export const Industries = () => {
                     }}
                     className="text-start"
                   >
-                    Electronics
+                    <span className="text-white">  Electronics </span>
                   </h1>
                   <p
                     className="card-paragraph mt-4 text-light"
@@ -418,7 +415,6 @@ export const Industries = () => {
                 <h1
                   style={{
                     fontWeight: "600",
-                    color: "#128c7e",
                     letterSpacing: "3px",
                   }}
                   className="text-start"
@@ -468,7 +464,6 @@ export const Industries = () => {
                 <h1
                   style={{
                     fontWeight: "600",
-                    color: "#128c7e",
                     letterSpacing: "3px",
                   }}
                   className="text-start"
@@ -501,7 +496,7 @@ export const Industries = () => {
                     }}
                     className="text-start"
                   >
-                    Textiles
+                    <span className="text-white">  Textiles </span>
                   </h1>
                   <p
                     className="card-paragraph mt-4 text-light"

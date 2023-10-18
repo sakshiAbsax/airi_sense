@@ -49,7 +49,7 @@ export const Product = () => {
                   }}
                   className="text-start list-group-item"
                 >
-                  About Products
+                  Our Products
                 </h1>
                 <p
                   className="card-paragraph mt-4"

@@ -152,15 +152,15 @@ export const Home = () => {
 
                 <p className="text-justify outRoot">
                   Born out of Vasant Engineer's, a well-rooted parent company
-                  with a two-decade legacy dating back to 2003 from Indore,
-                  having experienced impressive growth and is now directing its
-                  energies toward the Material Handling and Intralogistics
+                  from Indore with a two-decade legacy dating back to 2003,
+                  have experienced impressive growth and is now directing its
+                  energy towards the Material Handling and Intralogistics
                   sector with renewed vigor.
                 </p>
                 <p className="text-justify outRoot pb-3">
                   Our extensive clientele, exceeding beyond 233, comprises a
                   diverse blend of global enterprises, multinational
-                  corporations, and influential Indian conglomerates spanning
+                  corporations, and influential Indian conglomerates spanning across
                   various industrial domains. Remarkably, more than 103 of these
                   esteemed clients place their trust in us year after year,
                   making us their preferred choice for sustained business
@@ -196,7 +196,7 @@ export const Home = () => {
                 >
                   Airi Sense offers data-centric and robotic logistics
                   automation solutions, complemented by dependable, modular
-                  service concepts. recreate with different words.
+                  service concepts.
                 </p>
                 <div className="row">
                   <div className="col-lg-6 pe-4 pt-3 ">
@@ -207,7 +207,7 @@ export const Home = () => {
                         />
                       </span>
                       <span className="ms-2 h5 text-white">
-                        Realistic Solution’s for your current & future needs{" "}
+                        Realistic Solutions for your current & future needs{" "}
                       </span>
                     </div>
                     <div className="d-flex my-2">

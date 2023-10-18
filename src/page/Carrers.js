@@ -50,7 +50,7 @@ export const Carrers = () => {
             >
               Why Join Airi-Sense?
             </h1>
-            <p className="text-center" style={{ textAlign: "justify" }}>
+            <p className="text-justify" >
               Rated amongst the fastest-growing companies, Chetu is built on a
               strong vision and corporate philosophy of continuous adaptation,
               client service, and professional growth. With one of the lowest

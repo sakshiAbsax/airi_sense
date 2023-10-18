@@ -703,6 +703,27 @@ color:red;
 
 .alice-carousel__stage-item{
 
-width: 345px !important;
+width: 402px !important;
 margin:0 15px !important;
+}
+
+@media screen and (max-width: 768px) {
+  .alice-carousel__stage-item {
+    width: 100% !important; /* Full width for smaller screens */
+    margin: 0 0px !important;
+  }
+  .info{
+    width: 300px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width:1000px) {
+  .alice-carousel__stage-item {
+    width: 45% !important; /* Full width for smaller screens */
+    margin-left: 2px;
+  }
+  .info{
+    width: 299px;
+    padding: 4px;
+  }
 }

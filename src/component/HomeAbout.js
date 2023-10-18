@@ -24,15 +24,37 @@ export const HomeAbout = () => {
                   className="card-paragraph mt-4"
                   style={{ textAlign: "justify" }}
                 >
-                  Airi sense delivers data-driven & robotic solutions for your
-                  logistics automation alongside reliable, modular service
-                  concepts. divlaborating with forward-thinking companies, we
-                  are committed to setting new standards in warehouse automation
-                  to provide future-proof products and solutions. As part of the
-                  KUKA Group, our customers trust the competence of our
-                  passionate employees – more than 14,000 people working across
-                  the globe.
+                  Airi-Sense, a dynamic and emerging company hailing from the
+                  heart of India, to revolutionize the future of the material
+                  handling including material management, material transfer &
+                  intra-logistics domain.
                 </p>
+                <p
+                  className="card-paragraph mt-4"
+                  style={{ textAlign: "justify" }}
+                >
+                  Our unwavering commitment is to develop innovative solutions
+                  which seamlessly adapt to the ever-evolving dynamics of the
+                  supply chain industry.
+                </p>
+                <p
+                  className="card-paragraph mt-4"
+                  style={{ textAlign: "justify" }}
+                >
+                  Airi-Sense delivers data-driven & robotic solutions for your
+                  current and future requirements alongside reliable, modular
+                  service concepts. Collaborating with forward-thinking
+                  companies, we are committed in setting new standards material
+                  handling automation domain to provide future-proof products
+                  and solutions.
+                </p>
+                <p
+                  className="card-paragraph mt-4"
+                  style={{ textAlign: "justify" }}
+                >
+                 We're not just reimagining the future of intra-logistics; we're actively shaping it.
+                </p>
+         
                 <Link to="/about">
                   {" "}
                   <div className="btn btn-lg btn-borderd button-1 my-3">

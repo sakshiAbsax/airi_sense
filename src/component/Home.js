@@ -150,17 +150,21 @@ export const Home = () => {
                   Shri Vasant Engineer's
                 </h3>
 
-                <p className="text-center outRoot">
-                  Our Root's Shri Vasant Engineer's Shri Vasant Engineer’s – 2
-                  Decade Old parent company with established footprint from 2003
-                  in Indore, has been a rapid growing company, targeting change
-                  with New Focus into Conveying & Intralogistics domain.
+                <p className="text-justify outRoot">
+                  Born out of Vasant Engineer's, a well-rooted parent company
+                  with a two-decade legacy dating back to 2003 from Indore,
+                  having experienced impressive growth and is now directing its
+                  energies toward the Material Handling and Intralogistics
+                  sector with renewed vigor.
                 </p>
-                <p className="text-center outRoot pb-3">
-                  Serving more than 233 clients true mix of Global, MNC & Giant
-                  Indian conglomerate spread across various industrial sector,
-                  with 103+ clients trusting us for repeat business for year
-                  over year.
+                <p className="text-justify outRoot pb-3">
+                  Our extensive clientele, exceeding beyond 233, comprises a
+                  diverse blend of global enterprises, multinational
+                  corporations, and influential Indian conglomerates spanning
+                  various industrial domains. Remarkably, more than 103 of these
+                  esteemed clients place their trust in us year after year,
+                  making us their preferred choice for sustained business
+                  partnerships.
                 </p>
               </div>
             </div>
@@ -190,64 +194,81 @@ export const Home = () => {
                   className="card-paragraph mt-4"
                   style={{ textAlign: "justify" }}
                 >
-                  Airi sense delivers data-driven & robotic solutions for your
-                  logistics automation alongside reliable, modular service
-                  concepts.
+                  Airi Sense offers data-centric and robotic logistics
+                  automation solutions, complemented by dependable, modular
+                  service concepts. recreate with different words.
                 </p>
                 <div className="row">
                   <div className="col-lg-6 pe-4 pt-3 ">
                     <div className="d-flex my-2">
                       <span className="h4">
-                      <AiOutlineCheckCircle style={{color:"var(--orange)"}}/> 
+                        <AiOutlineCheckCircle
+                          style={{ color: "var(--orange)" }}
+                        />
                       </span>
                       <span className="ms-2 h5 text-white">
-                      Realistic Solution’s for your
-                      current & future needs... </span>
+                        Realistic Solution’s for your current & future needs{" "}
+                      </span>
                     </div>
                     <div className="d-flex my-2">
-                    
-                    <span className="h4">
-                      <AiOutlineCheckCircle  style={{color:"var(--orange)"}}/>
+                      <span className="h4">
+                        <AiOutlineCheckCircle
+                          style={{ color: "var(--orange)" }}
+                        />
                       </span>
-                    <span className="text-justify ms-2 h5 text-white"> Data driven approach ensuring your goals...</span>
+                      <span className="text-justify ms-2 h5 text-white">
+                        {" "}
+                        Data driven approach ensuring your goals
+                      </span>
                     </div>
                     <div className="d-flex my-2">
-                    <span className="h4">
-                      <AiOutlineCheckCircle style={{color:"var(--orange)"}} />
+                      <span className="h4">
+                        <AiOutlineCheckCircle
+                          style={{ color: "var(--orange)" }}
+                        />
                       </span>
-                      <span className="ms-2 h5 text-white"> Green Solutions to ensure you stay on top for energy
-                      conservation...</span>
-                   
+                      <span className="ms-2 h5 text-white">
+                        {" "}
+                        Green Solutions to ensure you stay on top for energy
+                        conservation
+                      </span>
                     </div>
                   </div>
                   <div className="col-lg-6 pt-3 ">
-                  <div className="d-flex my-2">
-                    <span className="h4">
-                      <AiOutlineCheckCircle
-                    
-                        style={{ color: "var(--orange)" }}
-                      />
-                      </span>
-                      <span className=" ms-2 h5 text-white">  Defining value in your business with our solutions and
-                        products</span>
-                      </div>
-                      <div className="d-flex my-2">
+                    <div className="d-flex my-2">
                       <span className="h4">
-                      <AiOutlineCheckCircle
-                      style={{ color: "var(--orange)" }}
-                    />
-                    </span>
-                       <span className=" ms-2 h5 text-white"> Realistic approach for delivering on time every time</span>
-                     
+                        <AiOutlineCheckCircle
+                          style={{ color: "var(--orange)" }}
+                        />
+                      </span>
+                      <span className=" ms-2 h5 text-white">
+                        {" "}
+                        Defining value in your business with our solutions and
+                        products
+                      </span>
                     </div>
                     <div className="d-flex my-2">
-                    <span className="h4">
-                      <AiOutlineCheckCircle
-                        style={{ color: "var(--orange)" }}
-                      />
+                      <span className="h4">
+                        <AiOutlineCheckCircle
+                          style={{ color: "var(--orange)" }}
+                        />
                       </span>
-                    <span className="ms-2 h5 text-white">  Customer centric approach in every action </span>
-                </div>
+                      <span className=" ms-2 h5 text-white">
+                        {" "}
+                        Realistic approach for delivering on time every time
+                      </span>
+                    </div>
+                    <div className="d-flex my-2">
+                      <span className="h4">
+                        <AiOutlineCheckCircle
+                          style={{ color: "var(--orange)" }}
+                        />
+                      </span>
+                      <span className="ms-2 h5 text-white">
+                        {" "}
+                        Customer centric approach in every action{" "}
+                      </span>
+                    </div>
                   </div>
                 </div>
                 <Link to="/solutions">

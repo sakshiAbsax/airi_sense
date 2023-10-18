@@ -74,18 +74,22 @@ export const About = () => {
                 </h3>
               </div>
 
-              <p className="text-center text-dark">
-                Our Root's Shri Vasant Engineer's Shri Vasant Engineer’s – 2
-                Decade Old parent company with established footprint from 2003
-                in Indore, has been a rapid growing company, targeting change
-                with New Focus into Conveying & Intralogistics domain.
-              </p>
-              <p className="text-center text-dark pb-3">
-                Serving more than 233 clients true mix of Global, MNC & Giant
-                Indian conglomerate spread across various industrial sector,
-                with 103+ clients trusting us for repeat business for year over
-                year.
-              </p>
+              <p className="text-justify outRoot">
+                  Born out of Vasant Engineer's, a well-rooted parent company
+                  with a two-decade legacy dating back to 2003 from Indore,
+                  having experienced impressive growth and is now directing its
+                  energies toward the Material Handling and Intralogistics
+                  sector with renewed vigor.
+                </p>
+                <p className="text-justify outRoot pb-3">
+                  Our extensive clientele, exceeding beyond 233, comprises a
+                  diverse blend of global enterprises, multinational
+                  corporations, and influential Indian conglomerates spanning
+                  various industrial domains. Remarkably, more than 103 of these
+                  esteemed clients place their trust in us year after year,
+                  making us their preferred choice for sustained business
+                  partnerships.
+                </p>
             </div>
           </div>
         </div>

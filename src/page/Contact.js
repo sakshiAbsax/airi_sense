@@ -22,7 +22,7 @@ export const Contact = () => {
                 <div class="col-md-10">
                   <div class="contact_form_inner">
                     <div class="contact_field whatWeDo">
-                      <h1>Contatc Us</h1>
+                      <h1>Contact Us</h1>
                       <p className="">
                         Feel Free to contact us any time. We will get back to
                         you as soon as we can.

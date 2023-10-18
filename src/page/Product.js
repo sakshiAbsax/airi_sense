@@ -83,12 +83,12 @@ export const Product = () => {
                   materials handling technology that perfectly meets your needs
                   from receiving to shipping.
                 </p>
-                <Link to="/about">
+                {/* <Link to="/about">
                   {" "}
                   <div className="btn btn-lg btn-borderd button-1 my-3">
                     What We Do
                   </div>{" "}
-                </Link>
+                </Link> */}
               </div>
             </div>
 
@@ -113,37 +113,43 @@ export const Product = () => {
           >
             Our Products
           </h1>
-    {
-          productCard.map((card, index) => (
-          <div className="col-lg-3 mx-2 mb-3">
-      
-            <Card
-              className={`me-2 cardhover ${isHovered ? 'hovered' : ''}`}
-              onMouseEnter={handleHover}
-              onMouseLeave={handleMouseLeave}
-              style={{
-                height: 'auto',
-                transition: 'transform 0.9s ease-in-out', // Add a transition for smoother hover effect
-                transform: isHovered ? 'scale(1.03)' : 'scale(1)',}}
-            >
-              <Card.Img variant="top" src={card.img} alt={card.title} style={{ height: "250px" }} />
-              <Card.Body>
-                <Card.Title className="py-2">
-                  ​​​​​​​ ​​​​​​​{card.title}
-                </Card.Title>
-                <ListGroup>
-                {card.list.map((item, itemIndex) => (
-                  <ListGroup.Item className="text-start list-group-item"  key={itemIndex}>
-                   {item}
-                  </ListGroup.Item>
-))}
-                </ListGroup>
-              </Card.Body>
-            </Card>
-       
-          </div>
-             ))
-            };
+          {productCard.map((card, index) => (
+            <div className="col-lg-3 mx-2 mb-3">
+              <Card
+                className={`me-2 cardhover ${isHovered ? "hovered" : ""}`}
+                onMouseEnter={handleHover}
+                onMouseLeave={handleMouseLeave}
+                style={{
+                  height: "auto",
+                  transition: "transform 0.9s ease-in-out", // Add a transition for smoother hover effect
+                  transform: isHovered ? "scale(1.03)" : "scale(1)",
+                }}
+              >
+                <Card.Img
+                  variant="top"
+                  src={card.img}
+                  alt={card.title}
+                  style={{ height: "250px" }}
+                />
+                <Card.Body>
+                  <Card.Title className="py-2">
+                    ​​​​​​​ ​​​​​​​{card.title}
+                  </Card.Title>
+                  <ListGroup>
+                    {card.list.map((item, itemIndex) => (
+                      <ListGroup.Item
+                        className="text-start list-group-item"
+                        key={itemIndex}
+                      >
+                        {item}
+                      </ListGroup.Item>
+                    ))}
+                  </ListGroup>
+                </Card.Body>
+              </Card>
+            </div>
+          ))}
+          ;
         </div>
       </div>
     </div>

@@ -26,7 +26,7 @@ export const Carrers = () => {
     {
       title: "Consulting",
       imgSrc: location,
-      backgroundColor: "#ff0000",
+      backgroundColor: "#ffb900",
     },
   ];
   const [activeTab, setActiveTab] = useState('Graduates');

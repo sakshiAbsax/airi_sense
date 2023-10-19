@@ -18,43 +18,44 @@ export const HomeAbout = () => {
                   }}
                   className="text-start"
                 >
-                  About
+                  About Us
                 </h1>
                 <p
                   className="card-paragraph mt-4"
                   style={{ textAlign: "justify" }}
                 >
-                  Airi-Sense, a dynamic and emerging company hailing from the
-                  heart of India, to revolutionize the future of the material
-                  handling including material management, material transfer &
-                  intra-logistics domain.
+                  Airi-Sense is a dynamic and emerging company based in the
+                  heart of India, dedicated to revolutionizing the future of
+                  material handling, including material management, material
+                  transfer, and intra-logistics.
                 </p>
                 <p
                   className="card-paragraph mt-4"
                   style={{ textAlign: "justify" }}
                 >
                   Our unwavering commitment is to develop innovative solutions
-                  which seamlessly adapt to the ever-evolving dynamics of the
+                  that seamlessly adapt to the ever-evolving dynamics of the
                   supply chain industry.
                 </p>
                 <p
                   className="card-paragraph mt-4"
                   style={{ textAlign: "justify" }}
                 >
-                  Airi-Sense delivers data-driven & robotic solutions for your
-                  current and future requirements alongside reliable, modular
-                  service concepts. Collaborating with forward-thinking
-                  companies, we are committed in setting new standards in material
-                  handling automation domain to provide future-proof products
-                  and solutions.
+                  Airi-Sense provides data-driven and robotic solutions for your
+                  current and future requirements, complemented by dependable,
+                  modular service concepts. Through collaborations with
+                  forward-thinking companies, we are committed to setting new
+                  standards in the domain of material handling automation to
+                  offer future-proof products and solutions.
                 </p>
                 <p
                   className="card-paragraph mt-4"
                   style={{ textAlign: "justify" }}
                 >
-                 We're not just reimagining the future of intra-logistics; we're actively shaping it.
+                  We're not merely envisioning the future of intra-logistics;
+                  we're actively shaping it.
                 </p>
-         
+
                 {/* <Link to="/about">
                   {" "}
                   <div className="btn btn-lg btn-borderd button-1 my-3">

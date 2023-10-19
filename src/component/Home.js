@@ -188,15 +188,13 @@ export const Home = () => {
                   }}
                   className="text-start text-light"
                 >
-                  What We Offer ?
+                 What We Offer 
                 </h1>
                 <p
                   className="card-paragraph mt-4"
                   style={{ textAlign: "justify" }}
                 >
-                  Airi Sense offers data-centric and robotic logistics
-                  automation solutions, complemented by dependable, modular
-                  service concepts.
+                 Airi-Sense provides data-centric and robotic logistics automation solutions, along with reliable modular service concepts. 
                 </p>
                 <div className="row">
                   <div className="col-lg-6 pe-4 pt-3 ">
@@ -207,7 +205,7 @@ export const Home = () => {
                         />
                       </span>
                       <span className="ms-2 h5 text-white">
-                        Realistic Solutions for your current & future needs{" "}
+                      Realistic Solutions for Your Current and Future Needs 
                       </span>
                     </div>
                     <div className="d-flex my-2">
@@ -218,7 +216,7 @@ export const Home = () => {
                       </span>
                       <span className="text-justify ms-2 h5 text-white">
                         {" "}
-                        Data driven approach ensuring your goals
+                        Data-Driven Approach to Ensure Your Goals 
                       </span>
                     </div>
                     <div className="d-flex my-2">
@@ -229,8 +227,7 @@ export const Home = () => {
                       </span>
                       <span className="ms-2 h5 text-white">
                         {" "}
-                        Green Solutions to ensure you stay on top for energy
-                        conservation
+                        Sustainable solutions to keep you at the forefront of energy conservation 
                       </span>
                     </div>
                   </div>
@@ -243,8 +240,7 @@ export const Home = () => {
                       </span>
                       <span className=" ms-2 h5 text-white">
                         {" "}
-                        Defining value in your business with our solutions and
-                        products
+                        Defining Value in Your Business with Our Solutions and Products 
                       </span>
                     </div>
                     <div className="d-flex my-2">
@@ -255,7 +251,7 @@ export const Home = () => {
                       </span>
                       <span className=" ms-2 h5 text-white">
                         {" "}
-                        Realistic approach for delivering on time every time
+                        A realistic approach, ensuring on-time delivery every time 
                       </span>
                     </div>
                     <div className="d-flex my-2">
@@ -266,7 +262,7 @@ export const Home = () => {
                       </span>
                       <span className="ms-2 h5 text-white">
                         {" "}
-                        Customer centric approach in every action{" "}
+                        Customer-Centric Approach in Every Action 
                       </span>
                     </div>
                   </div>

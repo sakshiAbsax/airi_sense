@@ -1,29 +1,48 @@
-import React from "react";
+import React,{useState,useEffect} from "react";
 // import Container from "react-bootstrap/Container";
-import { Hamburger } from "./Hamburger";
+// import { Hamburger } from "./Hamburger";
 import { Link, NavLink } from "react-router-dom";
-import logo300 from "../images/logo300.png";
+import logoLarge from "../images/logoLarge.png";
+import logoSmall from "../images/logoSmall.png"
 import Button from "react-bootstrap/Button";
 import Container from "react-bootstrap/Container";
 import Form from "react-bootstrap/Form";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
-import NavDropdown from "react-bootstrap/NavDropdown";
+// import NavDropdown from "react-bootstrap/NavDropdown";
 import './header.css';
 
 export const Header = () => {
-  const [showNavbar, setShowNavbar] = React.useState(false);
+  const [showNavbar, setShowNavbar] = useState(false);
+  const [windowWidth, setWindowWidth] = useState(window.innerWidth);
 
   const handleShowNavbar = () => {
     setShowNavbar(!showNavbar);
   };
+
+  useEffect(() => {
+    // Update windowWidth when the window is resized
+    const handleResize = () => {
+      setWindowWidth(window.innerWidth);
+    };
+
+    window.addEventListener("resize", handleResize);
+
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, []);
   return (
     <>
       <Navbar expand="lg" className="bg-body-tertiary" sticky="top" style={{boxShadow: "6px 2px 15px 1px rgba(0,0,0,0.8)"}}>
         <Container>
           <NavLink to="/">
-            <div className="logo ms-lg-5">
-              <img src={logo300} className="w-lg-50" />
+          <div className="logo ms-lg-5">
+              {windowWidth > 395 ? (
+                <img src={logoLarge} className="w-lg-50" alt="Large Logo" />
+              ) : (
+                <img src={logoSmall} className="w-lg-50" alt="Small Logo" />
+              )}
             </div>
           </NavLink>
           <Navbar.Toggle aria-controls="navbarScroll" />

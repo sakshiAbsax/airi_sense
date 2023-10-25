@@ -9,31 +9,31 @@ export const productCard = [
   {
     img: product1,
     title: "Smart Robotic Solutions",
-    list: ["Palletizing & De-palletizing ", "Packing Solutions", "Material Handling","Pick & Place","Multi-level feeder"]
+    list: ["Picking & Packing Cells","Palletizing & De-palletizing  Cells", "Machine Tending & Material Handling","Visions & Tracking Solution"]
   },
   {
     img: product2,
-    title: "Material Transfer Solutions",
-    list: ["Silos", "Fillers", "Charging Systems","Discharging System"]
+    title: "Material Management Solutions",
+    list: ["Multi Level Feeding Systems", "Vertical Conveyor", "Track & Trace Solutions","Weighing & Rejection Solution"]
   },
   {
     img: product3,
     title: "Truck Loading Solutions",
-    list: ["Telescopic Conveyors", "Expandable Conveyors", "Truck Loading Conveyors"]
+    list: ["Telescopic Conveyors", "Expandable Conveyor", "Automated Truck Loading","Truck Loading Conveyor"]
   },
   {
     img: product4,
     title: "Smart Conveying Solutions",
-    list: ["Case & Tote Handling Lifts", "Case Conveyor’s – Belt, Modular, PVC, MDR, Roller, Gravity", "Pallet Conveyors – Roller & Chain","Pallet Lift","Turn table - Case, Tote, Pallet","Cross Transfer System – Case, Tote, Pallet","Spiral Conveyor’s – Belt, Gravity Roller"]
+    list: ["Spiral Conveyor-Gravity,Belt", "Tote/case Conveyor -Belt,Roller","Vertical Left-Case,Pallet","Continioust Left-Case"]
   },
   {
     img: product5,
-    title: "Cloud Based Management",
-    list: ["Maintenance Management System", "Asset Tracking & Access management", "Energy Management System"]
+    title: "Conveying Accessories",
+    list: ["Trun Tables-Case,Pallets", "Cross Transfer-Case,Pallets" , "Pallet Stacker-Destacker","Pallet Dimenssion Check Solution"]
   },
   {
     img: product6,
-    title: " IIoT & Data Management​",
-    list: ["Production Data MIS​", "OEE Information system​"]
+    title: " IIoT & Analytics​",
+    list: ["Saas based Eq. Maintenance ​", "Saas CRM Sales & Service","Saas OEE Management","Saas based Asset Care Solution"]
   }
 ];

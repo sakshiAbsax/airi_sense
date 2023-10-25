@@ -6,11 +6,14 @@ import { FaOutdent } from "react-icons/fa";
 import { ImBlog } from "react-icons/im";
 import { BiMailSend, BiMobile, BiSolidContact } from "react-icons/bi";
 import { FaLocationDot } from "react-icons/fa6";
-import {FaFacebookF} from 'react-icons/fa';
+import {BsFacebook} from 'react-icons/bs';
 import {AiFillYoutube} from 'react-icons/ai';
 import whitetext from '../images/whitetext.png';
 import { Link } from "react-router-dom";
 import "./footer.css";
+
+
+
 
 export const Footer = () => {
 
@@ -44,6 +47,7 @@ export const Footer = () => {
     window.open(youTubeChannelUrl, '_blank');
   }
  
+  
   return (
     <>
       <footer className="footer-section">
@@ -72,20 +76,20 @@ export const Footer = () => {
                 <Link to="/about" className="mb-3  nav-link">
                   {" "}
                   <li>
-                    <FaOutdent className="me-3 fs-4" />
+                    <FaOutdent className="me-3 fs-4"  />
                     About-us
                   </li>
                 </Link>
                 <Link to="/blogs" className=" mb-3 nav-link">
                   {" "}
                   <li>
-                    <ImBlog className="me-3 fs-4" /> Blogs
+                    <ImBlog className="me-3 fs-4"  /> Blogs
                   </li>
                 </Link>
                 <Link to="/contact" className=" mb-3 nav-link">
                   <li>
                     {" "}
-                    <BiSolidContact className="me-3 fs-4" />
+                    <BiSolidContact className="me-3 fs-4"  />
                     Contact
                   </li>
                 </Link>
@@ -98,16 +102,16 @@ export const Footer = () => {
                 style={{ listStyleType: "none" }}
               >{" "}
                   <li onClick={openFacebookPage} className="mb-3  nav-link">
-                    <FaFacebookF className="me-3 fs-4" />
+                    <BsFacebook className="me-3 fs-4"  />
                      Facebook
                   </li> {" "}
                   <li onClick={openLinkedInProfile} className="mb-3  nav-link">
-                    <FaLinkedinIn className="me-3 fs-4" />
+                    <FaLinkedinIn className="me-3 fs-4"  />
                     LinkedInd
                   </li>
                   <li onClick={openYouTubeChannel} className="mb-3  nav-link">
                     {" "}
-                    <AiFillYoutube className="me-3 fs-4" />
+                    <AiFillYoutube className="me-3 fs-4"  />
                     Youtube
                   </li>
               </ul>
@@ -118,7 +122,7 @@ export const Footer = () => {
                 <Link to="/" className=" mb-3  nav-link  text-start">
                   <li className="mb-2">
                   <div class="d-flex pt-3 text-start">
-                  <FaLocationDot className=" fs-5" />
+                  <FaLocationDot className="me-3 fs-5"  />
                   <span>
                     162 A Prime City Veena Nagar NX, Sukhliya, Indore, M.P.
                     452010
@@ -128,13 +132,13 @@ export const Footer = () => {
                 </Link>
           
                   <li className=" mb-3  nav-link  text-start" onClick={handleEmailClick}>
-                    <BiMailSend className="me-3 fs-4 " />
+                    <BiMailSend className="me-3 fs-4 "  />
                     {" "} automate@airi-sense.co.in
                   </li>
              
                 <Link to="/" className=" mb-3 nav-link  text-start">
                   <li onClick={handlePhoneCallClick}>
-                    <BiMobile className="me-3 fs-4 " /> 
+                    <BiMobile className="me-3 fs-4 "  /> 
                     98270 67846
                   </li>
                 </Link>

@@ -8,40 +8,53 @@ import pic from "../images/solution/pick_place.png";
 export const solutionCard = [
   {
     img: cell,
-    title: "Palletizing Cell",
+    title: "Palletizing",
     list: [
-      "Gantry Based ",
-      "Robot Based",
+      
     ],
   },
   {
     img: pic,
     title: "Pick & Place",
-    list: ["Machine tending", "Material Handling",],
+    list: [],
   },
   {
     img: pakeging,
-    title: "Packing Solution",
+    title: "Packaging Solution",
     list: [
-      "Secondary",
-      "Tertiary",
+      
     ],
   },
   {
-    img:  track_trace,
-    title: "Track & Trace",
+    img:  checkWeight,
+    title: "Track Loading",
     list: [
      
     ],
   },
   {
-    img: checkWeight,
-    title: " Check-weighing & Rejection​",
+    img: track_trace,
+    title: " Track & Trace​",
     list: [],
   },
   {
     img: printing,
-    title: " Printing & Packing​",
+    title: "Case Handling​",
+    list: [],
+  },
+  {
+    img: printing,
+    title: "Weigh & Reject​",
+    list: [],
+  },
+  {
+    img: printing,
+    title: "Inline Storage​",
+    list: [],
+  },
+  {
+    img: printing,
+    title: "Verticle Transfer​",
     list: [],
   },
 

@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 import homeoffer from "../images/homeoffer.png";
 import ReviewSlider from "./ReviewSlider";
 import { BiRadioCircleMarked } from "react-icons/bi";
-import { AiOutlineCheckCircle } from "react-icons/ai";
+import { AiOutlineCheckCircle,AiFillCheckCircle } from "react-icons/ai";
 
 export const Home = () => {
   const [isHovered, setIsHovered] = useState(false);
@@ -179,7 +179,7 @@ export const Home = () => {
                 <img src={homeoffer} width="100%" className="pe-5" alt="" />
               </div>
             </div>
-            <div className="col col-md-8 col-sm-12 col-lg-6 ps-5 mb-5 py-5">
+            <div className="col col-md-8 col-sm-12 col-lg-7 ps-5 mb-5 py-5">
               <div className="whatWeoffer">
                 <h1
                   style={{
@@ -200,32 +200,32 @@ export const Home = () => {
                   <div className="col-lg-6 pe-4 pt-3 ">
                     <div className="d-flex my-2">
                       <span className="h4">
-                        <AiOutlineCheckCircle
+                        <AiFillCheckCircle
                           style={{ color: "var(--orange)" }}
                         />
                       </span>
-                      <span className="ms-2 h5 text-white">
+                      <span className="ms-2 fs-5 text-white">
                       Realistic Solutions for Your Current and Future Needs 
                       </span>
                     </div>
                     <div className="d-flex my-2">
                       <span className="h4">
-                        <AiOutlineCheckCircle
+                        <AiFillCheckCircle
                           style={{ color: "var(--orange)" }}
                         />
                       </span>
-                      <span className="text-justify ms-2 h5 text-white">
+                      <span className="text-justify ms-2 fs-5 text-white">
                         {" "}
                         Data-Driven Approach to Ensure Your Goals 
                       </span>
                     </div>
                     <div className="d-flex my-2">
                       <span className="h4">
-                        <AiOutlineCheckCircle
+                        <AiFillCheckCircle
                           style={{ color: "var(--orange)" }}
                         />
                       </span>
-                      <span className="ms-2 h5 text-white">
+                      <span className="ms-2 fs-5 text-white">
                         {" "}
                         Sustainable solutions to keep you at the forefront of energy conservation 
                       </span>
@@ -234,33 +234,33 @@ export const Home = () => {
                   <div className="col-lg-6 pt-3 ">
                     <div className="d-flex my-2">
                       <span className="h4">
-                        <AiOutlineCheckCircle
+                        <AiFillCheckCircle
                           style={{ color: "var(--orange)" }}
                         />
                       </span>
-                      <span className=" ms-2 h5 text-white">
+                      <span className=" ms-2 fs-5 text-white">
                         {" "}
                         Defining Value in Your Business with Our Solutions and Products 
                       </span>
                     </div>
                     <div className="d-flex my-2">
                       <span className="h4">
-                        <AiOutlineCheckCircle
+                        <AiFillCheckCircle
                           style={{ color: "var(--orange)" }}
                         />
                       </span>
-                      <span className=" ms-2 h5 text-white">
+                      <span className=" ms-2 fs-5 text-white">
                         {" "}
                         A realistic approach, ensuring on-time delivery every time 
                       </span>
                     </div>
                     <div className="d-flex my-2">
                       <span className="h4">
-                        <AiOutlineCheckCircle
+                        <AiFillCheckCircle
                           style={{ color: "var(--orange)" }}
                         />
                       </span>
-                      <span className="ms-2 h5 text-white">
+                      <span className="ms-2 fs-5 text-white">
                         {" "}
                         Customer-Centric Approach in Every Action 
                       </span>

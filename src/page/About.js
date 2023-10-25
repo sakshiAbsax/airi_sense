@@ -182,26 +182,26 @@ export const About = () => {
         </div>
 
         <div className="content ">
-          <div className=" valuecard">
+          <div className="valuecard">
             <div className="icon">
               <img src={val1} />
             </div>
             <p className="title">Agility</p>
-            <p className="text">Click to see or edit your profile page.</p>
+            <p className="text">Adapting swiftly and rejuvenating oneself in response to rapid changes is a key skill for navigating today's dynamic world.</p>
           </div>
           <div className=" valuecard">
             <div className="icon">
               <img src={val2} />
             </div>
             <p className="title">Innovation</p>
-            <p className="text">Check all your favourites in one place.</p>
+            <p className="text">Continuously seeking innovative ways to enhance support for employees, clients, and the entire organization's success.​</p>
           </div>
           <div className=" valuecard">
             <div className="icon">
               <img src={val3} />
             </div>
             <p className="title">Respect</p>
-            <p className="text">Add or change your contacts and links.</p>
+            <p className="text">To demonstrate respect, one must practice openness, honesty, and act consistently with unwavering integrity.​</p>
           </div>
         </div>
         <div className="content mt-3">
@@ -210,21 +210,21 @@ export const About = () => {
               <img src={val4} />
             </div>
             <p className="title">People</p>
-            <p className="text">Click to see or edit your profile page.</p>
+            <p className="text">The invaluable assets of an organization's success include the distinctive qualities and perspectives of each individual within it.</p>
           </div>
           <div className=" valuecard">
             <div className="icon">
               <img src={val5} />
             </div>
-            <p className="title">Customer Centricioty</p>
-            <p className="text">Check all your favourites in one place.</p>
+            <p className="title">Customer Centricity</p>
+            <p className="text">We are wholeheartedly dedicated to consistently delivering exceptional service, always striving to make our customers happy. </p>
           </div>
           <div className=" valuecard">
             <div className="icon">
               <img src={val6} />
             </div>
             <p className="title">Integrity</p>
-            <p className="text">Add or change your contacts and links.</p>
+            <p className="text">Unwavering commitment to embrace accountability and take full responsibility for every action to be undertaken.</p>
           </div>
         </div>
       </div>

@@ -19,12 +19,12 @@ export const productCard = [
   {
     img: product3,
     title: "Truck Loading Solutions",
-    list: ["Telescopic Conveyors", "Expandable Conveyor", "Automated Truck Loading","Truck Loading Conveyor"]
+    list: ["Telescopic Conveyor", "Expandable Conveyor", "Automated Truck Loading","Truck Loading Conveyor"]
   },
   {
     img: product4,
     title: "Smart Conveying Solutions",
-    list: ["Spiral Conveyor-Gravity,Belt", "Tote/case Conveyor -Belt,Roller","Vertical Left-Case,Pallet","Continioust Left-Case"]
+    list: ["Spiral Conveyor-Gravity,Belt", "Tote/case Conveyor -Belt,Roller","Vertical Lift-Case,Pallet","Continioust Lift-Case"]
   },
   {
     img: product5,

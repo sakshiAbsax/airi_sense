@@ -1,8 +1,9 @@
 import React from 'react';
 import Carousel from 'react-bootstrap/Carousel';
-import slider1 from '../images/slider1.png';
+import slider1 from '../images/slider1.jpg';
 import slider2 from '../images/slider2.png';
 import slider3 from '../images/slider3.png';
+import slider4 from '../images/slider4.jpg';
 import './header.css';
 
 export const Slider = () => {
@@ -55,7 +56,7 @@ export const Slider = () => {
   <Carousel.Item style={{ height: "70vh" }}>
     <img
       className="d-block w-100"
-      src={slider1}
+      src={slider4}
       alt="Fourth slide"
  
     />

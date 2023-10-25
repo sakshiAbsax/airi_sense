@@ -1,9 +1,13 @@
 import track_trace from "../images/solution/tracktrace.png";
 import pakeging from "../images/solution/packing.png";
 import printing from "../images/solution/printing_packing.png";
-import checkWeight from "../images/solution/check_weighing.png";
+import checkWeight from "../images/solution/check-weight.webp";
+import loading from "../images/solution/truck-loading.webp";
 import cell from "../images/solution/palletizing_Cell.png";
 import pic from "../images/solution/pick_place.png";
+import vertical from "../images/solution/vertical.webp";
+import inline from "../images/solution/inline-storage.webp";
+
 
 export const solutionCard = [
   {
@@ -26,8 +30,8 @@ export const solutionCard = [
     ],
   },
   {
-    img:  checkWeight,
-    title: "Track Loading",
+    img:  loading,
+    title: "Truck Loading",
     list: [
      
     ],
@@ -43,18 +47,18 @@ export const solutionCard = [
     list: [],
   },
   {
-    img: printing,
+    img: checkWeight,
     title: "Weigh & Reject​",
     list: [],
   },
   {
-    img: printing,
+    img: inline,
     title: "Inline Storage​",
     list: [],
   },
   {
-    img: printing,
-    title: "Verticle Transfer​",
+    img: vertical,
+    title: "Vertical Transfer​",
     list: [],
   },
 

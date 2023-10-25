@@ -1,5 +1,5 @@
 import React from "react";
-import home_side1 from "../images/home_side2.png";
+import home_side1 from "../images/home-side1.png";
 import { Link } from "react-router-dom";
 import { Button } from "react-bootstrap";
 

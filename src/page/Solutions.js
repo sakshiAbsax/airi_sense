@@ -49,8 +49,8 @@ export const Solutions = () => {
 
       
 
-      <div className="mx-lg-5 py-5">
-        <div className="row justify-content-center pt-5  mx-lg-5 mx-3">
+      <div className=" pt-3 pb-5">
+        <div className="row justify-content-center mx-3">
       { solutionCard.map((card, index) => (
         <div className="col-lg-3 mx-2">
                 <Card 
